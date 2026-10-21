@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://www.samuraconsulting.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-<url><loc>https://www.samuraconsulting.com/case-studies</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://www.samuraconsulting.com/</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://www.samuraconsulting.com/case-studies</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://www.samuraconsulting.com/privacy</loc><lastmod>2026-10-21</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+<url><loc>https://www.samuraconsulting.com/terms</loc><lastmod>2026-10-21</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/what-is-aeo-and-how-is-it-different-from-seo</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/how-chatgpt-decides-which-dubai-businesses-to-recommend</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/what-does-aeo-cost-in-dubai</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/how-long-does-aeo-take-to-show-results</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/five-questions-to-ask-an-aeo-agency-before-you-hire</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/can-a-dubai-real-estate-agency-appear-in-ai-answers</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/aeo-for-gold-and-jewellery-retailers-in-dubai</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/aeo-for-clinics-and-healthcare-providers-in-the-uae</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/aeo-for-restaurants-and-hotels-in-dubai</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/aeo-for-software-and-saas-companies-in-the-uae</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.samuraconsulting.com/insights/can-you-guarantee-number-one-on-chatgpt</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
