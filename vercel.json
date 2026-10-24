@@ -48,16 +48,6 @@
       "permanent": true
     },
     {
-      "source": "/case-studies/:slug+",
-      "destination": "/case-studies",
-      "permanent": true
-    },
-    {
-      "source": "/pricing",
-      "destination": "/#pricing",
-      "permanent": true
-    },
-    {
       "source": "/contact",
       "destination": "/#contact",
       "permanent": true

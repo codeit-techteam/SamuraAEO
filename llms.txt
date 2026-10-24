@@ -20,7 +20,10 @@
 
 ## Pages
 - Home: https://www.samuraconsulting.com/
+- Pricing (all packages): https://www.samuraconsulting.com/pricing
 - Case studies: https://www.samuraconsulting.com/case-studies
+- Case study, Mighty Warners (+135% organic traffic): https://www.samuraconsulting.com/case-studies/mighty-warners
+- Case study, Konception Designs (+120% enquiries): https://www.samuraconsulting.com/case-studies/konception-designs
 - Insights: https://www.samuraconsulting.com/insights
 - What is AEO, and how is it different from SEO?: https://www.samuraconsulting.com/insights/what-is-aeo-and-how-is-it-different-from-seo
 - How does ChatGPT decide which Dubai businesses to recommend?: https://www.samuraconsulting.com/insights/how-chatgpt-decides-which-dubai-businesses-to-recommend
@@ -38,6 +41,11 @@
 - What is llms.txt, and does a Dubai business need one?: https://www.samuraconsulting.com/insights/what-is-llms-txt-and-does-a-dubai-business-need-one
 - Why do AI engines cite "best agency in Dubai" lists, and how should you read them?: https://www.samuraconsulting.com/insights/why-ai-engines-cite-best-agency-lists
 - What does an AEO audit actually check? The list we work through: https://www.samuraconsulting.com/insights/what-does-an-aeo-audit-check
+- Best AEO agencies in Dubai in 2026: what the AI engines actually say, tested: https://www.samuraconsulting.com/insights/best-aeo-agencies-in-dubai
+- Why can't ChatGPT find my company by name? Our own case, five days after launch: https://www.samuraconsulting.com/insights/why-cant-chatgpt-find-my-company-by-name
+- Is AEO worth it for a small business in Dubai, or only for big brands?: https://www.samuraconsulting.com/insights/is-aeo-worth-it-for-a-small-business-in-dubai
+- How do you write a page that ChatGPT will quote? The answer-first format: https://www.samuraconsulting.com/insights/how-to-write-a-page-chatgpt-will-quote
+- What is GEO, and is it different from AEO? Dubai agencies use both words: https://www.samuraconsulting.com/insights/what-is-geo-and-is-it-different-from-aeo
 
 ## Contact
 - Phone and WhatsApp: +971 55 584 8267
