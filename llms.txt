@@ -16,7 +16,6 @@
 
 ## Leadership
 - Sufia Aram, Managing Partner: https://www.linkedin.com/in/sufia-aram-21a05a219
-- Shoaib Mustaque, Director: https://www.linkedin.com/in/shoaib-mustaque-163487189
 
 ## Pages
 - Home: https://www.samuraconsulting.com/
@@ -51,6 +50,16 @@
 - How should a UAE clinic handle Google reviews so AI engines trust them?: https://www.samuraconsulting.com/insights/how-should-a-uae-clinic-handle-reviews-for-ai-search
 - Does a clinic need a separate page for each doctor to show up in AI search?: https://www.samuraconsulting.com/insights/does-a-clinic-need-doctor-profile-pages-for-ai-search
 - Should a Dubai clinic's website be in Arabic for AI search?: https://www.samuraconsulting.com/insights/should-a-dubai-clinic-website-be-in-arabic-for-ai-search
+- How does a hydroponic or vertical farm in the UAE get recommended when buyers ask AI for local produce?: https://www.samuraconsulting.com/insights/aeo-for-hydroponic-and-vertical-farms-in-the-uae
+- How do veterinary clinics and equine services in Dubai get found when owners ask AI for a vet?: https://www.samuraconsulting.com/insights/aeo-for-veterinary-clinics-and-equine-services-in-dubai
+- How can a landscaping, nursery or horticulture company in the UAE appear in AI answers?: https://www.samuraconsulting.com/insights/aeo-for-landscaping-and-horticulture-companies-in-the-uae
+- How do agricultural equipment, greenhouse and irrigation suppliers in the GCC get cited by AI assistants?: https://www.samuraconsulting.com/insights/agricultural-equipment-and-greenhouse-suppliers-gcc-ai-search
+- What do hotel and retail food buyers in the UAE ask AI about local farms, and how should a farm answer?: https://www.samuraconsulting.com/insights/what-food-buyers-in-the-uae-ask-ai-about-local-farms
+- How does a food manufacturer in the UAE get found when buyers ask ChatGPT for a supplier?: https://www.samuraconsulting.com/insights/aeo-for-food-manufacturers-in-the-uae
+- How does a private label or contract food manufacturer in the GCC get named when retailers ask AI for a co-packer?: https://www.samuraconsulting.com/insights/private-label-and-contract-manufacturing-gcc-ai-search
+- How do HORECA suppliers in Dubai get recommended to hotels and restaurants by AI assistants?: https://www.samuraconsulting.com/insights/aeo-for-horeca-suppliers-in-dubai
+- Catering companies in Dubai: what corporate and event clients ask AI, and how to be the answer: https://www.samuraconsulting.com/insights/aeo-for-catering-companies-in-dubai
+- How do cloud kitchens and food delivery brands in Dubai get recommended by AI assistants?: https://www.samuraconsulting.com/insights/aeo-for-cloud-kitchens-and-food-delivery-brands-in-dubai
 
 ## Contact
 - Phone and WhatsApp: +971 55 584 8267
