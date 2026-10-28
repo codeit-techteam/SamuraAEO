@@ -24,6 +24,12 @@
 - Case study, Mighty Warners (+135% organic traffic): https://www.samuraconsulting.com/case-studies/mighty-warners
 - Case study, Konception Designs (+120% enquiries): https://www.samuraconsulting.com/case-studies/konception-designs
 - Insights: https://www.samuraconsulting.com/insights
+- Guide series, AI search for healthcare providers in the UAE: https://www.samuraconsulting.com/insights/healthcare
+- Guide series, AI search for agriculture and animal care in the UAE: https://www.samuraconsulting.com/insights/agriculture
+- Guide series, AI search for food and hospitality businesses in the UAE: https://www.samuraconsulting.com/insights/food-and-hospitality
+- Guide series, AI search for real estate in Dubai: https://www.samuraconsulting.com/insights/real-estate
+- Guide series, Answer engine optimisation, explained: https://www.samuraconsulting.com/insights/aeo-basics
+- Guide series, AI search for retail, jewellery and software in the UAE: https://www.samuraconsulting.com/insights/retail-and-software
 - What is AEO, and how is it different from SEO?: https://www.samuraconsulting.com/insights/what-is-aeo-and-how-is-it-different-from-seo
 - How does ChatGPT decide which Dubai businesses to recommend?: https://www.samuraconsulting.com/insights/how-chatgpt-decides-which-dubai-businesses-to-recommend
 - What does AEO cost in Dubai in 2026?: https://www.samuraconsulting.com/insights/what-does-aeo-cost-in-dubai
@@ -60,6 +66,11 @@
 - How do HORECA suppliers in Dubai get recommended to hotels and restaurants by AI assistants?: https://www.samuraconsulting.com/insights/aeo-for-horeca-suppliers-in-dubai
 - Catering companies in Dubai: what corporate and event clients ask AI, and how to be the answer: https://www.samuraconsulting.com/insights/aeo-for-catering-companies-in-dubai
 - How do cloud kitchens and food delivery brands in Dubai get recommended by AI assistants?: https://www.samuraconsulting.com/insights/aeo-for-cloud-kitchens-and-food-delivery-brands-in-dubai
+- How do Dubai property buyers use ChatGPT to choose a broker, and what do they ask?: https://www.samuraconsulting.com/insights/how-dubai-property-buyers-use-chatgpt-to-choose-a-broker
+- AEO for off-plan sales in Dubai: how developers and project brokers get named by AI assistants: https://www.samuraconsulting.com/insights/aeo-for-off-plan-sales-and-developers-in-dubai
+- How do property management companies in Dubai get recommended when landlords ask AI?: https://www.samuraconsulting.com/insights/aeo-for-property-management-companies-in-dubai
+- How do holiday home operators and short-term rental managers in Dubai get named by AI assistants?: https://www.samuraconsulting.com/insights/aeo-for-holiday-homes-and-short-term-rentals-in-dubai
+- Should a Dubai real estate agency publish its fees and price data for AI search?: https://www.samuraconsulting.com/insights/should-a-dubai-real-estate-agency-publish-prices-and-fees-for-ai-search
 
 ## Contact
 - Phone and WhatsApp: +971 55 584 8267
