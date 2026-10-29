@@ -3,6 +3,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/case-studies/mighty-warners",
+      "destination": "/case-studies",
+      "permanent": true
+    },
+    {
       "source": "/about",
       "destination": "/#team",
       "permanent": true
