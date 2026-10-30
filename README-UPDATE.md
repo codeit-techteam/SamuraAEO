@@ -1,17 +1,14 @@
-# Update v10.2 (29 Oct 2026). Supersedes v10.1.
+# Update v10.3 (30 Oct 2026). Supersedes v10.2.
+
+Keyword build, from research on the pages AI engines cite for "AEO agency Dubai" questions.
 
 What changed:
-- DEL  case-studies/mighty-warners.html   DELETE this file from the repo (GitHub: open the file, click the trash icon, commit). vercel.json now redirects that URL to /case-studies.
-- MOD  case-studies.html, index.html      Mighty Warners removed; homepage proof card replaced with Samura's own live program
-- MOD  vercel.json                        redirect added (must be uploaded)
-- NEW  industries.html                    /industries page listing every sector series
-- NEW  insights/ hubs: apparel-and-textiles, education, automotive
-- NEW  insights/ 10 articles (51 total): apparel x3, food and hotel x3, education x2, EV and automotive x2; four bylined Madhura Chowdhury
-- MOD  index.html                         industry tiles link to series hubs; "See the guides by industry" link
-- MOD  insights/ (all)                    related links rebuilt; ranking article carries "Last tested / next re-test" line
-- FIX  index.html                         homepage no longer lands on the contact form on open (phone field was being focused on load)
-- MOD  insights/ (all)                    smaller article headings so the short answer is visible on open; every short answer rewritten in plain English
-- MOD  sitemap.xml, llms.txt
+- MOD  index.html     title, meta, hero H1 and lead, section headings and FAQ rewritten around the cited vocabulary ("AEO agency in Dubai", answer engine optimization, generative engine optimization, AI SEO, AI search, AI visibility, brand mentions, traditional SEO, rank on ChatGPT, Dubai businesses, GCC/MENA). Six FAQ questions added (the ones every cited page answers). American spelling throughout. Footer links to the new service pages and industry hubs.
+- NEW  answer-engine-optimization-dubai.html, generative-engine-optimization-dubai.html, ai-seo-agency-dubai.html, ai-visibility-audit.html   four service landing pages with Service + FAQ schema
+- NEW  insights/ 5 articles (56 total): get recommended by ChatGPT in the UAE, rank on ChatGPT and AI search 2026, run an AI visibility audit yourself, Dubai-based vs remote AEO agency, which Dubai industries benefit most
+- MOD  insights/what-is-aeo-and-how-is-it-different-from-seo.html   retitled "AEO vs SEO: what is the difference, and do you need both? A Dubai guide" (same URL)
+- MOD  all pages      "optimisation" -> "optimization"
+- MOD  sitemap.xml, llms.txt (service pages, industries, check added)
 
-Upload: everything in this folder, keeping the insights/ folder. Commit to main. Then delete case-studies/mighty-warners.html in a second commit.
-Check after push: https://www.samuraconsulting.com/industries and https://www.samuraconsulting.com/case-studies/mighty-warners (should land on /case-studies)
+Upload: everything in this folder, keeping the insights/ folder. Commit to main.
+Check after push: https://www.samuraconsulting.com/answer-engine-optimization-dubai and the homepage title in the browser tab.
