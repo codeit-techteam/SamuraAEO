@@ -43,13 +43,8 @@
       "permanent": true
     },
     {
-      "source": "/industries",
-      "destination": "/#industries",
-      "permanent": true
-    },
-    {
       "source": "/industries/:slug*",
-      "destination": "/#industries",
+      "destination": "/industries",
       "permanent": true
     },
     {
