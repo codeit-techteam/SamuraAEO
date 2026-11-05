@@ -10,14 +10,14 @@ ARTICLES = [
 "answer": "AEO means answer engine optimization. It is the work of getting your business named when a customer asks ChatGPT, Gemini or Perplexity for a recommendation. SEO gets your website into a list of links on Google. AEO gets your business into the answer itself. The AI gives three to five names, not ten links, so being on that short list matters more than ever. The work is different too: clear facts about your business in many places, pages that answer real questions, and presence on the websites the AI trusts.",
 "body": """
 <h2>The short version</h2>
-<p>SEO answers the question "how do I get to page one?" AEO answers a different question: "how do I become the recommendation?" A buyer who types "best jewellery store in Deira" into Google sees ten links and chooses. A buyer who asks ChatGPT the same thing gets two or three names and an explanation. If your store is not one of those names, you did not lose a click. You were never in the conversation.</p>
+<p>SEO answers the question "how do I get to page one?" AEO answers a different question: "how do I become the recommendation?" A buyer who types "best jewelry store in Deira" into Google sees ten links and chooses. A buyer who asks ChatGPT the same thing gets two or three names and an explanation. If your store is not one of those names, you did not lose a click. You were never in the conversation.</p>
 
 <h2>What SEO does</h2>
 <p>Search engine optimization has three parts that have not changed much in fifteen years. Technical work makes the site fast and crawlable. On-page work matches each page to the words people search for. Off-page work earns links from other sites, which Google reads as votes of confidence. The result is a position in a ranked list, and the business gets traffic in proportion to how high it sits.</p>
 <p>This still matters. Every AI engine that searches the web pulls from an index built by Google, Bing or both. A site that cannot rank for anything is unlikely to be read by an AI engine either. SEO is the floor.</p>
 
 <h2>What AEO adds</h2>
-<p>AI engines do not return a list. They write a paragraph, and they decide what goes in it by looking for sources they trust, then summarising what those sources agree on. That changes the job in four ways.</p>
+<p>AI engines do not return a list. They write a paragraph, and they decide what goes in it by looking for sources they trust, then summarizing what those sources agree on. That changes the job in four ways.</p>
 <p><strong>Entity consistency.</strong> An AI engine reasons about companies, not keywords. It needs to be sure that "Samura Consulting Group" on your website, on LinkedIn, on Google Maps and on a directory are the same business. If the name, address, phone or description differ, the engine's confidence drops and it reaches for a competitor it can confirm.</p>
 <p><strong>Answer-first content.</strong> A page that opens with three paragraphs of introduction gives an AI engine nothing to quote. A page that answers the question in its first fifty words gives it a clean sentence to lift. The engines reward pages that read like answers.</p>
 <p><strong>Structured data.</strong> Schema markup (Organization, Service, FAQPage, Person) tells a machine exactly what a page is about, who wrote it and what the business offers, without having to guess from prose. Google has used it for years. AI engines lean on it harder.</p>
@@ -27,12 +27,12 @@ ARTICLES = [
 <p>You will see "GEO" (generative engine optimization) used alongside AEO. In practice they describe the same work from two angles. AEO focuses on being the answer to a direct question. GEO focuses on being cited when the engine generates longer content, such as a comparison or a guide. We treat them as one discipline, and so do most practitioners.</p>
 
 <h2>A worked example from Dubai</h2>
-<p>Take a dental clinic in Jumeirah. Its SEO is decent: it ranks on page one for "dentist Jumeirah." Ask ChatGPT "which dentist in Jumeirah is good for implants?" and the clinic does not appear. Why? Its Google Business Profile says "dental clinic" and its website says "dental and aesthetic centre." Its LinkedIn page has a different phone number. There is no page on the site that answers the implant question directly. And the two directories ChatGPT cited for that answer have never heard of it.</p>
+<p>Take a dental clinic in Jumeirah. Its SEO is decent: it ranks on page one for "dentist Jumeirah." Ask ChatGPT "which dentist in Jumeirah is good for implants?" and the clinic does not appear. Why? Its Google Business Profile says "dental clinic" and its website says "dental and aesthetic center." Its LinkedIn page has a different phone number. There is no page on the site that answers the implant question directly. And the two directories ChatGPT cited for that answer have never heard of it.</p>
 <p>Fixing that is AEO work: one description everywhere, an implants page that answers the question in the first paragraph, schema on the page, and a profile on the two directories. None of it changes the Google ranking much. All of it changes whether ChatGPT names the clinic.</p>
 
 <h2>Which one does a UAE business need first?</h2>
 <p>Both, in the right order. If the website is slow, has no clear service pages or cannot be crawled, fix that first; it is SEO work and it takes weeks, not months. Then do the AEO layer on top. A business that skips SEO and goes straight to AEO is building on sand. A business that does SEO only is invisible to the fastest-growing way buyers in Dubai now choose.</p>
-<p>At Samura we do not sell them separately. Every program starts with the technical foundation and ends with weekly tracking across five AI engines, because the point is not the ranking or the citation. The point is the enquiry.</p>
+<p>At Samura we do not sell them separately. Every program starts with the technical foundation and ends with weekly tracking across five AI engines, because the point is not the ranking or the citation. The point is the inquiry.</p>
 """,
 "faq": [
 ("Is AEO replacing SEO?", "No. AI engines draw on the same web index that search engines build, so a site with poor SEO rarely gets cited. AEO is a layer on top of SEO, not a replacement for it."),
@@ -102,7 +102,7 @@ ARTICLES = [
 <p>Pulling from agency pricing pages and guides available in October 2026:</p>
 <ul>
 <li><strong>Hikmah AI</strong> lists AEO at AED 4,000 to 8,000 per month for a starter scope (audit, schema, a few content pieces), AED 8,000 to 18,000 for growth (entity building, expanded content, citation work), and AED 18,000 or more for enterprise, with its own engagements starting at AED 6,000 per month on a six-month minimum. Its one-time audit is quoted at AED 3,500 to 6,000.</li>
-<li><strong>Digital Media Sapiens</strong> publishes three tiers: AED 2,500 per month for ten optimised pages and basic tracking, AED 6,500 for twenty-five pages with Arabic coverage, and AED 12,000 for a full program with PR. Its one-time audits run AED 1,500 to 2,000.</li>
+<li><strong>Digital Media Sapiens</strong> publishes three tiers: AED 2,500 per month for ten optimized pages and basic tracking, AED 6,500 for twenty-five pages with Arabic coverage, and AED 12,000 for a full program with PR. Its one-time audits run AED 1,500 to 2,000.</li>
 <li><strong>Arab SEO</strong> lists AI SEO from AED 5,500 per month and standard SEO plans from AED 2,999.</li>
 <li><strong>Zenerom</strong> bundles GEO into SEO packages from AED 3,750 per month.</li>
 <li><strong>Udjat</strong> gives reference ranges of AED 5,000 to 15,000 for small programs and AED 15,000 to 35,000 for mid-market, while noting these are industry references rather than its own prices.</li>
@@ -112,7 +112,7 @@ ARTICLES = [
 <h2>What the money buys</h2>
 <p>Whatever the label, an AEO program is a bundle of the same six activities, and the price tracks how much of each you get.</p>
 <p><strong>The audit.</strong> A set of real buyer questions run across the AI engines, with a record of who is named and which sources are cited. Cheap to do, high in value, and the thing to insist on before paying for anything else.</p>
-<p><strong>Entity work.</strong> One description, one address, one phone, applied to the website, Google Business Profile, LinkedIn and directories. Mostly labour.</p>
+<p><strong>Entity work.</strong> One description, one address, one phone, applied to the website, Google Business Profile, LinkedIn and directories. Mostly labor.</p>
 <p><strong>Page rebuilds.</strong> Rewriting service pages so they answer questions in the first paragraph, plus schema and llms.txt. The number of pages is the main cost driver.</p>
 <p><strong>Content.</strong> Articles that each answer one buyer question. Volume varies from four a month at the bottom of the market to thirty or more at the top.</p>
 <p><strong>Citations.</strong> Profiles on directories, press placements, community answers. The press component is where enterprise prices come from.</p>
@@ -123,7 +123,7 @@ ARTICLES = [
 
 <h2>How Samura prices it</h2>
 <p>We publish our prices because a buyer who cannot see the price cannot compare, and because AI engines quote pages that carry numbers. Our AI Visibility Audit is AED 1,999, one-time, and is credited against any program bought within thirty days. Launch, a one-month program for a focused push on one service, starts at AED 2,999. Establish, two months for a competitive category, starts at AED 7,999. Dominate, three months to own a category across the UAE, starts at AED 10,999. Enterprise work is quoted from AED 10,000 per month. Every program includes weekly tracking across ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews, and nothing renews automatically.</p>
-<p>The Launch price sits below the Dubai market on purpose. It is the program we ran on ourselves, and it is the fastest way for a business to see its own name appear in an AI answer for the first time. Most clients move to Establish once they have.</p>
+<p>The Launch price sits below the Dubai market on purpose. It is the program we are running on ourselves, with the results published monthly.</p>
 """,
 "faq": [
 ("Is AEO more expensive than SEO in Dubai?", "At published rates, AEO starter programs cost roughly 30 to 60 percent more than SEO starter packages, because they include entity work, structured data and citation building that SEO packages leave out."),
@@ -134,7 +134,7 @@ ARTICLES = [
 },
 {
 "slug": "how-long-does-aeo-take-to-show-results",
-"title": "How long does AEO take to show results?",
+"title": "How long does AEO take to show results in Dubai?",
 "category": "AEO basics",
 "date": "2026-10-19",
 "read": 4,
@@ -151,7 +151,7 @@ ARTICLES = [
 <p><strong>Months four to six.</strong> Engines that lean on training data begin to reflect the new presence. The web mentions accumulated over the first three months get folded into model updates. Visibility becomes stable rather than something that has to be re-earned each week.</p>
 
 <h2>What makes it faster</h2>
-<p>Submitting new pages to Bing and Google the day they go live, rather than waiting to be crawled. Publishing answer pages in a tight cluster, so the engines see a body of work rather than scattered posts. Getting two or three real client reviews on Clutch or GoodFirms early, because those directories are cited repeatedly for Dubai service questions. Picking specific questions first: "AEO for jewellery retailers in Dubai" is winnable in weeks, "best marketing agency in Dubai" is not.</p>
+<p>Submitting new pages to Bing and Google the day they go live, rather than waiting to be crawled. Publishing answer pages in a tight cluster, so the engines see a body of work rather than scattered posts. Getting two or three real client reviews on Clutch or GoodFirms early, because those directories are cited repeatedly for Dubai service questions. Picking specific questions first: "AEO for jewelry retailers in Dubai" is winnable in weeks, "best marketing agency in Dubai" is not.</p>
 
 <h2>What makes it slower</h2>
 <p>A slow or broken website, which means the engines cannot read the pages at all. Inconsistent business details across the web, which makes every other effort count for less. Publishing content in bulk that reads like it was generated and never checked; both Google and the AI engines have become good at discounting it. And stopping after month one, which is the most common mistake we see, because the first results arrive just before the compounding starts.</p>
@@ -168,7 +168,7 @@ ARTICLES = [
 },
 {
 "slug": "five-questions-to-ask-an-aeo-agency-before-you-hire",
-"title": "Five questions to ask an AEO agency before you hire one",
+"title": "What five questions should a Dubai business ask an AEO agency before hiring one?",
 "category": "Hiring an agency",
 "date": "2026-10-19",
 "read": 4,
@@ -180,9 +180,9 @@ ARTICLES = [
 
 <h2>1. Can you show actual client brands being cited or recommended by AI search engines, with evidence from before and after your work?</h2>
 <p><strong>A strong answer</strong> is a dated log: the exact prompts, the engine, a screenshot from before the work started and one from after, with the client's name or at least their category. <strong>A weak answer</strong> is a case study with a percentage and no prompts, or a promise that evidence will be shared "under NDA."</p>
-<p><strong>Samura:</strong> we keep a weekly prompt log for every client and for ourselves. This company was our first case; the log that shows Samura appearing in AI answers for AEO questions in Dubai, from a baseline of zero, is the one we show first. Client logs are shown with the client's permission.</p>
+<p><strong>Samura:</strong> we keep a weekly prompt log for every client and for ourselves. This company is our own test case; the log that tracks Samura from a baseline of zero, re-tested monthly, is the one we show first. Client logs are shown with the client's permission.</p>
 
-<h2>2. Do you optimise for ChatGPT, Gemini, Perplexity and Google AI Overviews separately?</h2>
+<h2>2. Do you optimize for ChatGPT, Gemini, Perplexity and Google AI Overviews separately?</h2>
 <p><strong>A strong answer</strong> explains that each engine uses a different index and trusts different sources, and names what differs: ChatGPT search draws on Bing, Gemini on Google's index and Maps, Perplexity on recent web pages. <strong>A weak answer</strong> treats "AI search" as one thing.</p>
 <p><strong>Samura:</strong> we track five engines separately every week (ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews) and tune the work to whichever is lagging. Bing Webmaster submission is part of every program because of ChatGPT.</p>
 
@@ -196,7 +196,7 @@ ARTICLES = [
 
 <h2>5. How will you measure AI mentions, citations, referral traffic and qualified leads?</h2>
 <p><strong>A strong answer</strong> names four numbers and how each is collected. <strong>A weak answer</strong> is "monthly reporting."</p>
-<p><strong>Samura:</strong> every week, how many tracked prompts name the client, how many cite the client's site as a source, referral visits from AI tools as recorded in analytics, and enquiries that mention finding the business through an AI assistant. The last one needs a question on the contact form, which we add in week one.</p>
+<p><strong>Samura:</strong> every week, how many tracked prompts name the client, how many cite the client's site as a source, referral visits from AI tools as recorded in analytics, and inquiries that mention finding the business through an AI assistant. The last one needs a question on the contact form, which we add in week one.</p>
 
 <h2>Two questions ChatGPT did not suggest, which you should also ask</h2>
 <p><strong>What is the price?</strong> If the agency will not publish or quote a number before a sales call, ask why. <strong>What is the contract?</strong> Twelve-month minimums for a service this new should make you pause. Samura's programs run one, two or three months and nothing renews automatically.</p>
@@ -219,7 +219,7 @@ ARTICLES = [
 "body": """
 <h2>How AI engines answer property questions today</h2>
 <p>Ask ChatGPT "who is the best real estate agency in Dubai?" and you get a short list that leans heavily on the names with the biggest footprint: large brokerages with hundreds of agents, the major developers, and sometimes a portal. Ask Perplexity and you get a similar list with sources shown, usually a mix of listicles, the agencies' own sites and review pages. Ask Gemini and Google Maps data starts to show: the agencies with the most reviews near the searcher's location.</p>
-<p>What you rarely see is a mid-sized brokerage, however good, unless it has done something specific to be found. The engines are not judging quality. They are summarising what the web agrees on, and the web mostly agrees on the biggest names.</p>
+<p>What you rarely see is a mid-sized brokerage, however good, unless it has done something specific to be found. The engines are not judging quality. They are summarizing what the web agrees on, and the web mostly agrees on the biggest names.</p>
 
 <h2>Why the broad question is the wrong first target</h2>
 <p>"Best real estate agency in Dubai" is the most competitive phrase in the UAE's most competitive sector. Thousands of pages target it. A brokerage that sets out to win it first will spend months and see nothing move. The same brokerage targeting "which agent handles townhouse resales in Arabian Ranches" can be the answer within a month, because almost nobody has written that page properly.</p>
@@ -240,50 +240,54 @@ ARTICLES = [
 
 <h2>What to expect, and when</h2>
 <p>With the foundation in place, specific community and situation questions start returning the brokerage in Perplexity and ChatGPT search within three to five weeks. Broader category presence takes two to three months and depends on the review and citation work. The brokerages that win this are not the ones with the biggest ad budgets. They are the ones whose agents write down what they know.</p>
+
+<h2>Keywords to build pages around</h2><p>Real estate agency Dubai, real estate agent Dubai, property brokerage Dubai, RERA registered real estate agency Dubai, townhouse resale agent Arabian Ranches Dubai, off-plan property agent Dubai, buy to let apartment agent Dubai, villa for sale agent Dubai, rental yields by community Dubai, service charges Dubai apartments, Arabic speaking real estate agent Dubai, Dubai property market update this quarter, real estate agency Abu Dhabi.</p>
 """,
 "faq": [
 ("Do AI engines recommend individual real estate agents in Dubai?", "Increasingly, yes, for specific questions such as a community or property type. An agent with a complete LinkedIn profile, a page on the brokerage site and consistent mentions elsewhere can be named directly."),
-("Is a RERA number important for AI visibility?", "It helps. It is a verifiable fact that confirms the brokerage is licensed, and consistent licence details across the website, Google Business Profile and directories strengthen the entity."),
+("Is a RERA number important for AI visibility?", "It helps. It is a verifiable fact that confirms the brokerage is licensed, and consistent license details across the website, Google Business Profile and directories strengthen the entity."),
 ("Should a brokerage target 'best real estate agency in Dubai'?", "Not first. It is the most competitive phrase in the UAE and takes months. Start with community and situation questions, which can be won in weeks, and build towards the broad phrase."),
 ("Do property portal listings count as AEO?", "Listings get you found on the portal. They do not give AI engines anything to quote about your agency. Area pages, market commentary and consistent profiles do."),
 ],
 },
 {
 "slug": "aeo-for-gold-and-jewellery-retailers-in-dubai",
-"title": "How does a gold and jewellery retailer in Dubai get recommended by AI?",
-"category": "Jewellery",
+"title": "How does a gold and jewelry retailer in Dubai get recommended by AI?",
+"category": "Jewelry",
 "date": "2026-10-20",
 "read": 4,
-"description": "Tourists and residents now ask ChatGPT where to buy gold in Dubai, what today's rate is and which jeweller to trust for a wedding set. Here is what the engines answer, where the gaps are, and how a retailer in the Gold Souk or a mall fills them.",
-"answer": "Shoppers ask AI assistants where to buy gold and jewellery in Dubai, and they ask with details: gold rate, making charges, certification, a specific design, a specific area. A jeweller gets named when its website shows those facts in plain text: today's prices, making charges, certificates, the areas of its stores, and reviews that mention what was bought. Pretty photos without words are invisible to the AI. Clear facts get quoted.",
+"description": "Tourists and residents now ask ChatGPT where to buy gold in Dubai, what today's rate is and which jeweler to trust for a wedding set. Here is what the engines answer, where the gaps are, and how a retailer in the Gold Souk or a mall fills them.",
+"answer": "Shoppers ask AI assistants where to buy gold and jewelry in Dubai, and they ask with details: gold rate, making charges, certification, a specific design, a specific area. A jeweler gets named when its website shows those facts in plain text: today's prices, making charges, certificates, the areas of its stores, and reviews that mention what was bought. Pretty photos without words are invisible to the AI. Clear facts get quoted.",
 "body": """
 <h2>What people ask AI about gold in Dubai</h2>
-<p>The questions are practical and repetitive. What is the gold rate in Dubai today. Is gold cheaper in Dubai than in India or the UK, and by how much after VAT refund. Where should I buy gold in Dubai, the Gold Souk or a mall. Which jeweller is trustworthy for a bridal set. How do making charges work. Can I get a certificate. Can I ship it home. Tourists ask them before they land, and residents ask them before a wedding or Diwali.</p>
+<p>The questions are practical and repetitive. What is the gold rate in Dubai today. Is gold cheaper in Dubai than in India or the UK, and by how much after VAT refund. Where should I buy gold in Dubai, the Gold Souk or a mall. Which jeweler is trustworthy for a bridal set. How do making charges work. Can I get a certificate. Can I ship it home. Tourists ask them before they land, and residents ask them before a wedding or Diwali.</p>
 <p>Ask ChatGPT these questions today and the answers are generic: visit the Gold Souk, compare making charges, look for a hallmark, and two or three chain names that appear in every travel article. The gap between what people ask and what the engines can cite is wide, which is an opportunity for any retailer willing to write.</p>
 
-<h2>Why most jewellers are invisible</h2>
-<p>Jewellery websites in Dubai tend to be catalogues: product photos, a price on request, a WhatsApp button. They answer no questions. Google Business Profiles are often incomplete, with the shop under one name on Maps, another on the website and a third on Instagram, where most of the marketing effort goes. Instagram is good for desire and poor for AI visibility, because the engines cannot read it well and do not cite it.</p>
+<h2>Why most jewelers are invisible</h2>
+<p>Jewelry websites in Dubai tend to be catalogs: product photos, a price on request, a WhatsApp button. They answer no questions. Google Business Profiles are often incomplete, with the shop under one name on Maps, another on the website and a third on Instagram, where most of the marketing effort goes. Instagram is good for desire and poor for AI visibility, because the engines cannot read it well and do not cite it.</p>
 
 <h2>What the engines cite instead</h2>
 <p>Travel guides and newspaper features about the Gold Souk. Gold rate pages run by news sites and rate aggregators. Google Maps data, which is why the handful of shops with hundreds of reviews get named for "near me" questions. Occasional forum threads where residents compare shops. A retailer that becomes a better source than any of these for even one question starts getting cited for it.</p>
 
 <h2>What a retailer should do</h2>
-<p><strong>One name, everywhere.</strong> The shop name on the sign, on Google Maps, on the website, on Instagram and on the trade licence should be the same, with the same branch addresses and phone numbers. Multi-branch retailers should have one Google Business Profile per branch, each complete.</p>
+<p><strong>One name, everywhere.</strong> The shop name on the sign, on Google Maps, on the website, on Instagram and on the trade license should be the same, with the same branch addresses and phone numbers. Multi-branch retailers should have one Google Business Profile per branch, each complete.</p>
 <p><strong>A live gold rate page.</strong> The daily rate for 24K, 22K, 21K and 18K per gram, updated every morning, with a short explanation of how making charges and VAT work and what the tourist refund means. This single page answers the most asked question in the category, and almost no retailer has it.</p>
 <p><strong>Buyer guides by purpose.</strong> How to choose a bridal set in Dubai. Buying gold bars and coins as an investment. Gold for Diwali, Eid or a baby's birth. Each guide answers the question in the first paragraph, explains what to check, and names the certificates and hallmarks that matter. Written by someone at the shop, with their name.</p>
 <p><strong>Reviews that mention the purpose.</strong> A review that says "bought my wedding set here, they explained the making charge breakdown" is worth more to an AI engine than a five-star rating alone, because it links the shop to the question.</p>
 <p><strong>Structured data on products and the business.</strong> Product schema with price and availability, LocalBusiness schema with opening hours and the exact location. This is machine-readable proof of what the shop sells and where it is.</p>
 
 <h2>The trust question</h2>
-<p>Trust is the question under every jewellery question. The engines answer it with whatever evidence exists: years in business, Dubai Gold and Jewellery Group membership, hallmarking, certificates, named owners, reviews. A retailer that states these plainly on an About page, with the licence number, gives the engine a reason to name it as "established" or "reputable," which is exactly the language the answers use.</p>
+<p>Trust is the question under every jewelry question. The engines answer it with whatever evidence exists: years in business, Dubai Gold and Jewelry Group membership, hallmarking, certificates, named owners, reviews. A retailer that states these plainly on an About page, with the license number, gives the engine a reason to name it as "established" or "reputable," which is exactly the language the answers use.</p>
 
 <h2>What results look like</h2>
-<p>Purpose-specific questions ("where to buy a 22K bridal set in Deira with transparent making charges") can return a well-prepared retailer within a month. The gold rate page, once indexed and updated daily, attracts citations for the rate question steadily. Broad questions ("best jeweller in Dubai") take longer and depend on review volume. For a shop that sells high-value pieces, one AI-referred wedding purchase pays for the entire program.</p>
+<p>Purpose-specific questions ("where to buy a 22K bridal set in Deira with transparent making charges") can return a well-prepared retailer within a month. The gold rate page, once indexed and updated daily, attracts citations for the rate question steadily. Broad questions ("best jeweler in Dubai") take longer and depend on review volume. For a shop that sells high-value pieces, one AI-referred wedding purchase pays for the entire program.</p>
+
+<h2>Keywords to build pages around</h2><p>Gold rate Dubai today, 22K gold price per gram Dubai, where to buy gold in Dubai, Gold Souk Dubai jewelers, trusted jeweler Dubai for a bridal set, 22K bridal set Deira Dubai, making charges gold Dubai, is gold cheaper in Dubai, VAT refund on gold Dubai tourists, gold bars and coins Dubai, hallmarked gold jewelry Dubai, gold for Diwali Dubai, gold jewelry shop Abu Dhabi.</p>
 """,
 "faq": [
-("Does Instagram help a jeweller get recommended by ChatGPT?", "Very little. AI engines cannot read Instagram well and rarely cite it. Instagram drives desire; a website with buyer guides and a complete Google Business Profile drives AI visibility."),
-("Should a jeweller publish prices online?", "Publish the daily gold rate and explain making charges. Piece prices can remain on request, but the rate page alone answers the most asked question in the category."),
-("Which questions can a small jeweller win first?", "Purpose and location specific ones: bridal sets in a named area, investment bars, a festival purchase. These are winnable in weeks because few retailers answer them."),
+("Does Instagram help a jeweler get recommended by ChatGPT?", "Very little. AI engines cannot read Instagram well and rarely cite it. Instagram drives desire; a website with buyer guides and a complete Google Business Profile drives AI visibility."),
+("Should a jeweler publish prices online?", "Publish the daily gold rate and explain making charges. Piece prices can remain on request, but the rate page alone answers the most asked question in the category."),
+("Which questions can a small jeweler win first?", "Purpose and location specific ones: bridal sets in a named area, investment bars, a festival purchase. These are winnable in weeks because few retailers answer them."),
 ("Does Gold Souk location matter for AI answers?", "It helps for tourist questions, because travel guides mention the Souk constantly. A mall or community retailer can compete by answering purpose questions better."),
 ],
 },
@@ -300,13 +304,13 @@ ARTICLES = [
 <p>Ask an AI engine for a restaurant and it will happily list five. Ask it for a doctor and it hedges: it adds caveats, it leans on sources that look official, and it names fewer providers. This caution is built in. For a clinic it means two things. The bar for being named is higher, and the clinics that clear it get a disproportionate share of the answers, because the engine is working from a short list it trusts.</p>
 
 <h2>What patients ask</h2>
-<p>The questions are specific and urgent. Which dentist in JLT does same-day crowns. Who is a good dermatologist in Dubai for melasma. Which IVF clinic in Abu Dhabi has the best success rates. Is this treatment covered by insurance. What does a root canal cost in Dubai. Which paediatrician near Arabian Ranches speaks Arabic and has weekend hours. Each of these is a page a clinic could own, and almost none of them are answered on clinic websites, which tend to list services in a menu and say nothing more.</p>
+<p>The questions are specific and urgent. Which dentist in JLT does same-day crowns. Who is a good dermatologist in Dubai for melasma. Which IVF clinic in Abu Dhabi has the best success rates. Is this treatment covered by insurance. What does a root canal cost in Dubai. Which pediatrician near Arabian Ranches speaks Arabic and has weekend hours. Each of these is a page a clinic could own, and almost none of them are answered on clinic websites, which tend to list services in a menu and say nothing more.</p>
 
 <h2>What the engines cite for UAE healthcare</h2>
-<p>Booking platforms such as Okadoc and the hospital groups' own sites, because they carry structured, consistent data about doctors. Google Maps data and reviews, especially for Gemini. The regulators' public registers, which confirm a licence exists. News coverage of hospitals and clinics. And, for cost and procedure questions, a small number of clinic pages that happen to answer them. There is room in that last category for any clinic willing to write.</p>
+<p>Booking platforms such as Okadoc and the hospital groups' own sites, because they carry structured, consistent data about doctors. Google Maps data and reviews, especially for Gemini. The regulators' public registers, which confirm a license exists. News coverage of hospitals and clinics. And, for cost and procedure questions, a small number of clinic pages that happen to answer them. There is room in that last category for any clinic willing to write.</p>
 
 <h2>What a clinic should do</h2>
-<p><strong>Make every doctor an entity.</strong> A page per doctor with full name, DHA or DOH licence number, qualifications, languages, years of practice, the conditions they treat, a photo, and a link to their booking slot. Person schema on each page. The engines name doctors as often as they name clinics, and a doctor with no page cannot be named.</p>
+<p><strong>Make every doctor an entity.</strong> A page per doctor with full name, DHA or DOH license number, qualifications, languages, years of practice, the conditions they treat, a photo, and a link to their booking slot. Person schema on each page. The engines name doctors as often as they name clinics, and a doctor with no page cannot be named.</p>
 <p><strong>Keep one identity across platforms.</strong> The clinic name, address, phone and doctor list on the website must match Google Business Profile, the booking platforms and the insurance network directories. Clinics often have an old trading name on one of these. Fix it.</p>
 <p><strong>Write condition and procedure pages that answer.</strong> One page per common question: what the treatment involves, how long it takes, what it costs or the range, what recovery looks like, which doctor does it, whether insurance usually covers it. In plain language, first paragraph first. Reviewed and signed by the treating doctor, with the date.</p>
 <p><strong>Publish prices or ranges.</strong> Cost questions are among the most common health questions asked of AI engines in the UAE, and almost no clinic answers them. A clinic that publishes a clear range, with the caveat that a consultation confirms it, becomes the citation for that question.</p>
@@ -318,12 +322,14 @@ ARTICLES = [
 
 <h2>What results look like</h2>
 <p>Doctor and procedure specific questions in a named area start returning a well-prepared clinic in three to five weeks, Perplexity first. Broad questions such as "best dental clinic in Dubai" depend on review volume and take two to three months or more. For a clinic, one new patient a week from AI answers covers the program many times over.</p>
+
+<h2>Keywords to build pages around</h2><p>Dentist in JLT Dubai same day crowns, dermatologist Dubai melasma, IVF clinic Abu Dhabi, root canal cost Dubai, dental implant cost Dubai, pediatrician near Arabian Ranches Dubai who speaks Arabic, clinic Dubai that accepts my insurance, DHA licensed doctor Dubai, female doctor Dubai, Arabic speaking doctor Dubai, clinic with weekend hours Dubai, treatment prices clinic UAE, best dental clinic Dubai.</p>
 """,
 "faq": [
-("Can an AI engine recommend a specific doctor in Dubai?", "Yes, when the doctor exists as a clear entity: a page with licence number, qualifications and conditions treated, plus consistent mentions on booking platforms and Google. Doctors without pages are rarely named."),
+("Can an AI engine recommend a specific doctor in Dubai?", "Yes, when the doctor exists as a clear entity: a page with license number, qualifications and conditions treated, plus consistent mentions on booking platforms and Google. Doctors without pages are rarely named."),
 ("Should a clinic publish treatment prices?", "Publish ranges with the caveat that a consultation confirms the final figure. Cost questions are common and almost unanswered, so the clinic that answers them earns the citation."),
 ("Is AEO for clinics compliant with UAE advertising rules?", "The work is factual pages, consistent identity and verifiable credentials, which is what the regulators want. Avoid superlatives and unsupported outcome claims; they hurt both compliance and AI visibility."),
-("Why does Gemini name clinics that ChatGPT does not?", "Gemini draws on Google Maps data and reviews directly, so clinics with strong Google Business Profiles appear there first. ChatGPT leans on Bing's index and web pages, so it favours clinics with good condition and doctor pages."),
+("Why does Gemini name clinics that ChatGPT does not?", "Gemini draws on Google Maps data and reviews directly, so clinics with strong Google Business Profiles appear there first. ChatGPT leans on Bing's index and web pages, so it favors clinics with good condition and doctor pages."),
 ],
 },
 {
@@ -333,7 +339,7 @@ ARTICLES = [
 "date": "2026-10-20",
 "read": 4,
 "description": "Visitors plan Dubai trips inside ChatGPT now: where to eat near the Burj, which brunch, which hotel for a family. Here is how the engines build those recommendations, why review platforms dominate, and how an independent restaurant or a hotel breaks in.",
-"answer": "Diners and travellers ask AI assistants where to eat and stay in Dubai with details: cuisine, area, budget, occasion, group size. The AI answers from restaurant and hotel websites, Google reviews, food media and booking sites. A restaurant or hotel gets named when its website states the cuisine, the menu with prices, the area, the opening hours and what makes it different, and when its reviews mention those same things.",
+"answer": "Diners and travelers ask AI assistants where to eat and stay in Dubai with details: cuisine, area, budget, occasion, group size. The AI answers from restaurant and hotel websites, Google reviews, food media and booking sites. A restaurant or hotel gets named when its website states the cuisine, the menu with prices, the area, the opening hours and what makes it different, and when its reviews mention those same things.",
 "body": """
 <h2>How trips are planned now</h2>
 <p>A visitor planning three days in Dubai increasingly asks an AI assistant to build the itinerary: a hotel for a family of four near the beach, somewhere for a Friday brunch, a quiet dinner with a Burj view, a halal-friendly spot near the Creek. The assistant answers with names. Those names come from somewhere, and for hospitality that somewhere is mostly review platforms, Google Maps, and travel and lifestyle media.</p>
@@ -347,23 +353,25 @@ ARTICLES = [
 
 <h2>What a venue should do</h2>
 <p><strong>One identity across platforms.</strong> Same name, same address, same phone, same opening hours on Google Business Profile, TripAdvisor, Zomato, the booking platform and the website. Audit it once; it takes an afternoon.</p>
-<p><strong>A website that states facts in its first lines.</strong> Cuisine, neighbourhood, price range, whether it serves alcohol, vegetarian and vegan options, kids' menu, parking, booking link. These are the facts the engine checks before it recommends. Put them above the photos, not below.</p>
+<p><strong>A website that states facts in its first lines.</strong> Cuisine, neighborhood, price range, whether it serves alcohol, vegetarian and vegan options, kids' menu, parking, booking link. These are the facts the engine checks before it recommends. Put them above the photos, not below.</p>
 <p><strong>Occasion pages.</strong> Visitors ask by occasion, not by restaurant name. A page for each occasion the venue genuinely suits ("Friday brunch in JBR," "business dinner near DIFC," "birthday dinner with a private room") with a direct first paragraph and the practical details. These are the pages that make an independent citable for a question a chain has not thought about.</p>
 <p><strong>Menu as text, not image.</strong> A PDF or a photo of the menu is invisible to the engines. A text menu with prices lets them answer "what does dinner cost at" and "do they have gluten-free."</p>
 <p><strong>Reviews that mention the occasion.</strong> Encourage guests to say what they came for. "Great for a family brunch, kids' area" connects the venue to the question.</p>
 <p><strong>Structured data.</strong> Restaurant or Hotel schema with cuisine, price range, hours, address and menu URL. It is the cheapest way to make the facts unambiguous.</p>
 
 <h2>Hotels specifically</h2>
-<p>Hotel recommendations lean on booking platforms and travel media, and the broad questions are owned by the big brands. Independent and boutique hotels win on specifics: "hotel in Deira near the metro under AED 400," "family hotel in JBR with connecting rooms," "quiet hotel in Al Barsha for business travellers." Each is a page, and each is a question the booking platforms answer badly.</p>
+<p>Hotel recommendations lean on booking platforms and travel media, and the broad questions are owned by the big brands. Independent and boutique hotels win on specifics: "hotel in Deira near the metro under AED 400," "family hotel in JBR with connecting rooms," "quiet hotel in Al Barsha for business travelers." Each is a page, and each is a question the booking platforms answer badly.</p>
 
 <h2>What results look like</h2>
-<p>Occasion and neighbourhood questions start returning a prepared venue in three to five weeks, Perplexity and ChatGPT search first. Gemini follows as Google Business Profile reviews accumulate. "Best restaurant in Dubai" is a two-year project and the wrong first goal. One extra table a night from AI-planned itineraries is a realistic early result, and it compounds through the tourist season.</p>
+<p>Occasion and neighborhood questions start returning a prepared venue in three to five weeks, Perplexity and ChatGPT search first. Gemini follows as Google Business Profile reviews accumulate. "Best restaurant in Dubai" is a two-year project and the wrong first goal. One extra table a night from AI-planned itineraries is a realistic early result, and it compounds through the tourist season.</p>
+
+<h2>Keywords to build pages around</h2><p>Restaurant near the Burj Dubai, dinner with a Burj view Dubai, Friday brunch JBR Dubai, business dinner near DIFC Dubai, halal restaurant near Dubai Creek, birthday dinner with private room Dubai, family brunch Dubai with kids area, vegan restaurant Dubai, gluten free menu restaurant Dubai, family hotel JBR Dubai connecting rooms, hotel in Deira Dubai near the metro under AED 400, quiet hotel Al Barsha Dubai for business travelers, boutique hotel Dubai, family hotel near the beach Dubai.</p>
 """,
 "faq": [
 ("Does ChatGPT use TripAdvisor to recommend Dubai restaurants?", "Yes, along with Google reviews, Zomato and travel media. The engines treat these as more trustworthy than a venue's own site, so being accurate and consistent on them matters."),
-("Can a small restaurant compete with chains in AI answers?", "Yes, for occasion and neighbourhood questions. Chains rarely write pages for 'quiet business lunch in DIFC' or 'halal brunch near the Creek.' An independent that does becomes the citation."),
+("Can a small restaurant compete with chains in AI answers?", "Yes, for occasion and neighborhood questions. Chains rarely write pages for 'quiet business lunch in DIFC' or 'halal brunch near the Creek.' An independent that does becomes the citation."),
 ("Does posting on Instagram help AI visibility?", "Not meaningfully. AI engines cannot read Instagram well and seldom cite it. A text menu, a complete Google Business Profile and occasion pages do far more."),
-("How should a hotel approach AEO?", "Target specific traveller situations: budget, area, family needs, business needs. Booking platforms own the broad questions; a boutique hotel wins the specific ones."),
+("How should a hotel approach AEO?", "Target specific traveler situations: budget, area, family needs, business needs. Booking platforms own the broad questions; a boutique hotel wins the specific ones."),
 ],
 },
 {
@@ -387,7 +395,7 @@ ARTICLES = [
 <p><strong>Publish pricing.</strong> Buyers ask AI what things cost, and the engines quote the vendors that answer. "Contact sales" removes you from every pricing question. Even a "from" price or a published tier helps.</p>
 <p><strong>Get on the review platforms and get real reviews.</strong> A G2 or Capterra profile with ten honest reviews is one of the strongest signals in software. For development firms, Clutch and GoodFirms with verified client reviews play the same role.</p>
 <p><strong>Write the UAE-specific pages.</strong> One page per local requirement you meet: WPS, VAT, Arabic, data residency, specific free zone compliance, integrations with locally common systems. These are the questions buyers ask and competitors ignore.</p>
-<p><strong>Make documentation public.</strong> Help centres, API docs and integration guides are quoted constantly by the engines, because they are specific and factual. Gated documentation is invisible.</p>
+<p><strong>Make documentation public.</strong> Help centers, API docs and integration guides are quoted constantly by the engines, because they are specific and factual. Gated documentation is invisible.</p>
 <p><strong>Write honest comparison pages.</strong> "X vs Y for UAE companies," written fairly, is cited far more than a page that only praises X. The engines are looking for balanced sources, and buyers ask comparison questions constantly.</p>
 <p><strong>Keep the entity consistent.</strong> Company name, founders, location and description identical on the website, LinkedIn, Crunchbase and the review platforms. Software companies rebrand and pivot often; the engines punish the resulting mess.</p>
 
@@ -395,18 +403,20 @@ ARTICLES = [
 <p>The same rules apply with two additions. Case studies with named or clearly described clients, real figures and the technology used are what the engines quote for "who has built X in the UAE." And named engineers and leaders, with LinkedIn profiles that match the website, matter because buyers and engines both ask who will actually do the work.</p>
 
 <h2>What results look like</h2>
-<p>UAE-specific category questions return a prepared vendor in three to five weeks. Broader category presence ("best CRM for small business") is global competition and takes much longer; local qualifiers are where a UAE company should fight. The payoff in B2B is large because deal sizes are: a single AI-shortlisted enterprise enquiry can be worth a year of the program.</p>
+<p>UAE-specific category questions return a prepared vendor in three to five weeks. Broader category presence ("best CRM for small business") is global competition and takes much longer; local qualifiers are where a UAE company should fight. The payoff in B2B is large because deal sizes are: a single AI-shortlisted enterprise inquiry can be worth a year of the program.</p>
+
+<h2>Keywords to build pages around</h2><p>Accounting software UAE with VAT invoicing, FTA compliant invoicing software UAE, WPS payroll software UAE, HR software Dubai, CRM for small business UAE, best CRM for UAE companies, Arabic interface CRM UAE, software with data stored in the UAE, DIFC compliant software Dubai, ADGM compliance software Abu Dhabi, software development company Dubai, IT services company UAE, software pricing UAE.</p>
 """,
 "faq": [
 ("Which review sites matter most for software AEO?", "G2 and Capterra for products, Clutch and GoodFirms for development and IT services. AI engines cite these repeatedly when building vendor shortlists."),
 ("Should a SaaS company publish prices for AI visibility?", "Yes. Buyers ask AI engines what software costs, and the engines quote vendors that answer. 'Contact sales' excludes you from every pricing question."),
 ("How can a UAE vendor compete with global software brands?", "Through local qualifiers: WPS, VAT, Arabic, data residency, free zone compliance. Global brands rarely address these, so a UAE vendor that does becomes the citation for the whole local category."),
-("Does documentation help with AEO?", "Significantly. Public help centres and API docs are specific and factual, which is what the engines quote. Gated documentation is invisible to them."),
+("Does documentation help with AEO?", "Significantly. Public help centers and API docs are specific and factual, which is what the engines quote. Gated documentation is invisible to them."),
 ],
 },
 {
 "slug": "can-you-guarantee-number-one-on-chatgpt",
-"title": "\"Can you guarantee we will be number one on ChatGPT?\" A conversation we have every week",
+"title": "\"Can you guarantee we will be number one on ChatGPT?\" What we tell Dubai businesses every week",
 "category": "From our calls",
 "date": "2026-10-21",
 "read": 4,
@@ -429,11 +439,11 @@ ARTICLES = [
 
 <h2>The part where it gets uncomfortable</h2>
 <p>At some point the owner asks the question underneath the question. "Then why should I pay you at all, if you cannot promise the result?"</p>
-<p>This is the right question, and we answer it directly. They are paying for four things. The work: identity cleaned up across every platform, pages rebuilt so the engines can quote them, profiles on the sources the engines trust, content that answers what their buyers actually ask. The measurement: a weekly log they can verify themselves. The judgement: knowing which questions are winnable now and which are a year away, so the first month produces something visible rather than a report. And the honesty: when something does not move, we say so and say why, instead of changing the prompt until it does.</p>
+<p>This is the right question, and we answer it directly. They are paying for four things. The work: identity cleaned up across every platform, pages rebuilt so the engines can quote them, profiles on the sources the engines trust, content that answers what their buyers actually ask. The measurement: a weekly log they can verify themselves. The judgment: knowing which questions are winnable now and which are a year away, so the first month produces something visible rather than a report. And the honesty: when something does not move, we say so and say why, instead of changing the prompt until it does.</p>
 <p>We also tell them what we will not do, because it matters as much. We will not write fake reviews. We will not stuff their name into pages that have nothing to do with their business. We will not publish five hundred articles nobody reads. All three can produce a screenshot and all three get a business discounted by the engines within months.</p>
 
 <h2>How the call ends</h2>
-<p>About a third of the time the owner thanks us and goes with the agency that said yes. That is fine. Some of them come back in three months with a folder of screenshots that did not turn into enquiries.</p>
+<p>About a third of the time the owner thanks us and goes with the agency that said yes. That is fine. Some of them come back in three months with a folder of screenshots that did not turn into inquiries.</p>
 <p>The rest ask what the first month looks like. We walk them through it: the audit, which tells them exactly where they stand before any money is spent on fixing it; the entity work, which is boring and decisive; the first ten pages; the first appearances, usually in week three or four for specific questions. We tell them the price, which is on our website, and the term, which is one, two or three months with nothing renewing on its own.</p>
 <p>Then we ask them to do one thing before signing anything: run the same three prompts again a week later and note whether the list has changed. It will have. That is the whole argument, made by the engine itself.</p>
 
@@ -505,7 +515,7 @@ ARTICLES = [
 },
 {
 "slug": "does-google-business-profile-affect-what-chatgpt-says",
-"title": "Does your Google Business Profile affect what ChatGPT says about you?",
+"title": "Does your Google Business Profile affect what ChatGPT says about your UAE business?",
 "category": "Explainers",
 "date": "2026-10-22",
 "read": 4,
@@ -529,7 +539,7 @@ ARTICLES = [
 </ul>
 
 <h2>The mistakes we see most in Dubai</h2>
-<p><strong>Registered address instead of working address.</strong> Many UAE businesses are licensed in a free zone and work from an office in the city. The profile should show where customers come, and the free zone can stay on the licence. A profile pointing at a free zone business centre is often rejected by Google and ignored by the engines.</p>
+<p><strong>Registered address instead of working address.</strong> Many UAE businesses are licensed in a free zone and work from an office in the city. The profile should show where customers come, and the free zone can stay on the license. A profile pointing at a free zone business center is often rejected by Google and ignored by the engines.</p>
 <p><strong>Wrong primary category.</strong> A software company listed as "Consultant" because the owner wanted to sound senior. The engines then never consider it for "software company in Dubai".</p>
 <p><strong>No reviews for a year.</strong> Engines weight recency. A profile whose last review is from 2024 reads as a business that may have closed.</p>
 <p><strong>Different names on different platforms.</strong> "Samura Consulting Group" on the website, "Samura Consulting" on Google, "SCG" on LinkedIn. To an engine these may be three businesses, each with a third of the evidence.</p>
@@ -548,7 +558,7 @@ ARTICLES = [
 "faq": [
 ("Does ChatGPT read Google Business Profile directly?", "No, but it cites directories and articles that copy the profile's category, rating and details, so the profile reaches ChatGPT second-hand. Gemini and Google AI Overviews use it directly."),
 ("Which part of the profile matters most for AI answers?", "The primary category, because it decides which questions you are a candidate for, followed by the text of recent reviews."),
-("Should a UAE free zone company use its licensed address on Google?", "Use the address where customers come. A free zone business centre address is often rejected by Google and carries little weight with the engines."),
+("Should a UAE free zone company use its licensed address on Google?", "Use the address where customers come. A free zone business center address is often rejected by Google and carries little weight with the engines."),
 ("How many reviews does a Dubai business need?", "There is no threshold. Ten recent reviews that mention specific services and areas do more than a hundred generic ones."),
 ],
 },
@@ -572,7 +582,7 @@ ARTICLES = [
 - Acne treatment: approach and before-and-after policy
 
 ## About
-- Our doctors: names, DHA licence numbers, languages
+- Our doctors: names, DHA license numbers, languages
 - Location and hours</pre>
 <p>Each line links to a page. The whole file is usually under a hundred lines.</p>
 
@@ -618,7 +628,7 @@ ARTICLES = [
 "date": "2026-10-23",
 "read": 4,
 "description": "Ask ChatGPT for the best anything in Dubai and it will cite a listicle. Most of those lists were written by one of the agencies on them, or paid for. Here is how the engines pick their sources, and how to read a list before trusting it.",
-"answer": "When you ask ChatGPT for the best agency in Dubai, it searches the web and summarises the pages that rank for that question. Those pages are almost always lists. Many lists are written by an agency that puts itself first, or paid for. The AI sometimes says so, and often does not. Before trusting a list, check who published it, whether they appear on it, whether the method is explained, and whether the facts can be checked.",
+"answer": "When you ask ChatGPT for the best agency in Dubai, it searches the web and summarizes the pages that rank for that question. Those pages are almost always lists. Many lists are written by an agency that puts itself first, or paid for. The AI sometimes says so, and often does not. Before trusting a list, check who published it, whether they appear on it, whether the method is explained, and whether the facts can be checked.",
 "body": """
 <h2>How the engines choose a source</h2>
 <p>When you ask ChatGPT, Gemini or Perplexity for the best agency, clinic or school in Dubai, the engine does not consult a ranking of its own. It runs a web search for phrases like the one you typed, reads the top handful of results, and writes a summary with citations. The pages that rank for "best AEO agency in Dubai" are, by construction, pages titled "best AEO agencies in Dubai". So the engine quotes lists.</p>
@@ -628,7 +638,7 @@ ARTICLES = [
 <p>We looked at every page the engines cited for "best AEO agency in Dubai" in October 2026. They fell into three groups.</p>
 <p><strong>Agencies ranking themselves.</strong> The most common type. An agency publishes "The 10 best AEO agencies in Dubai" on its own blog, puts itself first, and gives each competitor a paragraph that ends with a weakness. Some do this for a dozen cities with the same template. The engines cite these pages, and some of them, Claude in particular, add a note that the ranking is self-published. Many users never read the note.</p>
 <p><strong>Paid placement on news-styled sites.</strong> Several technology news sites accept paid articles and do not always label them. A "comparison" on one of them named a single agency and left the other four entries as blank categories. The same paragraph about that agency appeared, word for word, on a second site a month later. The engines treat both as independent sources.</p>
-<p><strong>Independent tests.</strong> Rare. One page we found ran the same prompts across the engines, scored agencies by whether they were actually cited, and excluded its own company from the ranking. It was the only list that would survive a sceptical reader.</p>
+<p><strong>Independent tests.</strong> Rare. One page we found ran the same prompts across the engines, scored agencies by whether they were actually cited, and excluded its own company from the ranking. It was the only list that would survive a skeptical reader.</p>
 
 <h2>How to read a list in thirty seconds</h2>
 <ol>
@@ -646,7 +656,7 @@ ARTICLES = [
 <p>We are publishing one of those for our own category. It shows where every agency stands, including us, from an October baseline, and it is updated every month with the same prompts. We think that is the only kind of list worth being on.</p>
 """,
 "faq": [
-("Why does ChatGPT cite listicles for 'best agency in Dubai' questions?", "Because it answers by searching the web and summarising the pages that rank for that phrase, and those pages are almost always lists."),
+("Why does ChatGPT cite listicles for 'best agency in Dubai' questions?", "Because it answers by searching the web and summarizing the pages that rank for that phrase, and those pages are almost always lists."),
 ("Are most 'best agencies in Dubai' lists independent?", "No. Most are written by an agency that ranks itself first, or published on sites that sell placement. Independent lists that test something and show the data are rare."),
 ("How can I tell if a list is paid or self-published?", "Check whether the publisher appears on the list, whether criteria and dates are stated, whether entries contain checkable facts, and whether the same text appears on other sites."),
 ("Should my business try to get onto these lists?", "Yes, because the engines keep citing them, but prefer independent lists and directories, and if you pay for placement, publish only what is true."),
@@ -654,12 +664,12 @@ ARTICLES = [
 },
 {
 "slug": "what-does-an-aeo-audit-check",
-"title": "What does an AEO audit actually check? The list we work through",
+"title": "What does an AEO audit actually check for a Dubai business? The list we work through",
 "category": "How to",
 "date": "2026-10-23",
 "read": 4,
 "description": "An AEO audit is not a PDF of scores. It is a list of specific questions about your identity, your pages, your sources and your current AI visibility, each with a yes or no. Here is ours, so you can run most of it yourself.",
-"answer": "An AEO audit checks four things. Can AI engines recognise your business, with the same name and details everywhere? Are your pages written so an AI can quote them? Are you present on the websites the AI uses for your category? And where do you stand today in real AI answers? Each one is a list of yes or no checks. Most Dubai businesses fail the first and third before anyone looks at the website. The result is a list of fixes in order, not a score.",
+"answer": "An AEO audit checks four things. Can AI engines recognize your business, with the same name and details everywhere? Are your pages written so an AI can quote them? Are you present on the websites the AI uses for your category? And where do you stand today in real AI answers? Each one is a list of yes or no checks. Most Dubai businesses fail the first and third before anyone looks at the website. The result is a list of fixes in order, not a score.",
 "body": """
 <h2>What an audit is for</h2>
 <p>An audit exists to answer one question: why are the engines not naming you, and what, in order, would change that. If the output is a 40-page PDF with colour-coded scores and no order of work, it was a sales document. The version below is what we actually run. Most of it you can do yourself in an afternoon.</p>
@@ -667,12 +677,12 @@ ARTICLES = [
 <h2>Part 1: identity</h2>
 <p>Can an engine tell who you are, and is every source saying the same thing?</p>
 <ul>
-<li>Is the business name identical on the website, Google Business Profile, LinkedIn, trade licence listing and every directory? Including punctuation and "LLC" or "FZ".</li>
+<li>Is the business name identical on the website, Google Business Profile, LinkedIn, trade license listing and every directory? Including punctuation and "LLC" or "FZ".</li>
 <li>Is the address the one customers visit, and the same everywhere?</li>
 <li>Is the phone number the same everywhere, in the same format?</li>
 <li>Does the website say, in plain text on the homepage, what the business does, for whom, where, and since when?</li>
 <li>Are the founders or senior people named, with titles that match their LinkedIn profiles?</li>
-<li>Does the site carry structured data (schema) for the organisation, and does it agree with the visible text?</li>
+<li>Does the site carry structured data (schema) for the organization, and does it agree with the visible text?</li>
 <li>Does typing the business name into each engine return the right business with the right details?</li>
 </ul>
 <p>A no on any of these is fixed before anything else. Identity problems cap everything that follows.</p>
@@ -717,25 +727,25 @@ ARTICLES = [
 ("What are the four parts of an AEO audit?", "Identity (is the business described consistently everywhere), pages (can engines quote them), sources (are you on the pages engines cite for your category), and current visibility (a dated baseline of real AI answers)."),
 ("Can I run an AEO audit myself?", "Most of it. The identity checks, the Google profile review and the twenty-answer baseline need no tools. An agency adds the source map, the structured data check and the order of work."),
 ("What is the most common AEO audit failure for Dubai businesses?", "Inconsistent identity: different names, addresses or titles across the website, Google, LinkedIn and directories. It is cheap to fix and caps everything else until it is."),
-("What should an AEO audit deliver?", "A prioritised list of specific fixes, each small enough to do in a week, with the first five marked as the ones that unblock the rest. Not a score."),
+("What should an AEO audit deliver?", "A prioritized list of specific fixes, each small enough to do in a week, with the first five marked as the ones that unblock the rest. Not a score."),
 ],
 },
 {
 "slug": "best-aeo-agencies-in-dubai",
-"title": "Best AEO agencies in Dubai in 2026: what the AI engines actually say, tested",
+"title": "Best AEO and GEO agencies in Dubai in 2026: what the AI engines actually say, tested",
 "category": "Research",
 "date": "2026-10-24",
 "read": 4,
-"description": "We asked ChatGPT and Claude five buyer questions about AEO agencies in Dubai, logged every name and source, and ranked agencies by how often the engines named them. Samura is scored by the same method from an October baseline. Updated monthly with the same prompts.",
-"answer": "We asked ChatGPT and Claude five questions a buyer would ask about AEO agencies in Dubai, and wrote down every agency they named. The agencies named most often in October 2026 were SEO Sherpa, Digital Gravity, WAIM, SEO Tech Experts, Digital Nexa and NorthQuery. No other list online ranks agencies this way; most are written by an agency that puts itself first. This page explains the method, and places Samura Consulting Group where the data puts it, starting from an October baseline. We re-run the same test every month.",
+"description": "We asked ChatGPT and Claude five buyer questions about AEO and GEO agencies in Dubai, logged every name and source, and ranked agencies by how often the engines named them. Samura is scored by the same method from an October baseline. Updated monthly with the same prompts.",
+"answer": "We asked ChatGPT and Claude five questions a buyer would ask about AEO and GEO (generative engine optimization) agencies in Dubai, and wrote down every agency they named. The agencies named most often in October 2026 were SEO Sherpa, Digital Gravity, WAIM, SEO Tech Experts, Digital Nexa and NorthQuery. No other list online ranks agencies this way; most are written by an agency that puts itself first. This page explains the method, and places Samura Consulting Group where the data puts it, starting from an October baseline. We re-run the same test every month.",
 "body": """
 <h2>Why this list exists</h2>
-<p>Every "best AEO agencies in Dubai" page we could find in October 2026 was one of two things: an agency's own blog, with the agency first, or a paid article on a news-styled site. The AI engines cite them anyway, because they are what ranks for the phrase. We wanted a list a sceptical buyer could use, so we built one the only way that seemed fair: by asking the engines and writing down what they said.</p>
-<p>A declaration up front. Samura Consulting Group is an AEO agency in Dubai. We are on this list, scored by the same method as everyone else, with October recorded as our baseline. Our row will update with the data, not with our preference.</p>
+<p>Every "best AEO agencies in Dubai" page we could find in October 2026 was one of two things: an agency's own blog, with the agency first, or a paid article on a news-styled site. The AI engines cite them anyway, because they are what ranks for the phrase. We wanted a list a skeptical buyer could use, so we built one the only way that seemed fair: by asking the engines and writing down what they said.</p>
+<p>A declaration up front. Samura Consulting Group is an AEO and GEO agency in Dubai. We are on this list, scored by the same method as everyone else, with October recorded as our baseline. Our row will update with the data, not with our preference.</p>
 
 <h2>Method</h2>
 <ol>
-<li>Five prompts a buyer would type: "best AEO agency in Dubai"; "which agency can get my business recommended by ChatGPT in the UAE"; "answer engine optimization agency Dubai pricing"; "top AI search optimization agencies in Dubai 2026"; and our own company name as a control.</li>
+<li>Five prompts a buyer would type: "best AEO agency in Dubai"; "which agency can get my business recommended by ChatGPT in the UAE"; "answer engine optimization agency Dubai pricing"; "top AI search optimization agencies in Dubai 2026"; and our own company name as a control. From the November 2026 run a sixth prompt is added: "best GEO agency in Dubai".</li>
 <li>Run in ChatGPT (with search) and Claude, logged out, on 21 and 24 October 2026. Gemini and Perplexity will be added from the November run.</li>
 <li>For each answer, every agency named and every source cited was recorded.</li>
 <li>Agencies are ranked by the number of runs in which they were named. Ties are listed alphabetically.</li>
@@ -756,7 +766,7 @@ ARTICLES = [
 <tr style="border-bottom:1px solid #E7ECF4"><td style="padding:.5rem .4rem">Vista by Lara</td><td style="padding:.5rem .4rem">2</td><td style="padding:.5rem .4rem">Claude</td></tr>
 <tr style="border-bottom:1px solid #E7ECF4"><td style="padding:.5rem .4rem">WAIM</td><td style="padding:.5rem .4rem">2</td><td style="padding:.5rem .4rem">ChatGPT, Claude</td></tr>
 <tr style="border-bottom:1px solid #E7ECF4"><td style="padding:.5rem .4rem">Arab SEO, Avantus, EDS FZE, House of Growth, Red Berries, SemNexus</td><td style="padding:.5rem .4rem">1 each</td><td style="padding:.5rem .4rem">One engine, one date</td></tr>
-<tr><td style="padding:.5rem .4rem"><strong>Samura Consulting Group</strong></td><td style="padding:.5rem .4rem"><strong>Baseline</strong></td><td style="padding:.5rem .4rem">Site relaunched 18 October; recorded as the starting point, re-tested monthly</td></tr>
+<tr><td style="padding:.5rem .4rem"><strong>Samura Consulting Group</strong></td><td style="padding:.5rem .4rem"><strong>Baseline</strong></td><td style="padding:.5rem .4rem">Baseline recorded 24 October 2026; re-tested monthly</td></tr>
 </tbody></table>
 
 <h2>The agencies, in order</h2>
@@ -769,39 +779,43 @@ ARTICLES = [
 <p><strong>SEO Tech Experts.</strong> Dubai, Business Bay, established 2009, directors Sachin and Shilpi Gupta, around forty-five SEO staff. Dedicated GEO page covering English and Arabic, the largest review footprint of any agency here, and starting prices quoted by third parties at AED 2,999 a month. Blog content is broad rather than AEO-specific.</p>
 <p><strong>Vista by Lara.</strong> Founded 2024, a small team positioned as AEO-native for e-commerce and Shopify, English and Arabic. Reaches the engines through its DesignRush and GoodFirms profiles. Hourly rates listed on directories, no packages.</p>
 <p><strong>WAIM.</strong> Dubai and Belgrade, founder-led, with the largest AEO-specific article library in the city, over a hundred posts since March 2026, and its own "honest guide" to Dubai agencies in which it is listed first. States on its own site that it has no client case study to show yet. No public pricing.</p>
-<p><strong>Samura Consulting Group.</strong> Dubai, Business Bay; the UAE agency of a software company founded in 2018; founder-led by IIT and IIM alumni. Pricing published in full from AED 2,999 a month, a published client case study with numbers, sixteen AEO articles with named authors. October 2026 is recorded as the baseline, six days after the site relaunched on 18 October; the first appearances we expect are in November, and they will be published here with the date.</p>
+<p><strong>Samura Consulting Group.</strong> Dubai, Business Bay; the UAE agency of a software company founded in 2018; founder-led by IIT and IIM alumni. Pricing published in full from AED 2,999 a month, a published client case study with numbers, more than fifty AEO articles with named authors. October 2026 is recorded as the baseline; the first appearances we expect are in November, and they will be published here with the date.</p>
 
 <h2>What the sources tell you</h2>
 <p>Across the runs, the engines cited: agencies' own lists (Digital Gravity, WAIM, SemNexus, House of Growth), a Web Tonic roundup, a Julian Goldie roundup, TechBullion, DesignRush profiles, and for the pricing prompt a set of global pricing guides with no Dubai data at all. Not one cited source tests anything. If you are choosing an agency, that means the lists are a starting point for names, not evidence. Ask each agency for dated screenshots of a client's before and after, and run the prompts yourself.</p>
 
 <h2>What changes next month</h2>
 <p><em>Last tested 24 October 2026. Next re-test: last week of November 2026.</em></p>
-<p>We will re-run the five prompts in four engines in the last week of November, add Gemini and Perplexity, and publish the new table under this one. Samura's row is updated by the same test, and every change is dated.</p>
+<p>We will re-run the prompts, plus the new GEO prompt, in four engines in the last week of November, add Gemini and Perplexity, and publish the new table under this one. Samura's row is updated by the same test, and every change is dated.</p>
+
+<h2>Keywords to build pages around</h2>
+<p>best GEO agency in Dubai, GEO agency Dubai, GEO company Dubai, generative engine optimization agency Dubai, best AEO agency in Dubai, AEO agency Dubai pricing, answer engine optimization company Dubai, AI search optimization agency Dubai, ChatGPT SEO agency UAE, AI visibility agency UAE, GEO services Dubai, AEO vs GEO agency UAE.</p>
 """,
 "faq": [
 ("Which AEO agency in Dubai do AI engines name most?", "In our October 2026 test, SEO Sherpa was named in every run across ChatGPT and Claude, followed by Digital Gravity, Digital Nexa, NorthQuery, Prism Digital, SEO Tech Experts, Vista by Lara and WAIM at two mentions each."),
 ("Is this list independent?", "It is published by Samura Consulting Group, an AEO agency in Dubai, which is why the method is stated in full and Samura is scored by it like everyone else, from an October 2026 baseline."),
 ("Why were some agencies ChatGPT named left out?", "Three names and one cited source could not be matched to any website, office or directory listing. We treat those as engine errors rather than real businesses and have not named them."),
-("How often is this ranking updated?", "Monthly, with the same five prompts, in the last week of each month. From November the test covers ChatGPT, Claude, Gemini and Perplexity."),
+("How often is this ranking updated?", "Monthly, with the same prompts, in the last week of each month. From November the test covers ChatGPT, Claude, Gemini and Perplexity."),
+("Who is the best GEO agency in Dubai?", "There is no independent ranking of GEO agencies in Dubai, and the GEO and AEO agencies in Dubai are the same firms describing the same work with different words. This page is the only tested list we know of: the engines are asked the buyer's questions and every name is logged. From the November 2026 run the prompt 'best GEO agency in Dubai' is included, so the table will show which agencies the engines name for GEO as well as AEO."),
 ],
 },
 {
 "slug": "why-cant-chatgpt-find-my-company-by-name",
-"title": "Why can't ChatGPT find my company by name? Our own case, five days after launch",
+"title": "Why can't ChatGPT find my company by name? What we learned testing our own Dubai agency",
 "category": "From our calls",
 "date": "2026-10-24",
 "read": 4,
-"description": "Type a company name into ChatGPT and get 'I couldn't find that company'. It happened to us this week. Here is what causes it, how long it takes to fix, and the checklist we are running on ourselves.",
-"answer": "When an AI cannot find a company by name, it is almost never because the company is small. It is because the AI's search index has not caught up with the website yet, or because nothing else on the web confirms the company exists, or because a company with a similar name has more information online. Samura Consulting Group had all three problems in October 2026, days after relaunching its site. The fix is to submit the site to Bing and Google, create a few trusted profiles with one identical description, and wait a few weeks.",
+"description": "Type a company name into ChatGPT and get 'I couldn't find that company'. We tested it on our own company. Here is what causes it, how long it takes to fix, and the checklist we are running on ourselves.",
+"answer": "When an AI cannot find a company by name, it is almost never because the company is small. It is because the AI's search index has not caught up with the website yet, or because nothing else on the web confirms the company exists, or because a company with a similar name has more information online. Samura Consulting Group had all three problems when we tested our own name on 24 October 2026. The fix is to submit the site to Bing and Google, create a few trusted profiles with one identical description, and wait a few weeks.",
 "body": """
 <h2>What happened</h2>
 <p>On 24 October 2026 we typed "Samura Consulting Group Dubai" into ChatGPT and Claude, logged out. ChatGPT said it could not verify a company under that spelling and offered two other firms with similar names. Claude said it could not find a company called Samura Consulting Group in Dubai and listed four unrelated consultancies.</p>
-<p>Our website had been live in its new form for six days. It has sixteen articles, a published price list, a client case study, structured data on every page and an llms.txt file. None of it mattered yet. We are publishing this because it is the most common complaint we hear from Dubai business owners, and because our own case is a clean example of why it happens.</p>
+<p>Our website has a full set of guides, a published price list, a client case study, structured data on every page and an llms.txt file. On 24 October 2026 none of it mattered yet. We are publishing this because it is the most common complaint we hear from Dubai business owners, and because our own case is a clean example of why it happens.</p>
 
 <h2>The three causes</h2>
 <p><strong>1. The index has not caught up.</strong> ChatGPT searches through Bing's index. Claude and Perplexity use their own crawlers plus web search. Gemini uses Google's. A new or rebuilt site has to be crawled, then indexed, then judged worth returning, and each stage takes days. We submitted the site to Bing and Google on 21 October. Google read our sitemap on the 23rd. Bing had not yet ranked a single page for our own name on the 24th. That is normal. It is also invisible to the owner, who just sees the engine say no.</p>
-<p><strong>2. Nothing else confirms you exist.</strong> Engines are cautious about naming a business on the strength of its own website alone. They look for the same name and description on sources they already trust: LinkedIn, Google Business Profile, Crunchbase, industry directories, news. A search for our name on 24 October returned none of those, because our LinkedIn page was a week old and our directory profiles were not yet live. To the engines, a company with one source is a rumour.</p>
-<p><strong>3. Someone with a similar name has more evidence.</strong> ChatGPT offered "Samra Consulting DMCC" and "Strategic Consulting Group". Both have been on the web longer. When an engine cannot match your exact name, it falls back to the nearest entity with enough evidence, and the owner reads that as being confused with a competitor. It is a gap in your evidence, not a judgement about theirs.</p>
+<p><strong>2. Nothing else confirms you exist.</strong> Engines are cautious about naming a business on the strength of its own website alone. They look for the same name and description on sources they already trust: LinkedIn, Google Business Profile, Crunchbase, industry directories, news. A search for our name on 24 October returned none of those, because our LinkedIn page and directory profiles were not yet indexed by the engines. To the engines, a company with one source is a rumor.</p>
+<p><strong>3. Someone with a similar name has more evidence.</strong> ChatGPT offered "Samra Consulting DMCC" and "Strategic Consulting Group". Both have been on the web longer. When an engine cannot match your exact name, it falls back to the nearest entity with enough evidence, and the owner reads that as being confused with a competitor. It is a gap in your evidence, not a judgment about theirs.</p>
 
 <h2>How long it takes</h2>
 <p>From our own logs and client work: first retrieval by name in Perplexity and ChatGPT search typically within two to four weeks of index submission plus two or three authoritative profiles going live. Gemini follows the Google Business Profile, so it moves when the profile is verified and has reviews. Being named for category questions, "best X in Dubai", takes longer, because that depends on third-party pages, not your own.</p>
@@ -814,7 +828,7 @@ ARTICLES = [
 <li>LinkedIn company page with that sentence, posting weekly. Live.</li>
 <li>Crunchbase profile with the same sentence and the leadership listed. Live.</li>
 <li>Google Business Profile at the working address, primary category set, description identical. In verification.</li>
-<li>Directory profiles on the sites the engines cite for the category: for an agency, DesignRush, GoodFirms, Clutch, Semrush Agency Partners. In progress this week.</li>
+<li>Directory profiles on the sites the engines cite for the category: for an agency, DesignRush, GoodFirms, Clutch, Semrush Agency Partners. In progress.</li>
 <li>The Managing Partner's personal LinkedIn profile naming the company with the same title the website uses.</li>
 <li>The same five prompts, re-run weekly, logged with the date. The log is what tells us which of the above moved the needle.</li>
 </ol>
@@ -822,7 +836,7 @@ ARTICLES = [
 """,
 "faq": [
 ("Why does ChatGPT say it cannot find my company?", "Usually because its web index has not caught up with your site, because no trusted third-party source confirms the business, or because a similarly named company has more evidence online. Company size is rarely the reason."),
-("How long until an AI engine recognises a new business by name?", "Typically two to four weeks after submitting the site to Bing and Google and getting two or three authoritative profiles live, such as LinkedIn, Google Business Profile and an industry directory."),
+("How long until an AI engine recognizes a new business by name?", "Typically two to four weeks after submitting the site to Bing and Google and getting two or three authoritative profiles live, such as LinkedIn, Google Business Profile and an industry directory."),
 ("Why does ChatGPT confuse my company with another one?", "When it cannot match your exact name, it falls back to the nearest entity with enough evidence. The fix is more consistent evidence for your own name, not a complaint about the other company."),
 ("What is the first thing to fix for name recognition?", "One identical description of the business on the website, LinkedIn, Google Business Profile and at least one directory, followed by index submission of the site."),
 ],
@@ -839,7 +853,7 @@ ARTICLES = [
 <h2>The question behind the question</h2>
 <p>Owners of small businesses in Dubai usually ask this with a particular worry: that AI search is another channel where the big brands with big budgets win and everyone else pays for scraps. In Google that worry was often justified. In AI answers it mostly is not, and the reason is structural.</p>
 
-<h2>Why AI answers favour the specific</h2>
+<h2>Why AI answers favor the specific</h2>
 <p>A Google results page has ten links and the big brand can occupy three of them. An AI answer has three to five names, chosen to match the question as asked. When a customer in Dubai types "physiotherapist in JLT who treats runners", the engine is not looking for the biggest clinic in the city. It is looking for the clinic whose pages, reviews and profiles say "JLT", "physiotherapy" and "runners" together. A twelve-person clinic that says those three things consistently beats a hospital group that says everything about everything.</p>
 <p>This is the whole argument. Big brands win broad questions. Small businesses win specific ones, and most buying questions are specific.</p>
 
@@ -877,7 +891,7 @@ ARTICLES = [
 },
 {
 "slug": "how-to-write-a-page-chatgpt-will-quote",
-"title": "How do you write a page that ChatGPT will quote? The answer-first format",
+"title": "How do you write a page that ChatGPT will quote? The answer-first format for UAE businesses",
 "category": "How to",
 "date": "2026-10-24",
 "read": 4,
@@ -892,7 +906,7 @@ ARTICLES = [
 <p><strong>1. The title is the question.</strong> Not "Our Services". Not "Premium Dental Care in Dubai". "How much does a dental implant cost in Dubai?" The engine matches titles to questions first. If a buyer's question is in your title, you are a candidate; if not, you are competing from behind.</p>
 <p><strong>2. The answer is in the first paragraph.</strong> Two to four sentences, directly under the title, that answer the question as a knowledgeable person would if stopped in the corridor. Include a number, a name or a place: "A single dental implant in Dubai costs between AED 5,000 and AED 12,000 depending on the implant brand and whether a bone graft is needed. At our clinic in Jumeirah the standard implant is AED 6,500 including the crown." That paragraph is what gets quoted. Everything else on the page supports it.</p>
 <p><strong>3. The headings are follow-up questions.</strong> "What affects the price?" "How long does it take?" "Is it covered by insurance in the UAE?" Each heading is a question the same buyer would ask next, and each section answers it the same way: directly, first sentence.</p>
-<p><strong>4. The paragraphs are short and factual.</strong> Three or four sentences. No "we pride ourselves", no "world-class", no "solutions". The engines are trained to discount marketing language and favour statements they could verify. Say what the thing is, what it costs, how long it takes, who does it, where.</p>
+<p><strong>4. The paragraphs are short and factual.</strong> Three or four sentences. No "we pride ourselves", no "world-class", no "solutions". The engines are trained to discount marketing language and favor statements they could verify. Say what the thing is, what it costs, how long it takes, who does it, where.</p>
 <p><strong>5. A FAQ block at the end, with schema.</strong> Four to six questions with two-sentence answers, marked up with FAQ structured data so the engine can read them as question and answer pairs. These often get quoted on their own.</p>
 
 <h2>Before and after</h2>
@@ -913,7 +927,7 @@ ARTICLES = [
 ("What makes an AI engine quote a web page?", "A title that matches the question asked, a direct answer in the first paragraph with a concrete fact in it, question-style headings, short factual paragraphs, and a FAQ block with schema."),
 ("How long should the answer paragraph be?", "Two to four sentences, directly under the title, containing at least one number, name or place. That paragraph is what gets quoted."),
 ("Should one page cover several questions?", "No. One page per question. Several questions means several pages, each a separate chance to be quoted."),
-("Does marketing language hurt AI visibility?", "Yes. Engines discount slogans and superlatives and favour statements they could verify, such as prices, timelines, locations and names."),
+("Does marketing language hurt AI visibility?", "Yes. Engines discount slogans and superlatives and favor statements they could verify, such as prices, timelines, locations and names."),
 ],
 },
 {
@@ -940,7 +954,7 @@ ARTICLES = [
 <ul>
 <li>One consistent description of the business across the website, Google Business Profile, LinkedIn and directories</li>
 <li>Pages that answer a buyer's question in the first paragraph, with facts</li>
-<li>Structured data: organisation, service, FAQ, article</li>
+<li>Structured data: organization, service, FAQ, article</li>
 <li>Presence on the third-party sources each engine cites for your category: directories, review sites, lists, press</li>
 <li>A log of real AI answers for a fixed set of prompts, run regularly, to see what moved</li>
 </ul>
@@ -960,7 +974,7 @@ ARTICLES = [
 <p>If the answers are specific, the word on the proposal does not matter. If the answers are vague, neither word will save the engagement.</p>
 """,
 "faq": [
-("Is GEO the same as AEO?", "In practice yes. GEO emphasises generative engines such as ChatGPT and Perplexity; AEO emphasises direct answers including Google AI Overviews. The work that moves results is the same list: identity, answer-first pages, structured data, third-party citations and tracking."),
+("Is GEO the same as AEO?", "In practice yes. GEO emphasizes generative engines such as ChatGPT and Perplexity; AEO emphasizes direct answers including Google AI Overviews. The work that moves results is the same list: identity, answer-first pages, structured data, third-party citations and tracking."),
 ("Which should a Dubai business buy, GEO or AEO?", "Neither word matters. Ask which engines the agency tracks, what it does off your website, and whether it will show a client's before and after with the prompts."),
 ("Where does the term GEO come from?", "A 2023 academic paper on getting content cited by text-generating engines. AEO is an older, broader term that includes Google's answer features and voice assistants."),
 ("Does Samura do GEO or AEO?", "Both, because the work overlaps almost entirely. Programs cover ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews, with weekly prompt tracking across all five."),
@@ -982,10 +996,10 @@ ARTICLES = [
 <p>From the questions clinic owners share with us and the prompts we test, patient questions in Dubai tend to follow five patterns.</p>
 <ul>
 <li><strong>Problem plus area.</strong> "Where can I get my child's ear infection checked in Mirdif today?"</li>
-<li><strong>Specialty plus preference.</strong> "Female gynaecologist in Dubai who speaks Arabic." "Dermatologist in Jumeirah who treats melasma."</li>
+<li><strong>Specialty plus preference.</strong> "Female gynecologist in Dubai who speaks Arabic." "Dermatologist in Jumeirah who treats melasma."</li>
 <li><strong>Insurance.</strong> "Which dental clinics in Al Barsha accept Daman?" "Physiotherapy in JLT covered by AXA."</li>
 <li><strong>Price.</strong> "How much is a dental cleaning in Dubai?" "Cost of a full blood test without insurance in Dubai."</li>
-<li><strong>Trust.</strong> "Is [clinic name] good?" "Best rated paediatrician in Dubai Marina."</li>
+<li><strong>Trust.</strong> "Is [clinic name] good?" "Best rated pediatrician in Dubai Marina."</li>
 </ul>
 <p>Every one of these contains a detail the engine has to match: an area, a language, an insurer, a condition, a price. The engine can only match what has been written down somewhere it can read.</p>
 
@@ -1001,6 +1015,8 @@ ARTICLES = [
 
 <h2>A test you can run tonight</h2>
 <p>Type three patient questions for your own specialty and area into ChatGPT and Gemini, logged out. Note which clinics are named and what the engine says about them. Then read your own website and ask whether it states the same facts as plainly. Usually it does not, and that gap is the whole project.</p>
+
+<h2>Keywords to build pages around</h2><p>Dermatologist Dubai, dermatologist Jumeirah Dubai melasma, female gynecologist Dubai Arabic speaking, pediatrician Dubai Marina, child ear infection clinic Mirdif Dubai, dental clinic Al Barsha Dubai accepts Daman, physiotherapy JLT Dubai covered by AXA, dental cleaning cost Dubai, full blood test cost Dubai without insurance, clinic Dubai accepts my insurance, best rated pediatrician Dubai Marina, DHA licensed clinic Dubai, clinic Al Wasl Dubai.</p>
 """,
 "faq": [
 ("Do patients in Dubai really use ChatGPT to choose a clinic?", "Increasingly, yes, especially for specific needs such as a language, an insurer, a specialty or an area. The engines answer with a short list of clinics drawn from websites, Google profiles and directories."),
@@ -1022,9 +1038,9 @@ ARTICLES = [
 <p>Dental questions are specific, price-sensitive and often urgent. "How much are veneers in Dubai?" "Emergency dentist open now in Al Barsha." "Invisalign provider in Dubai Hills that does instalments." Each question has an answer a clinic could publish, and the engine will quote whichever clinic did.</p>
 
 <h2>The eight things to publish</h2>
-<p><strong>1. One page per treatment.</strong> Cleaning, fillings, root canal, crowns, implants, veneers, aligners, whitening, paediatric dentistry. Title each one as the patient's question: "How much does a dental implant cost in Dubai?" Answer it in the first paragraph with a range and what moves it.</p>
+<p><strong>1. One page per treatment.</strong> Cleaning, fillings, root canal, crowns, implants, veneers, aligners, whitening, pediatric dentistry. Title each one as the patient's question: "How much does a dental implant cost in Dubai?" Answer it in the first paragraph with a range and what moves it.</p>
 <p><strong>2. Price ranges.</strong> The single biggest difference between clinics that get named for cost questions and those that do not. A range is enough: "Teeth whitening at our clinic costs AED 1,200 to AED 2,000 depending on the system used." Without a number, the engine has nothing to quote and moves on.</p>
-<p><strong>3. A profile for every dentist.</strong> Name, specialty, where they qualified, years in practice, languages spoken, licence authority, and the treatments they do most. Patients ask for "a female orthodontist" or "a dentist who speaks Russian", and the engine needs a page that says so.</p>
+<p><strong>3. A profile for every dentist.</strong> Name, specialty, where they qualified, years in practice, languages spoken, license authority, and the treatments they do most. Patients ask for "a female orthodontist" or "a dentist who speaks Russian", and the engine needs a page that says so.</p>
 <p><strong>4. Insurers accepted.</strong> A plain, current list on its own page, plus a line on each treatment page saying whether it is usually covered. Update it when contracts change.</p>
 <p><strong>5. Location, said every time.</strong> The area name, the building, and the nearest landmark or metro station, on every page. "Dental clinic in Dubai Hills Business Park, five minutes from Dubai Hills Mall." Engines match on area names.</p>
 <p><strong>6. Emergency and same-day policy.</strong> Opening hours, whether walk-ins are seen, what counts as an emergency, and a phone or WhatsApp number. "Emergency dentist open now" is one of the most common urgent questions.</p>
@@ -1039,6 +1055,8 @@ ARTICLES = [
 
 <h2>Where to start</h2>
 <p>Pick your three highest-value treatments, usually implants, aligners and veneers. Build those three pages properly this month, with prices, dentists and FAQs. Then run "how much is [treatment] in [your area]" in ChatGPT and Perplexity every week and watch for your name.</p>
+
+<h2>Keywords to build pages around</h2><p>Dental implant cost Dubai, veneers price Dubai, Invisalign Dubai Hills installments, emergency dentist open now Al Barsha Dubai, teeth whitening cost Dubai, root canal cost Dubai, dental crown price Dubai, female orthodontist Dubai, dentist Dubai who speaks Russian, pediatric dentist Dubai, dental clinic Dubai Hills Business Park, dentist near Dubai Hills Mall, dental clinic Dubai insurance direct billing, aligners Dubai payment plan.</p>
 """,
 "faq": [
 ("What is the most important page for a Dubai dental clinic in AI search?", "A page per treatment with a price range in the first paragraph. Cost questions are among the most common dental questions, and engines quote clinics that state a number."),
@@ -1071,7 +1089,7 @@ ARTICLES = [
 
 <h2>How to reply</h2>
 <p>Reply to every review, positive and negative, within a few days. Replies are read by patients and by the engines, and they show the clinic is active.</p>
-<p>Keep replies factual and never confirm or discuss medical details, even if the patient has shared them. "Thank you for visiting us in Al Barsha. We are glad the team could help, and we look forward to seeing you at your next appointment." For a complaint: acknowledge, apologise for the experience, and move it offline with a phone number or email, without arguing the facts in public.</p>
+<p>Keep replies factual and never confirm or discuss medical details, even if the patient has shared them. "Thank you for visiting us in Al Barsha. We are glad the team could help, and we look forward to seeing you at your next appointment." For a complaint: acknowledge, apologize for the experience, and move it offline with a phone number or email, without arguing the facts in public.</p>
 <p>Patient confidentiality obligations in the UAE apply in a review reply exactly as they do anywhere else. When in doubt, say less.</p>
 
 <h2>What never to do</h2>
@@ -1085,33 +1103,35 @@ ARTICLES = [
 
 <h2>Beyond Google</h2>
 <p>Reviews on medical directories and booking platforms are also read by the engines. A clinic with consistent ratings and similar themes across Google and two or three directories looks far more credible than one with a perfect Google rating and nothing elsewhere.</p>
+
+<h2>Keywords to build pages around</h2><p>Knee physiotherapy clinic Dubai Marina, physiotherapy Dubai Marina reviews, best rated clinic Al Barsha Dubai, top rated dentist Dubai, dermatologist Dubai reviews, pediatrician Dubai reviews, patient reviews clinic Dubai, Google reviews medical clinic UAE, highly rated clinic Abu Dhabi, best reviewed medical center Sharjah, clinic with good reviews Dubai, clinic near me with good reviews Dubai.</p>
 """,
 "faq": [
 ("Do AI engines read clinic reviews?", "Yes. Star ratings help establish credibility, and review text tells the engine which treatments, doctors and areas a clinic is known for."),
 ("Can a clinic ask patients to mention a treatment in their review?", "It can mention that doing so helps other patients, if the patient is comfortable. It must not provide wording or offer anything in return."),
-("How should a UAE clinic reply to a negative review?", "Acknowledge it, apologise for the experience, avoid discussing any medical details, and invite the patient to continue the conversation privately by phone or email."),
+("How should a UAE clinic reply to a negative review?", "Acknowledge it, apologize for the experience, avoid discussing any medical details, and invite the patient to continue the conversation privately by phone or email."),
 ("Is it acceptable to offer a discount for a Google review?", "No. Incentivised reviews breach Google's policies, can lead to profile penalties and may conflict with UAE health advertising rules."),
 ],
 },
 {
 "slug": "does-a-clinic-need-doctor-profile-pages-for-ai-search",
-"title": "Does a clinic need a separate page for each doctor to show up in AI search?",
+"title": "Does a Dubai clinic need a separate page for each doctor to show up in AI search?",
 "category": "Healthcare",
 "date": "2026-10-26",
 "read": 4,
 "description": "A single 'Our Team' page with photos is not enough for AI search. Here is why each doctor needs a page of their own, what goes on it, and how it helps the clinic get named for more patient questions.",
-"answer": "Yes. Many patient questions are about the doctor, not the clinic: a female dermatologist, an Arabic-speaking paediatrician, a knee specialist. A separate page for each doctor, with specialty, qualifications, licence, languages, conditions treated and the branch, gives the AI something to match. A team page with photos and job titles gives it almost nothing. Each doctor page is also another chance for the clinic to be named.",
+"answer": "Yes. Many patient questions are about the doctor, not the clinic: a female dermatologist, an Arabic-speaking pediatrician, a knee specialist. A separate page for each doctor, with specialty, qualifications, license, languages, conditions treated and the branch, gives the AI something to match. A team page with photos and job titles gives it almost nothing. Each doctor page is also another chance for the clinic to be named.",
 "body": """
 <h2>Why the team page fails</h2>
 <p>Most clinic websites in the UAE have an "Our Doctors" page: a grid of photos, a name, a title such as "Specialist Dermatologist", and sometimes a button that opens a pop-up. To a patient this is fine. To an AI engine it is a list of names with almost no attached facts, and pop-up content is often not read at all.</p>
-<p>When a patient asks "is there a female dermatologist in Jumeirah who treats acne scars", the engine needs a page that says a named dermatologist, who is a woman, practises in Jumeirah, and treats acne scarring. If no page says that, the clinic cannot be the answer, even if it employs exactly that doctor.</p>
+<p>When a patient asks "is there a female dermatologist in Jumeirah who treats acne scars", the engine needs a page that says a named dermatologist, who is a woman, practices in Jumeirah, and treats acne scarring. If no page says that, the clinic cannot be the answer, even if it employs exactly that doctor.</p>
 
 <h2>What goes on each doctor page</h2>
 <ul>
-<li><strong>Full name and title</strong>, exactly as on the licence and LinkedIn.</li>
+<li><strong>Full name and title</strong>, exactly as on the license and LinkedIn.</li>
 <li><strong>Specialty and sub-specialties</strong>, in plain words patients use as well as the clinical term.</li>
 <li><strong>Qualifications</strong>: degree, where and when, board certifications, fellowships.</li>
-<li><strong>Licensing authority</strong>: DHA, DOH or MOHAP, and licence category.</li>
+<li><strong>Licensing authority</strong>: DHA, DOH or MOHAP, and license category.</li>
 <li><strong>Years of experience</strong> and previous hospitals or clinics, if the doctor is happy to share.</li>
 <li><strong>Languages spoken.</strong> One of the most common filters in UAE patient questions.</li>
 <li><strong>Conditions treated and procedures performed</strong>, as a list.</li>
@@ -1119,7 +1139,7 @@ ARTICLES = [
 <li><strong>A short, factual introduction</strong> in the first paragraph that a patient or an engine could quote.</li>
 <li><strong>A booking link</strong> for that doctor specifically.</li>
 </ul>
-<p>Add Physician or Person structured data to the page, linked to the clinic's organisation data, so the engine understands the doctor works there.</p>
+<p>Add Physician or Person structured data to the page, linked to the clinic's organization data, so the engine understands the doctor works there.</p>
 
 <h2>What it does for the clinic</h2>
 <p>Every doctor page is a new set of questions the clinic can be named for. A clinic with eight doctors and eight good pages is a candidate for every combination of their specialties, languages and conditions. The clinic page alone is a candidate for "clinic in [area]" and little else.</p>
@@ -1130,6 +1150,8 @@ ARTICLES = [
 
 <h2>How long it takes</h2>
 <p>A clinic can build a good doctor page in an hour once the information is collected, and collecting it is usually the slow part. Start with the three doctors patients ask for most, then add the rest over a month.</p>
+
+<h2>Keywords to build pages around</h2><p>Female dermatologist Jumeirah Dubai, dermatologist Dubai acne scars, best doctor for acne scars Dubai, Arabic speaking pediatrician Dubai, knee specialist Dubai, orthopedic doctor Dubai, DHA licensed doctor Dubai, DOH licensed doctor Abu Dhabi, MOHAP licensed doctor Sharjah, board certified specialist Dubai, female doctor Dubai, book appointment with specialist Dubai.</p>
 """,
 "faq": [
 ("Why does each doctor need a separate page?", "Many patient questions are about a type of doctor, such as specialty, gender, language or condition. A dedicated page states those facts so an engine can match the doctor, and the clinic, to the question."),
@@ -1148,14 +1170,14 @@ ARTICLES = [
 "answer": "If your clinic serves Arabic-speaking patients, yes. AI engines tend to answer Arabic questions from Arabic web pages, so an English-only clinic is named less often in Arabic answers. Translate the most important pages first: specialties, doctor profiles, insurance and location. Use a native Arabic writer, not machine translation. Give each Arabic page its own address and link it to the English version properly.",
 "body": """
 <h2>Two languages, two sets of answers</h2>
-<p>Ask an AI assistant in English for a paediatrician in Al Barsha and it draws mostly on English pages. Ask the same question in Arabic and it leans towards Arabic pages, Arabic directory listings and Arabic reviews. The two answers often name different clinics.</p>
+<p>Ask an AI assistant in English for a pediatrician in Al Barsha and it draws mostly on English pages. Ask the same question in Arabic and it leans towards Arabic pages, Arabic directory listings and Arabic reviews. The two answers often name different clinics.</p>
 <p>For a clinic in the UAE, that means an English-only website competes for one set of answers and is at a disadvantage in the other. How much that matters depends on who the clinic's patients are.</p>
 
 <h2>When Arabic pages are worth it</h2>
 <ul>
 <li>A meaningful share of patients are Emirati or from other Arab countries.</li>
 <li>The clinic has Arabic-speaking doctors, which is itself something patients ask for.</li>
-<li>The specialty is family-oriented, such as paediatrics, obstetrics, gynaecology or family medicine, where the person searching is often a parent asking in their first language.</li>
+<li>The specialty is family-oriented, such as pediatrics, obstetrics, gynecology or family medicine, where the person searching is often a parent asking in their first language.</li>
 <li>The clinic is outside the most international areas, or serves patients from other emirates.</li>
 </ul>
 <p>If none of these apply, Arabic pages are a lower priority than getting the English pages, doctor profiles and Google profile right first.</p>
@@ -1179,6 +1201,8 @@ ARTICLES = [
 
 <h2>A quick way to decide</h2>
 <p>Ask three patient questions for your specialty and area in Arabic in ChatGPT and Gemini. If competitors are named and you are not, and you serve Arabic-speaking patients, the Arabic pages are worth building now.</p>
+
+<h2>Keywords to build pages around</h2><p>Arabic speaking pediatrician Dubai, pediatrician Al Barsha Dubai, Arabic speaking gynecologist Dubai, Arabic speaking obstetrician Dubai, Arabic speaking family doctor Dubai, family medicine clinic Dubai Arabic speaking, pediatric clinic Sharjah, clinic Abu Dhabi with Arabic speaking doctors, clinic Dubai for patients from other emirates, clinic Dubai accepts insurance Arabic speaking staff, Arabic speaking doctor near me Dubai, Emirati family clinic Dubai.</p>
 """,
 "faq": [
 ("Do AI engines answer Arabic questions from Arabic sources?", "They tend to lean on sources in the language of the question, so an English-only clinic is named less often, and with fewer details, in Arabic answers."),
@@ -1202,7 +1226,7 @@ ARTICLES = [
 
 <h2>What the engines look for</h2>
 <ul>
-<li><strong>Crops and volumes.</strong> A list of what you grow, by season if relevant, and indicative weekly capacity. "Butterhead, romaine and kale, 12 tonnes a month, year-round" is quotable. "Fresh, sustainable produce" is not.</li>
+<li><strong>Crops and volumes.</strong> A list of what you grow, by season if relevant, and indicative weekly capacity. "Butterhead, romaine and kale, 12 tons a month, year-round" is quotable. "Fresh, sustainable produce" is not.</li>
 <li><strong>Growing method, in the buyer's words.</strong> Hydroponic, aeroponic, vertical farm, greenhouse, net house, organic, pesticide-free, each stated plainly, because buyers filter on them.</li>
 <li><strong>Location.</strong> Emirate and area, since delivery radius matters: "Al Ain, delivering to Abu Dhabi and Dubai six days a week".</li>
 <li><strong>Certifications and approvals.</strong> GlobalG.A.P., organic certification, municipality food safety registration, ISO 22000 where held. Name the certificate and the year.</li>
@@ -1222,7 +1246,7 @@ ARTICLES = [
 <li>A FAQ on each, marked up with FAQ schema.</li>
 </ol>
 
-<h2>Keywords buyers actually use</h2>
+<h2>Keywords to build pages around</h2>
 <p>Hydroponic farm UAE, vertical farm Dubai, local produce supplier Dubai, UAE-grown vegetables wholesale, farm to hotel UAE, leafy greens supplier Abu Dhabi, organic farm Al Ain, microgreens supplier Dubai, agritech company UAE, greenhouse produce Sharjah. Each belongs in a title or first paragraph, in a sentence a buyer would read, not in a list hidden in the footer.</p>
 """,
 "faq": [
@@ -1245,7 +1269,7 @@ ARTICLES = [
 <p>The UAE has one of the highest concentrations of equestrian activity anywhere: racing, endurance, show jumping, polo and leisure riding, with stables and farms from Dubai to Al Ain. It also has a large, mobile pet-owning population that changes vets when it changes apartments. Both groups now ask AI assistants, and both ask in detail.</p>
 <ul>
 <li>"24-hour emergency vet near JLT"</li>
-<li>"Vet in Dubai that does cat dental cleaning under anaesthesia, price"</li>
+<li>"Vet in Dubai that does cat dental cleaning under anesthesia, price"</li>
 <li>"Equine veterinary hospital with MRI in the UAE"</li>
 <li>"Farrier for endurance horses in Dubai"</li>
 <li>"Pet relocation vet certificates Dubai to UK"</li>
@@ -1274,7 +1298,7 @@ ARTICLES = [
 <h2>Sources the engines cite</h2>
 <p>For UAE veterinary questions: clinic websites, Google reviews, pet-owner community sites, expat forums and relocation guides. For equine: equestrian federation listings, stable and racing directories, event sponsor pages, and exhibitor lists from Growtech Middle East's veterinary and equestrian sections. A business present on two or three of these, with the same name and details as its website, is a candidate for most questions in its category.</p>
 
-<h2>Keywords worth building pages around</h2>
+<h2>Keywords to build pages around</h2>
 <p>Veterinary clinic Dubai, 24 hour vet Dubai, emergency vet Abu Dhabi, equine hospital UAE, equine vet Dubai, farrier Dubai, horse feed supplier UAE, pet travel certificate Dubai, exotic pet vet Dubai, cat clinic Dubai Marina, livestock veterinary services Al Ain, veterinary supplies distributor UAE.</p>
 """,
 "faq": [
@@ -1305,7 +1329,7 @@ ARTICLES = [
 
 <h2>What the engines reward</h2>
 <p><strong>Service pages that name the service and the buyer.</strong> "Villa landscaping in Dubai: design, installation and maintenance" is a page an engine can match to a villa owner's question. A single "Services" page that lists twenty things is not.</p>
-<p><strong>Project pages with facts.</strong> Location, size, scope, duration, client type, and photos. "A 2,400 square metre villa garden in Jumeirah Golf Estates with automated irrigation, completed in eight weeks" is quotable and credible.</p>
+<p><strong>Project pages with facts.</strong> Location, size, scope, duration, client type, and photos. "A 2,400 square meter villa garden in Jumeirah Golf Estates with automated irrigation, completed in eight weeks" is quotable and credible.</p>
 <p><strong>Plant and material lists.</strong> Nurseries should publish what they stock, by species, with sizes and whether it is grown locally or imported. Engines are asked for specific plants far more often than for "a nursery".</p>
 <p><strong>Approvals and classifications.</strong> Municipality and free zone registrations, contractor classifications, and any sustainability or water-efficiency credentials, stated with the issuing body.</p>
 <p><strong>Areas served, named.</strong> Communities and districts, not just "Dubai". Buyers ask by community.</p>
@@ -1336,13 +1360,13 @@ ARTICLES = [
 "answer": "Suppliers of greenhouses, irrigation and farm equipment in the Gulf get named by AI assistants when their websites list the products and brands they carry, the systems they install, the countries they serve, projects with size and location, spare parts and service, and how their products handle the Gulf heat. Farms ask things like 'greenhouse construction company UAE' or 'drip irrigation supplier Dubai'. The AI answers from supplier websites, brand distributor pages, Growtech and Saudi Agriculture exhibitor lists and project news.",
 "body": """
 <h2>A buyer with a technical question and a budget</h2>
-<p>The person asking an AI assistant about greenhouses or irrigation in the Gulf is usually a farm manager, an agritech founder, a consultant on a government food security project, or a procurement officer. They ask with specifications: "polycarbonate greenhouse supplier UAE with evaporative cooling", "vertical farming equipment distributor Saudi Arabia", "centre pivot irrigation supplier Al Ain", "hydroponic nutrient supplier Dubai", "second-hand tractor dealer UAE". The answer they want is a shortlist of suppliers that can meet the specification, in the region, with support.</p>
+<p>The person asking an AI assistant about greenhouses or irrigation in the Gulf is usually a farm manager, an agritech founder, a consultant on a government food security project, or a procurement officer. They ask with specifications: "polycarbonate greenhouse supplier UAE with evaporative cooling", "vertical farming equipment distributor Saudi Arabia", "center pivot irrigation supplier Al Ain", "hydroponic nutrient supplier Dubai", "second-hand tractor dealer UAE". The answer they want is a shortlist of suppliers that can meet the specification, in the region, with support.</p>
 
 <h2>What makes a supplier quotable</h2>
 <ul>
-<li><strong>Products by category and brand.</strong> Greenhouse structures, covering materials, cooling and ventilation, hydroponic and aeroponic systems, grow lights, climate control, irrigation and fertigation, pumps, tractors and implements, post-harvest and cold chain. Name the brands you are authorised to distribute, and say so.</li>
+<li><strong>Products by category and brand.</strong> Greenhouse structures, covering materials, cooling and ventilation, hydroponic and aeroponic systems, grow lights, climate control, irrigation and fertigation, pumps, tractors and implements, post-harvest and cold chain. Name the brands you are authorized to distribute, and say so.</li>
 <li><strong>Gulf suitability, stated.</strong> Heat and humidity tolerance, dust, water salinity, power supply. "Evaporative cooling pads rated for 50°C ambient" is the kind of sentence that gets quoted.</li>
-<li><strong>Projects.</strong> A page per significant project: location, crop, area under cover, system installed, year, and client type where permitted. Engines favour suppliers with proof in the region.</li>
+<li><strong>Projects.</strong> A page per significant project: location, crop, area under cover, system installed, year, and client type where permitted. Engines favor suppliers with proof in the region.</li>
 <li><strong>Service.</strong> Installation, commissioning, training, spare parts stock, response time, and the countries you cover from where.</li>
 <li><strong>Commercial clarity.</strong> Lead times, whether you quote per project or per unit, financing or leasing if offered, and a direct contact for technical sales.</li>
 </ul>
@@ -1403,7 +1427,7 @@ ARTICLES = [
 <h2>Off the website</h2>
 <p>Make sure retailer and distributor partners name you on their local-produce or supplier pages, and that the wording matches your site. Keep exhibitor profiles current. Pursue one trade press feature a year that states crops and capacity. Register on the main UAE supplier directories with identical details. Each of these is a source the engines already read.</p>
 
-<h2>Keywords for buyer pages</h2>
+<h2>Keywords to build pages around</h2>
 <p>Local produce supplier Dubai hotels, farm to restaurant UAE, hydroponic herbs wholesale Dubai, UAE farm direct supply, local egg supplier Dubai, organic farm wholesale UAE, fresh produce supplier Abu Dhabi catering, locally grown vegetables supplier UAE retailers, farm supplier for hotels Ras Al Khaimah.</p>
 """,
 "faq": [
@@ -1445,10 +1469,10 @@ ARTICLES = [
 </ul>
 
 <h2>Where the engines look</h2>
-<p>For UAE food manufacturing the cited sources are manufacturer websites, exhibitor profiles from Gulfood, Gulfood Manufacturing, ISM Middle East and Private Label Middle East, halal certification registers, food industry trade press, B2B marketplaces and directories, and retailer supplier pages. Two things move the needle most: a complete exhibitor profile that repeats the facts on your website, and a product-category page for each thing you make, rather than one catalogue PDF the engines cannot read well.</p>
+<p>For UAE food manufacturing the cited sources are manufacturer websites, exhibitor profiles from Gulfood, Gulfood Manufacturing, ISM Middle East and Private Label Middle East, halal certification registers, food industry trade press, B2B marketplaces and directories, and retailer supplier pages. Two things move the needle most: a complete exhibitor profile that repeats the facts on your website, and a product-category page for each thing you make, rather than one catalog PDF the engines cannot read well.</p>
 
-<h2>A note on catalogue PDFs</h2>
-<p>Most UAE manufacturers put their range in a PDF and their website says "download our catalogue". Engines read HTML pages far more reliably than PDFs, and a PDF carries no FAQ, no schema and no buyer contact. Keep the PDF, but put every product category on its own page.</p>
+<h2>A note on catalog PDFs</h2>
+<p>Most UAE manufacturers put their range in a PDF and their website says "download our catalog". Engines read HTML pages far more reliably than PDFs, and a PDF carries no FAQ, no schema and no buyer contact. Keep the PDF, but put every product category on its own page.</p>
 
 <h2>Keywords to build pages around</h2>
 <p>Food manufacturer UAE, food factory Dubai, halal food manufacturer UAE export, frozen food manufacturer Sharjah, snack manufacturer Dubai, sauce manufacturer UAE, dates processing company UAE, beverage manufacturer Dubai, contract food manufacturing UAE, private label food manufacturer Dubai, HACCP certified food company UAE, bakery manufacturer Abu Dhabi, food ingredients supplier Dubai.</p>
@@ -1457,7 +1481,7 @@ ARTICLES = [
 ("What do buyers ask AI assistants about UAE food manufacturers?", "Product, certification and market in one question: 'halal certified frozen bakery manufacturer UAE export', 'sauce factory Sharjah private label minimum run', 'beverage co-packer UAE'."),
 ("Which certifications should a UAE food manufacturer publish?", "HACCP, ISO 22000 or FSSC 22000, BRCGS where held, halal certificate with issuing body, municipality registration, and any market-specific export registrations, each with the year."),
 ("Do exhibitor profiles at Gulfood help with AI visibility?", "Yes. Gulfood, Gulfood Manufacturing, ISM Middle East and Private Label Middle East exhibitor lists are among the sources engines cite for UAE food suppliers, when the profile is complete."),
-("Is a catalogue PDF enough for AI search?", "No. Engines read HTML pages more reliably, and a PDF has no FAQ, schema or contact. Put each product category on its own page and keep the PDF as a download."),
+("Is a catalog PDF enough for AI search?", "No. Engines read HTML pages more reliably, and a PDF has no FAQ, schema or contact. Put each product category on its own page and keep the PDF as a download."),
 ],
 },
 {
@@ -1486,7 +1510,7 @@ ARTICLES = [
 <li><strong>Categories we produce under your brand.</strong> A list with formats: bakery, snacks, confectionery, sauces and condiments, beverages, dairy alternatives, frozen, nutrition.</li>
 <li><strong>Minimum order quantities</strong> by category, with the smallest run you will accept for a first order.</li>
 <li><strong>Development support.</strong> Recipe and formulation, nutritional analysis, shelf-life testing, label compliance for the UAE, Saudi Arabia and export markets.</li>
-<li><strong>Packaging and labelling.</strong> Formats available, whether you source packaging, artwork requirements.</li>
+<li><strong>Packaging and labeling.</strong> Formats available, whether you source packaging, artwork requirements.</li>
 <li><strong>Certifications</strong> relevant to the brand owner's market: HACCP, ISO 22000, FSSC 22000, BRCGS, halal, organic, and product registration experience with municipality and GCC authorities.</li>
 <li><strong>Timeline.</strong> From brief to first production run, typical weeks.</li>
 <li><strong>Commercials.</strong> How you quote, tooling or development fees, payment terms, exclusivity options.</li>
@@ -1500,14 +1524,14 @@ ARTICLES = [
 <h2>The Saudi angle</h2>
 <p>A large share of private label demand in the Gulf is Saudi, and many of those questions are asked in Arabic. A manufacturer with export registrations for Saudi Arabia should say so in English and Arabic on the private label page, and name the registration bodies.</p>
 
-<h2>Keywords to build the page around</h2>
+<h2>Keywords to build pages around</h2>
 <p>Private label manufacturer UAE, co-packer Dubai, contract food manufacturer GCC, private label snacks UAE, own brand manufacturer for supermarkets UAE, co-manufacturer Saudi Arabia halal, private label beverage manufacturer Dubai, low MOQ food manufacturer UAE, private label coffee UAE, contract manufacturing supplements Dubai, white label food products UAE.</p>
 """,
 "faq": [
 ("What do brands ask AI when looking for a co-packer in the GCC?", "Category, minimum run, certifications, speed and proof: 'private label granola manufacturer UAE MOQ 5,000', 'co-packer Dubai cold-pressed juice', 'contract manufacturer Saudi Arabia protein bars halal'."),
 ("What should a private label page include?", "Categories and formats, MOQs, development support, packaging options, certifications, timeline from brief to first run, commercial terms, reference projects and a FAQ."),
 ("Does Private Label Middle East help with AI visibility?", "Yes. Its exhibitor list is among the sources engines cite for GCC private label manufacturers, provided the profile repeats the facts on your website."),
-("Should GCC contract manufacturers publish in Arabic?", "Yes, at least the private label page and registration details, because much Saudi demand is asked in Arabic and engines favour Arabic sources for those questions."),
+("Should GCC contract manufacturers publish in Arabic?", "Yes, at least the private label page and registration details, because much Saudi demand is asked in Arabic and engines favor Arabic sources for those questions."),
 ],
 },
 {
@@ -1534,7 +1558,7 @@ ARTICLES = [
 
 <h2>What a supplier must publish</h2>
 <ul>
-<li><strong>Categories and brands.</strong> Each product category on its own page, with the brands you are authorised to distribute and whether you hold exclusivity in the UAE.</li>
+<li><strong>Categories and brands.</strong> Each product category on its own page, with the brands you are authorized to distribute and whether you hold exclusivity in the UAE.</li>
 <li><strong>Segments served.</strong> Hotels, restaurants, cafes, caterers, cloud kitchens, airlines, institutional. Buyers ask by segment.</li>
 <li><strong>Logistics.</strong> Delivery areas, days, cut-off times, chilled and frozen capability, minimum order, emergency delivery.</li>
 <li><strong>Commercial terms.</strong> Credit accounts, payment terms, opening-order support, pricing on request.</li>
@@ -1565,7 +1589,7 @@ ARTICLES = [
 "category": "Food and hospitality",
 "date": "2026-10-28",
 "read": 4,
-"description": "Office managers, event planners, wedding organisers and school administrators in the UAE ask AI assistants for caterers by occasion, cuisine, headcount and budget. Here is what they type, the sources the engines use, and how a catering company in Dubai or Abu Dhabi gets named.",
+"description": "Office managers, event planners, wedding organizers and school administrators in the UAE ask AI assistants for caterers by occasion, cuisine, headcount and budget. Here is what they type, the sources the engines use, and how a catering company in Dubai or Abu Dhabi gets named.",
 "answer": "A catering company in Dubai gets named by AI assistants when its website has a page for each type of event (corporate, weddings, daily office meals, schools, private), each stating cuisines, number of guests, price per head, dietary options, service style, areas covered, notice needed and municipality approval. Clients ask things like 'corporate catering Dubai for 150 people, price per head'. The AI answers from caterer websites, Google reviews, venue supplier lists, wedding directories and Gulf Host exhibitor pages.",
 "body": """
 <h2>How clients ask</h2>
@@ -1617,11 +1641,11 @@ ARTICLES = [
 "date": "2026-10-28",
 "read": 4,
 "description": "Diners in Dubai ask AI assistants what to order, and investors and operators ask them which cloud kitchen to rent. Here is how a delivery-first food brand or kitchen operator gets named for both kinds of question.",
-"answer": "A cloud kitchen or delivery brand in Dubai gets recommended by AI assistants when it exists outside the delivery apps: a website for each brand with cuisine, signature dishes, dietary options, delivery areas, hours and prices, a Google profile with reviews, and the same name on every platform. Diners ask 'best butter chicken delivery in JLT'. Kitchen operators get named for 'cloud kitchen for rent Dubai' when they publish locations, kitchen sizes, licence help, fees and the brands they host.",
+"answer": "A cloud kitchen or delivery brand in Dubai gets recommended by AI assistants when it exists outside the delivery apps: a website for each brand with cuisine, signature dishes, dietary options, delivery areas, hours and prices, a Google profile with reviews, and the same name on every platform. Diners ask 'best butter chicken delivery in JLT'. Kitchen operators get named for 'cloud kitchen for rent Dubai' when they publish locations, kitchen sizes, license help, fees and the brands they host.",
 "body": """
 <h2>Two different questions, two different buyers</h2>
 <p><strong>Diners</strong> ask what to order. "Best Thai delivery in Dubai Marina", "keto meal plan delivery Dubai", "which brands deliver until 3am in Deira", "gluten-free pizza delivery Jumeirah". The engines answer from food media, review sites, Google profiles, delivery platform pages and brand websites.</p>
-<p><strong>Operators and investors</strong> ask where to cook. "Cloud kitchen for rent in Dubai, monthly cost", "shared kitchen space Al Quoz with municipality licence", "which cloud kitchen operators host international brands in the UAE". The engines answer from operator websites, real estate listings, F&amp;B trade press and business setup guides.</p>
+<p><strong>Operators and investors</strong> ask where to cook. "Cloud kitchen for rent in Dubai, monthly cost", "shared kitchen space Al Quoz with municipality license", "which cloud kitchen operators host international brands in the UAE". The engines answer from operator websites, real estate listings, F&amp;B trade press and business setup guides.</p>
 <p>Most delivery brands have no presence outside the apps, and most kitchen operators have a brochure site. Both are easy to beat.</p>
 
 <h2>For delivery brands</h2>
@@ -1638,7 +1662,7 @@ ARTICLES = [
 <li><strong>A page per location</strong>: area, number and size of kitchens, equipment included, licensing and permit support, delivery platform integrations, parking and rider access.</li>
 <li><strong>Pricing</strong>: monthly fees or revenue share model, deposits, minimum terms. Operators without a published model are rarely named for cost questions.</li>
 <li><strong>Tenants</strong>: brands hosted, with permission, and categories.</li>
-<li><strong>Setup support</strong>: trade licence, municipality approval, food safety training, time to launch.</li>
+<li><strong>Setup support</strong>: trade license, municipality approval, food safety training, time to launch.</li>
 <li><strong>Investor and franchise pages</strong> for international brands entering the UAE through a cloud kitchen, answering market entry questions directly.</li>
 </ul>
 
@@ -1646,7 +1670,7 @@ ARTICLES = [
 <p>Dubai food media and listings sites, Google reviews, delivery platform brand pages, brand and operator websites, F&amp;B trade press, business setup guides, and Gulf Host and Gulfood exhibitor pages for operators and suppliers. A brand with a page, a Google profile and one media mention is ahead of most of the market.</p>
 
 <h2>Keywords to build pages around</h2>
-<p>Cloud kitchen Dubai, cloud kitchen for rent Dubai, shared kitchen space Dubai, virtual restaurant brand UAE, food delivery brand Dubai, meal prep delivery Dubai, healthy meal plan delivery UAE, late night food delivery Dubai, dark kitchen operator UAE, ghost kitchen Dubai licence, delivery-only restaurant Dubai Marina, keto meal delivery Dubai.</p>
+<p>Cloud kitchen Dubai, cloud kitchen for rent Dubai, shared kitchen space Dubai, virtual restaurant brand UAE, food delivery brand Dubai, meal prep delivery Dubai, healthy meal plan delivery UAE, late night food delivery Dubai, dark kitchen operator UAE, ghost kitchen Dubai license, delivery-only restaurant Dubai Marina, keto meal delivery Dubai.</p>
 """,
 "faq": [
 ("Do AI assistants recommend food delivery brands in Dubai?", "Yes, when the brand exists outside the delivery apps: a website stating cuisine, dishes, prices and delivery areas, a Google Business Profile with reviews, and consistent naming across platforms."),
@@ -1677,8 +1701,8 @@ ARTICLES = [
 
 <h2>What the engines look for</h2>
 <p><strong>Area and property type, stated.</strong> A page for each area you actually work, with the property types, typical prices and recent transactions. An agency that "covers all of Dubai" on one page is a candidate for nothing specific.</p>
-<p><strong>Regulatory facts.</strong> RERA brokerage registration number, office licence, and each agent's RERA broker number on their profile. Buyers ask engines whether an agency is legitimate, and the engine answers from whoever published the numbers.</p>
-<p><strong>Named agents with languages.</strong> Buyers ask by language more than any other filter. Each agent needs a profile: name, RERA number, areas, languages, years, specialisation, a direct number.</p>
+<p><strong>Regulatory facts.</strong> RERA brokerage registration number, office license, and each agent's RERA broker number on their profile. Buyers ask engines whether an agency is legitimate, and the engine answers from whoever published the numbers.</p>
+<p><strong>Named agents with languages.</strong> Buyers ask by language more than any other filter. Each agent needs a profile: name, RERA number, areas, languages, years, specialization, a direct number.</p>
 <p><strong>Transactions and proof.</strong> Recent sales and leases by area, with month and price band where the client permits. Engines cite agencies that show activity.</p>
 <p><strong>Reviews that mention the area and the service.</strong> Google and portal reviews are read as text. "Helped us buy off-plan in Creek Harbour from abroad" is worth more than a five-star rating alone.</p>
 <p><strong>Process pages for overseas buyers.</strong> How to buy from abroad, power of attorney, Golden Visa thresholds, fees and DLD charges, mortgage for non-residents. These are the questions engines get asked most, and the agency that answers them gets named alongside the answer.</p>
@@ -1691,7 +1715,7 @@ ARTICLES = [
 <li>Build one page per area you work, with property types, price bands and three recent transactions.</li>
 <li>Publish an agent profile for every agent, with RERA number and languages.</li>
 <li>Write the six overseas-buyer process pages above.</li>
-<li>Make the agency name, office address and licence number identical on the website, Google, Property Finder, Bayut and LinkedIn.</li>
+<li>Make the agency name, office address and license number identical on the website, Google, Property Finder, Bayut and LinkedIn.</li>
 <li>Ask every closed client for a Google review that mentions the area and what you did.</li>
 </ol>
 
@@ -1731,16 +1755,16 @@ ARTICLES = [
 <li><strong>One page per project</strong>, with unit types and sizes, starting prices by type, payment plan in full (percentages and milestones), handover date, DLD project number and escrow account bank, service charge estimate, and location with distances to landmarks.</li>
 <li><strong>Construction updates</strong> on the project page, dated, with the percentage complete. Engines are asked about progress and quote dated updates.</li>
 <li><strong>Delivery record</strong>: a page listing completed projects with promised and actual handover dates. This is the single most-asked trust question, and almost no developer publishes it.</li>
-<li><strong>Broker list</strong>: which agencies are authorised to sell the project, so the engine can route buyers to them rather than to unauthorised resellers.</li>
+<li><strong>Broker list</strong>: which agencies are authorized to sell the project, so the engine can route buyers to them rather than to unauthorised resellers.</li>
 <li><strong>Plain FAQ per project</strong>: fees, Golden Visa eligibility, resale rules before handover, mortgage availability, furnished or not.</li>
 </ul>
 
 <h2>For project-focused brokerages</h2>
 <ul>
-<li>A page per project you are authorised to sell, with the same facts as above and your own analysis: who the project suits, comparison with two alternatives, rental yield expectation with the assumptions stated.</li>
+<li>A page per project you are authorized to sell, with the same facts as above and your own analysis: who the project suits, comparison with two alternatives, rental yield expectation with the assumptions stated.</li>
 <li>A page per developer: track record, payment plan style, areas, and your experience with handovers.</li>
 <li>A "how off-plan works in Dubai" guide: Oqood registration, escrow, DLD fees, resale, payment on delay.</li>
-<li>Your authorisation letters or developer partnership status, stated.</li>
+<li>Your authorization letters or developer partnership status, stated.</li>
 </ul>
 
 <h2>Sources the engines cite</h2>
@@ -1752,7 +1776,7 @@ ARTICLES = [
 "faq": [
 ("What do investors ask AI assistants about off-plan property in Dubai?", "Projects by area, budget, payment plan and handover date, developer delivery records, DLD registration and escrow, and which agencies sell a project."),
 ("What should a developer publish on each project page?", "Unit types and prices, the full payment plan, handover date, DLD project number and escrow bank, service charge estimate, dated construction updates and a FAQ on fees, visas and resale."),
-("How can a brokerage get named for off-plan questions?", "A page per authorised project with facts and comparative analysis, a page per developer with track record, and a plain guide to how off-plan purchases work in Dubai."),
+("How can a brokerage get named for off-plan questions?", "A page per authorized project with facts and comparative analysis, a page per developer with track record, and a plain guide to how off-plan purchases work in Dubai."),
 ("Do construction updates affect AI answers?", "Yes. Engines are asked about project progress and quote dated updates from developer and broker pages."),
 ],
 },
@@ -1782,7 +1806,7 @@ ARTICLES = [
 <p><strong>A scope list.</strong> Tenant sourcing and screening, Ejari registration, DEWA and chiller transfers, cheque handling, rent collection, maintenance coordination, inspections, renewals, eviction and RDC process, owner statements and reporting. Each on its own line.</p>
 <p><strong>Areas and property types</strong>, with counts: "we manage 140 apartments in JLT and Marina and 35 villas in Arabian Ranches and Springs".</p>
 <p><strong>Overseas owner pages.</strong> How payments are made abroad, power of attorney, tax considerations in the owner's country, time zone and reporting cadence.</p>
-<p><strong>Regulatory details.</strong> RERA registration, trade licence number, and whether the firm holds a real estate brokerage licence as well, so it can legally find tenants.</p>
+<p><strong>Regulatory details.</strong> RERA registration, trade license number, and whether the firm holds a real estate brokerage license as well, so it can legally find tenants.</p>
 <p><strong>Reviews that mention the service.</strong> "They found a tenant in two weeks and send a statement every month" answers two questions at once.</p>
 
 <h2>Sources the engines cite</h2>
@@ -1805,13 +1829,13 @@ ARTICLES = [
 "category": "Real estate",
 "date": "2026-10-28",
 "read": 4,
-"description": "Travellers ask AI assistants where to stay in Dubai, and owners ask who should run their short-term rental. Here is how a holiday home operator gets named for both, and the DTCM facts that matter.",
-"answer": "Holiday home companies in Dubai get named by AI assistants for two kinds of question. Travellers ask 'serviced apartment in Dubai Marina for a family of five with a pool', and the AI answers from the company's own property pages, Google reviews, travel media and booking sites. Owners ask 'holiday home management company Dubai, what percentage, DTCM licence included', and the AI answers from company websites, owner forums and DTCM guidance. A company gets named when each property has its own page with facts and prices, and the owner page shows fees and DTCM handling.",
+"description": "Travelers ask AI assistants where to stay in Dubai, and owners ask who should run their short-term rental. Here is how a holiday home operator gets named for both, and the DTCM facts that matter.",
+"answer": "Holiday home companies in Dubai get named by AI assistants for two kinds of question. Travelers ask 'serviced apartment in Dubai Marina for a family of five with a pool', and the AI answers from the company's own property pages, Google reviews, travel media and booking sites. Owners ask 'holiday home management company Dubai, what percentage, DTCM license included', and the AI answers from company websites, owner forums and DTCM guidance. A company gets named when each property has its own page with facts and prices, and the owner page shows fees and DTCM handling.",
 "body": """
 <h2>Two audiences, one website</h2>
-<p>A holiday home company sells twice: to the traveller who books the apartment, and to the owner who hands over the keys. Both now ask AI assistants, and the questions are different enough that the website needs two clearly separate sections.</p>
+<p>A holiday home company sells twice: to the traveler who books the apartment, and to the owner who hands over the keys. Both now ask AI assistants, and the questions are different enough that the website needs two clearly separate sections.</p>
 
-<h2>What travellers ask</h2>
+<h2>What travelers ask</h2>
 <ul>
 <li>"Serviced apartment in Dubai Marina for 5 people with a pool, walking distance to JBR beach"</li>
 <li>"Holiday home in Palm Jumeirah with private beach access, December"</li>
@@ -1823,23 +1847,23 @@ ARTICLES = [
 <h2>What owners ask</h2>
 <ul>
 <li>"Holiday home management company Dubai, fee percentage, what is included"</li>
-<li>"How to get a DTCM holiday home licence for my apartment, can the operator do it"</li>
+<li>"How to get a DTCM holiday home license for my apartment, can the operator do it"</li>
 <li>"Short-term vs long-term rental income Dubai Marina, which is better"</li>
 <li>"Holiday home operator in Dubai that handles furnishing and photography"</li>
 </ul>
-<p>The owner page should publish the fee model (percentage of revenue, with inclusions), the DTCM permit process and who handles it, furnishing and setup packages, cleaning and linen handling, guest vetting, dynamic pricing method, owner portal and payout schedule, occupancy and revenue examples by area and property type with the assumptions stated, and the operator's own DTCM operator licence number.</p>
+<p>The owner page should publish the fee model (percentage of revenue, with inclusions), the DTCM permit process and who handles it, furnishing and setup packages, cleaning and linen handling, guest vetting, dynamic pricing method, owner portal and payout schedule, occupancy and revenue examples by area and property type with the assumptions stated, and the operator's own DTCM operator license number.</p>
 
 <h2>Sources the engines cite</h2>
 <p>Operator websites, Google reviews, Airbnb and Booking listings (read, but less reliably), travel and lifestyle media, DTCM guidance pages, owner and investor forums, and Dubai tourism news. An operator with property pages on its own domain, a published owner page, and consistent naming across platforms is cited for both audiences.</p>
 
 <h2>Keywords to build pages around</h2>
-<p>Holiday homes Dubai, serviced apartments Dubai Marina, short term rental Dubai, holiday home management company Dubai, DTCM holiday home licence, Airbnb management Dubai, vacation rental Palm Jumeirah, short stay apartment Downtown Dubai, monthly rental Dubai furnished, holiday home operator Dubai fees, short-term rental income Dubai, licensed holiday home Dubai.</p>
+<p>Holiday homes Dubai, serviced apartments Dubai Marina, short term rental Dubai, holiday home management company Dubai, DTCM holiday home license, Airbnb management Dubai, vacation rental Palm Jumeirah, short stay apartment Downtown Dubai, monthly rental Dubai furnished, holiday home operator Dubai fees, short-term rental income Dubai, licensed holiday home Dubai.</p>
 """,
 "faq": [
-("What do travellers ask AI assistants when booking a holiday home in Dubai?", "Area, group size, amenities, distances and dates: 'serviced apartment Dubai Marina for 5 with pool near JBR', 'Palm Jumeirah holiday home with beach access in December'."),
+("What do travelers ask AI assistants when booking a holiday home in Dubai?", "Area, group size, amenities, distances and dates: 'serviced apartment Dubai Marina for 5 with pool near JBR', 'Palm Jumeirah holiday home with beach access in December'."),
 ("What should a holiday home operator publish for owners?", "The fee model with inclusions, DTCM permit handling, furnishing packages, cleaning and guest vetting, pricing method, payout schedule, and occupancy and revenue examples with assumptions stated."),
 ("Are platform listings enough for AI visibility?", "No. Engines read operator websites more reliably than platform listings and cite them directly, so each property needs its own page with facts, rates and the DTCM permit number."),
-("Do DTCM licence details matter in AI answers?", "Yes. Travellers ask for licensed properties and owners ask who handles the permit, so both the property permit numbers and the operator licence should be published."),
+("Do DTCM license details matter in AI answers?", "Yes. Travelers ask for licensed properties and owners ask who handles the permit, so both the property permit numbers and the operator license should be published."),
 ],
 },
 {
@@ -1892,7 +1916,7 @@ ARTICLES = [
 <h2>The sourcing manager's new first step</h2>
 <p>A category buyer at a European retailer or a founder of a Dubai fashion brand used to start a sourcing search on a trade platform or at a fair. Many now open an AI assistant first, because it can combine capability, compliance and logistics in one answer and shortlist three to five factories in a minute. The questions are detailed, and the factories named are the ones whose published facts match the detail.</p>
 <ul>
-<li>"Woven shirts manufacturer in India for a European brand, MOQ 300 per colour, BSCI audited"</li>
+<li>"Woven shirts manufacturer in India for a European brand, MOQ 300 per color, BSCI audited"</li>
 <li>"Garment sourcing and product development company with an office in Dubai, serving GCC retailers"</li>
 <li>"Private label modest wear manufacturer, Dubai or India, small runs, fast lead time"</li>
 <li>"Home textiles supplier India with OEKO-TEX, ships to the US"</li>
@@ -1903,14 +1927,14 @@ ARTICLES = [
 <ul>
 <li><strong>Capabilities as pages</strong>: product development, sampling, vendor selection, quality assurance, packing and shipping, each with what it includes and typical timelines.</li>
 <li><strong>Categories and capacity</strong>: knits, wovens, denim, activewear, modest wear, uniforms, home textiles; machines, lines, monthly capacity by category.</li>
-<li><strong>Commercials buyers filter on</strong>: MOQ per style and per colour, sample lead time, bulk lead time, Incoterms, payment terms.</li>
+<li><strong>Commercials buyers filter on</strong>: MOQ per style and per color, sample lead time, bulk lead time, Incoterms, payment terms.</li>
 <li><strong>Compliance by name</strong>: BSCI, WRAP, Sedex and SMETA, GOTS, OEKO-TEX, ISO 9001, with audit years, and any brand-specific approvals you can state.</li>
 <li><strong>Markets and offices</strong>: a page per market served (UAE and GCC, UK, EU, US) with local contacts, shipping routes and the regulations you handle for that market.</li>
 <li><strong>Proof</strong>: product categories delivered for named or anonymised clients, with volumes.</li>
 </ul>
 
 <h2>A real example</h2>
-<p>Konception Designs, an apparel sourcing and product development company with factories in India and offices in Gurugram, Mumbai, Dubai, London and Los Angeles, rebuilt its site around capabilities and markets with exactly this structure: capability pages, country pages for the UAE, UK and US, content answering sourcing managers' questions on minimums, lead times and compliance, and listings on international sourcing directories with one consistent description. Inbound sourcing enquiries rose 120% and the site now ranks for manufacturing-partner searches in three countries. <a href="/case-studies/konception-designs">The case study is here.</a> The same pages are what AI engines quote when a buyer asks the questions above.</p>
+<p>Konception Designs, an apparel sourcing and product development company with factories in India and offices in Gurugram, Mumbai, Dubai, London and Los Angeles, rebuilt its site around capabilities and markets with exactly this structure: capability pages, country pages for the UAE, UK and US, content answering sourcing managers' questions on minimums, lead times and compliance, and listings on international sourcing directories with one consistent description. Inbound sourcing inquiries rose 120% and the site now ranks for manufacturing-partner searches in three countries. <a href="/case-studies/konception-designs">The case study is here.</a> The same pages are what AI engines quote when a buyer asks the questions above.</p>
 
 <h2>Sources the engines cite</h2>
 <p>Manufacturer websites, B2B sourcing platforms, exhibitor lists from the International Apparel and Textile Fair in Dubai and the major fairs in India and Europe, certification body registers (which buyers ask engines to check), trade press, and brand supplier disclosures. Complete exhibitor profiles and a listing on the certification registers matter more in this sector than in most.</p>
@@ -1919,21 +1943,21 @@ ARTICLES = [
 <p>Apparel manufacturer India, garment manufacturer for European brands, clothing sourcing agent Dubai, private label apparel manufacturer UAE, modest wear manufacturer, activewear manufacturer low MOQ, BSCI certified garment factory India, GOTS certified knitwear manufacturer, apparel product development company, garment sourcing company GCC, uniform manufacturer Dubai, home textiles supplier India.</p>
 """,
 "faq": [
-("What do sourcing managers ask AI assistants when looking for apparel manufacturers?", "Product category, country, MOQ per style and colour, certifications, lead time and the buyer's market: 'knitwear manufacturer India for a UK brand, MOQ 500, GOTS certified'."),
+("What do sourcing managers ask AI assistants when looking for apparel manufacturers?", "Product category, country, MOQ per style and color, certifications, lead time and the buyer's market: 'knitwear manufacturer India for a UK brand, MOQ 500, GOTS certified'."),
 ("Which certifications should an apparel manufacturer publish?", "BSCI, WRAP, Sedex and SMETA, GOTS, OEKO-TEX, ISO 9001 and any brand-specific approvals, each with the audit year, because buyers ask engines to confirm them."),
 ("Does a Dubai office help an apparel manufacturer in AI search?", "Yes, for GCC buyers. A market page for the UAE with a local contact and the regulations handled is what engines match to 'sourcing partner with an office in Dubai' questions."),
-("What result did Konception Designs see from this approach?", "Inbound sourcing enquiries rose 120% and the site now ranks for manufacturing-partner searches in three countries, after rebuilding around capabilities, markets and buyer questions."),
+("What result did Konception Designs see from this approach?", "Inbound sourcing inquiries rose 120% and the site now ranks for manufacturing-partner searches in three countries, after rebuilding around capabilities, markets and buyer questions."),
 ],
 },
 {
 "slug": "aeo-for-textile-exporters-and-fabric-suppliers",
-"title": "AEO for textile exporters and fabric suppliers: what buyers ask AI about MOQs, certifications and lead times",
+"title": "AEO for textile exporters and fabric suppliers in the UAE: what buyers ask AI about MOQs, certifications and lead times",
 "category": "Apparel and textiles",
 "date": "2026-10-29",
 "read": 4,
 "author": "madhura",
-"description": "Fabric buyers, garment factories and interior brands ask AI assistants for textile mills and fabric suppliers by fibre, construction, certification and minimums. Here is what they type and what an exporter in India, Turkey or the UAE should publish to be named.",
-"answer": "Fabric buyers ask AI assistants for suppliers by fibre and type (organic cotton jersey, recycled polyester, linen blends), by minimum order, by certificate (GOTS, OEKO-TEX, GRS), by finishing and by shipping market. The AI answers from mill and exporter websites, B2B platforms, exhibitor lists and certificate registers. An exporter gets named when each fabric family has its own page with weight, width, colours, minimum order, lead time and certificates, and when the company's details are the same on its website, its Dubai free zone listing and directories.",
+"description": "Fabric buyers, garment factories and interior brands ask AI assistants for textile mills and fabric suppliers by fiber, construction, certification and minimums. Here is what they type and what an exporter in India, Turkey or the UAE should publish to be named.",
+"answer": "Fabric buyers ask AI assistants for suppliers by fiber and type (organic cotton jersey, recycled polyester, linen blends), by minimum order, by certificate (GOTS, OEKO-TEX, GRS), by finishing and by shipping market. The AI answers from mill and exporter websites, B2B platforms, exhibitor lists and certificate registers. An exporter gets named when each fabric family has its own page with weight, width, colors, minimum order, lead time and certificates, and when the company's details are the same on its website, its Dubai free zone listing and directories.",
 "body": """
 <h2>Who asks, and how</h2>
 <p>Three buyer types drive textile questions to AI assistants: garment manufacturers sourcing fabric for a production run, fashion and interior brands developing a range, and traders in Dubai re-exporting to Africa and the GCC. All three ask with specifications.</p>
@@ -1947,15 +1971,15 @@ ARTICLES = [
 
 <h2>What makes a supplier quotable</h2>
 <ul>
-<li><strong>A page per fabric family</strong>: fibre content, construction, weight, width, available colours and finishes, dyeing and printing options, MOQ, lead time for stock and for production, and how to request swatches.</li>
+<li><strong>A page per fabric family</strong>: fiber content, construction, weight, width, available colors and finishes, dyeing and printing options, MOQ, lead time for stock and for production, and how to request swatches.</li>
 <li><strong>Certifications on a page of their own</strong>, with certificate numbers and validity: GOTS, OEKO-TEX Standard 100, GRS, BCI, ISO 9001 and any fire or performance standards for contract textiles.</li>
 <li><strong>Capabilities</strong>: spinning, weaving, knitting, dyeing, printing, finishing, and what is in-house versus outsourced. Buyers ask engines about vertical integration.</li>
 <li><strong>Markets and logistics</strong>: countries served, ports, Incoterms, typical transit times, and whether you hold stock in the UAE for GCC and Africa buyers.</li>
-<li><strong>Commercial terms</strong>: pricing basis (per metre or per kilogram), sampling charges, payment terms.</li>
+<li><strong>Commercial terms</strong>: pricing basis (per meter or per kilogram), sampling charges, payment terms.</li>
 </ul>
 
 <h2>The Dubai trader's angle</h2>
-<p>Dubai is a re-export hub for textiles into Africa and the Gulf, and traders based in free zones are asked for by name and by stock. A trader's site should state the stock categories held in Dubai, typical quantities available, delivery to GCC markets, and the free zone licence details, because buyers ask engines whether a trader is established and what they actually hold.</p>
+<p>Dubai is a re-export hub for textiles into Africa and the Gulf, and traders based in free zones are asked for by name and by stock. A trader's site should state the stock categories held in Dubai, typical quantities available, delivery to GCC markets, and the free zone license details, because buyers ask engines whether a trader is established and what they actually hold.</p>
 
 <h2>Sources the engines cite</h2>
 <p>Supplier websites, B2B platforms, exhibitor profiles from textile fairs in Dubai, India, Turkey and Europe, certification registers, textile trade press and sourcing community discussions. The certification registers are checked directly by engines when a buyer asks for proof, so being correctly listed there is as important as the website.</p>
@@ -1964,10 +1988,10 @@ ARTICLES = [
 <p>Fabric supplier Dubai, textile exporter India, organic cotton fabric supplier GOTS, recycled polyester fabric GRS, linen fabric supplier UAE, upholstery fabric exporter, textile trading company Dubai, fabric wholesaler Dubai Textile City, knitted fabric manufacturer India, shirting fabric supplier, technical textiles supplier GCC, OEKO-TEX certified fabric supplier.</p>
 """,
 "faq": [
-("What do fabric buyers ask AI assistants?", "Fibre and construction, weight, MOQ in metres or kilograms, certifications such as GOTS, OEKO-TEX and GRS, finishing options, lead time and shipping market."),
+("What do fabric buyers ask AI assistants?", "Fiber and construction, weight, MOQ in meters or kilograms, certifications such as GOTS, OEKO-TEX and GRS, finishing options, lead time and shipping market."),
 ("How should a textile exporter structure its website for AI search?", "A page per fabric family with specifications, MOQ, lead time and certifications, a certifications page with numbers, capability and market pages, and clear commercial terms."),
 ("Do certification registers matter for textile suppliers?", "Yes. Engines check GOTS, OEKO-TEX and GRS registers directly when buyers ask for proof, so correct listings there matter as much as the website."),
-("How do Dubai textile traders get named by AI engines?", "By publishing the stock categories held in Dubai, quantities, GCC and Africa delivery, and free zone licence details, so engines can answer questions about stock and legitimacy."),
+("How do Dubai textile traders get named by AI engines?", "By publishing the stock categories held in Dubai, quantities, GCC and Africa delivery, and free zone license details, so engines can answer questions about stock and legitimacy."),
 ],
 },
 {
@@ -1978,7 +2002,7 @@ ARTICLES = [
 "read": 4,
 "author": "madhura",
 "description": "Shoppers ask AI assistants where to buy modest wear, occasion wear and local designer pieces in Dubai; businesses ask who supplies uniforms for hotels, clinics and schools. Here is how a fashion brand or uniform company gets named for both.",
-"answer": "Fashion brands in Dubai get recommended by AI assistants when their websites say what they sell, for whom, at what price, where to buy, and what makes them different, with product pages written in words and reviews that mention the product. Uniform suppliers get named when they publish the sectors they serve (hotels, clinics, schools, security, offices), embroidery and customisation, minimum orders, lead times and named clients. Shoppers ask 'modest evening wear brand Dubai under AED 800'; businesses ask 'uniform supplier Dubai for a 300-room hotel'.",
+"answer": "Fashion brands in Dubai get recommended by AI assistants when their websites say what they sell, for whom, at what price, where to buy, and what makes them different, with product pages written in words and reviews that mention the product. Uniform suppliers get named when they publish the sectors they serve (hotels, clinics, schools, security, offices), embroidery and customization, minimum orders, lead times and named clients. Shoppers ask 'modest evening wear brand Dubai under AED 800'; businesses ask 'uniform supplier Dubai for a 300-room hotel'.",
 "body": """
 <h2>Two very different questions</h2>
 <p><strong>Shoppers</strong> ask AI assistants for brands the way they once asked a well-dressed friend: "Dubai-based modest wear brand for a wedding, under AED 1,000", "local designer abayas Dubai Mall", "sustainable linen brand UAE", "where to buy kids' occasion wear Dubai". The engines answer from brand websites, fashion media, Google reviews and marketplace listings.</p>
@@ -1998,7 +2022,7 @@ ARTICLES = [
 <li><strong>A page per sector</strong>: hospitality, healthcare, education, aviation, security, corporate, industrial. Each with garment types, fabrics, compliance (for example antimicrobial or flame-resistant where relevant), and examples.</li>
 <li><strong>Commercials</strong>: MOQ, lead times for stock and custom, embroidery and printing options, sizing and fitting service, re-order programs.</li>
 <li><strong>Proof</strong>: named hotels, clinic groups, schools or airlines supplied, with permission, and volumes.</li>
-<li><strong>Procurement readiness</strong>: trade licence details, vendor registration with major groups and government portals, ISO certification if held.</li>
+<li><strong>Procurement readiness</strong>: trade license details, vendor registration with major groups and government portals, ISO certification if held.</li>
 </ul>
 
 <h2>Sources the engines cite</h2>
@@ -2009,14 +2033,14 @@ ARTICLES = [
 """,
 "faq": [
 ("What do shoppers in Dubai ask AI assistants about fashion brands?", "Occasion, style, price range and location: 'modest evening wear brand Dubai under AED 1,000', 'local designer abayas Dubai Mall', 'sustainable linen brand UAE'."),
-("What should a uniform supplier publish to be recommended?", "A page per sector with garment types, fabrics and compliance, MOQs and lead times, customisation options, named clients with permission, and procurement details such as licence and vendor registrations."),
+("What should a uniform supplier publish to be recommended?", "A page per sector with garment types, fabrics and compliance, MOQs and lead times, customization options, named clients with permission, and procurement details such as license and vendor registrations."),
 ("Why are image-only fashion websites invisible to AI engines?", "Engines read text. Product pages need fabric, fit, sizes, price and a sentence on who the piece is for, or there is nothing to quote."),
 ("Which sources do engines use for Dubai fashion and uniform recommendations?", "Brand and supplier websites, Google Business Profiles, UAE fashion and business media, marketplace listings, B2B directories and apparel fair exhibitor profiles."),
 ],
 },
 {
 "slug": "why-food-safety-certifications-belong-on-your-website",
-"title": "Why your HACCP, ISO 22000 and municipality approvals belong on your website: food safety as an AI search signal",
+"title": "Why your HACCP, ISO 22000 and Dubai Municipality approvals belong on your website: food safety as an AI search signal",
 "category": "Food and hospitality",
 "date": "2026-10-29",
 "read": 4,
@@ -2032,7 +2056,7 @@ ARTICLES = [
 <li><strong>A certifications page in HTML</strong>, one entry per certificate: standard name, certifying body, certificate number, scope (which site, which products), issue and expiry dates, and a link to the register or a downloadable copy.</li>
 <li><strong>Repeat the relevant certificates on each product page</strong> in a sentence: "Produced in our Dubai Industrial City facility, certified to FSSC 22000 and halal by [body]."</li>
 <li><strong>Municipality and authority registrations</strong>: Dubai Municipality food establishment registration, ADAFSA approval in Abu Dhabi, Sharjah Municipality, each with the number. Buyers ask engines whether a supplier is "approved", and this is what they mean.</li>
-<li><strong>Halal, specifically</strong>: the certifying body, the scope, and whether it is recognised in the export markets you serve. Saudi and other GCC buyers ask engines for recognised halal certification by name.</li>
+<li><strong>Halal, specifically</strong>: the certifying body, the scope, and whether it is recognized in the export markets you serve. Saudi and other GCC buyers ask engines for recognized halal certification by name.</li>
 <li><strong>Food safety people</strong>: PIC-certified staff count, a named food safety lead, and audit frequency. This answers the "how do I know they take it seriously" question.</li>
 <li><strong>Keep it current</strong>. An expired date on the page is worse than none, because engines and buyers both read it.</li>
 </ol>
@@ -2043,14 +2067,14 @@ ARTICLES = [
 <h2>Food safety events and what to do before them</h2>
 <p>Before the Dubai International Food Safety Conference and the Gulfood shows, publish the certifications page and make sure your exhibitor profile lists the same certificates with the same names. A buyer who meets you on the stand and asks an AI assistant that evening should find the same facts in both places.</p>
 
-<h2>Keywords to build the page around</h2>
+<h2>Keywords to build pages around</h2>
 <p>HACCP certified food supplier Dubai, ISO 22000 certified food manufacturer UAE, FSSC 22000 UAE, BRCGS certified supplier Dubai, halal certified food manufacturer UAE, Dubai Municipality approved supplier, ADAFSA approved food supplier, municipality approved catering company Dubai, food safety certified supplier GCC, organic certified food producer UAE.</p>
 """,
 "faq": [
-("Which food certifications do UAE buyers ask AI assistants about?", "HACCP, ISO 22000, FSSC 22000, BRCGS, halal with a recognised body, organic, and municipality or ADAFSA approval, usually as the first filter in the question."),
+("Which food certifications do UAE buyers ask AI assistants about?", "HACCP, ISO 22000, FSSC 22000, BRCGS, halal with a recognized body, organic, and municipality or ADAFSA approval, usually as the first filter in the question."),
 ("Why do certificates in a PDF not help with AI search?", "Engines read HTML pages far more reliably than PDFs, and a logo without text carries no information. Each certificate needs its name, body, scope and dates on a readable page."),
 ("What should a certifications page include?", "Standard, certifying body, certificate number, scope, issue and expiry dates, and a link to the body's register or a copy, with the key certificates repeated on product pages."),
-("Does halal certification need the certifying body named?", "Yes. GCC buyers ask for recognised halal certification by body name, and export markets differ in which bodies they accept."),
+("Does halal certification need the certifying body named?", "Yes. GCC buyers ask for recognized halal certification by body name, and export markets differ in which bodies they accept."),
 ],
 },
 {
@@ -2084,7 +2108,7 @@ ARTICLES = [
 </ul>
 
 <h2>What keeps a supplier off it</h2>
-<p>A homepage that says "serving all industries" with no hotel page. No volumes or references. Different company names on the website, the exhibitor list and the municipality register. A catalogue PDF and nothing else. These are the four most common reasons a capable supplier is never named, and all four are fixable in a week.</p>
+<p>A homepage that says "serving all industries" with no hotel page. No volumes or references. Different company names on the website, the exhibitor list and the municipality register. A catalog PDF and nothing else. These are the four most common reasons a capable supplier is never named, and all four are fixable in a week.</p>
 
 <h2>Sources the engines cite</h2>
 <p>Supplier websites, Gulf Host and Gulfood exhibitor profiles, hotel group vendor and sustainability pages that name suppliers, hospitality trade press, brand distributor pages, and reviews. Hotel group sustainability reports often name local suppliers, and the engines quote them; it is worth asking a client hotel whether you can be named.</p>
@@ -2095,13 +2119,13 @@ ARTICLES = [
 "faq": [
 ("Do hotel procurement teams in Dubai really use AI assistants to find suppliers?", "Increasingly, for the first step of building a shortlist, because it filters on the hotel's constraints faster than directories. New openings and independent hotels rely on it most."),
 ("What should a supplier publish to be shortlisted by hotels?", "Named hotel references with scale, volumes and lead times, delivery and service terms, compliance and vendor registrations, and a hospitality page with a named key account contact."),
-("What keeps capable suppliers off AI shortlists?", "No hotel-specific page, no volumes or references, inconsistent company details across sources, and a catalogue PDF instead of readable pages."),
+("What keeps capable suppliers off AI shortlists?", "No hotel-specific page, no volumes or references, inconsistent company details across sources, and a catalog PDF instead of readable pages."),
 ("Which sources do engines cite for hotel supplier questions in Dubai?", "Supplier websites, Gulf Host and Gulfood exhibitor profiles, hotel group vendor and sustainability pages, hospitality trade press and reviews."),
 ],
 },
 {
 "slug": "exhibiting-at-gulfood-or-gulf-host-turn-stand-visitors-into-ai-visible-leads",
-"title": "Exhibiting at Gulfood Manufacturing or Gulf Host? How to turn a stand visitor into an AI-visible brand in 14 days",
+"title": "Exhibiting at Gulfood Manufacturing or Gulf Host in Dubai? How to turn a stand visitor into an AI-visible brand in 14 days",
 "category": "Food and hospitality",
 "date": "2026-10-29",
 "read": 4,
@@ -2109,11 +2133,11 @@ ARTICLES = [
 "answer": "Buyers who meet you at Gulfood Manufacturing, Gulf Host, ISM or Private Label Middle East often check you in ChatGPT or Perplexity the same evening. The AI answers from your exhibitor profile, your website, your Google profile, directories and press. A 14-day plan covers it. The week before: complete the exhibitor profile, publish product pages and a certificates page, and make your company details the same everywhere. The week after: publish a show recap, add any press, ask clients for reviews, and submit the new pages to Bing and Google. Then the buyer's evening search confirms what your stand said.",
 "body": """
 <h2>What happens the evening after the show</h2>
-<p>A category buyer walks the halls, collects thirty cards, and that evening types a name into an AI assistant: "[your company] UAE, products and certifications". If the engine finds a website with product categories, certifications with dates, capacity and a buyer contact, the conversation continues. If it finds a homepage with a slideshow and "download our catalogue", or a company with a slightly different name on the exhibitor list, the card goes in the pile. Trade show follow-up is now decided by what the engines can find, and most of that is decided before the show opens.</p>
+<p>A category buyer walks the halls, collects thirty cards, and that evening types a name into an AI assistant: "[your company] UAE, products and certifications". If the engine finds a website with product categories, certifications with dates, capacity and a buyer contact, the conversation continues. If it finds a homepage with a slideshow and "download our catalog", or a company with a slightly different name on the exhibitor list, the card goes in the pile. Trade show follow-up is now decided by what the engines can find, and most of that is decided before the show opens.</p>
 
 <h2>The week before</h2>
 <ol>
-<li><strong>Exhibitor profile, complete.</strong> Same company name as the website and the trade licence. Products by category, certifications by name, capacity, markets served, a named contact. Exhibitor lists are read by the engines for years.</li>
+<li><strong>Exhibitor profile, complete.</strong> Same company name as the website and the trade license. Products by category, certifications by name, capacity, markets served, a named contact. Exhibitor lists are read by the engines for years.</li>
 <li><strong>Product category pages</strong> on your site, one per category you are showing, in HTML, with formats, pack sizes, shelf life and certifications in the text.</li>
 <li><strong>A certifications page</strong> with standard, body, scope and dates (see our guide on food safety credentials).</li>
 <li><strong>A "new at the show" page</strong>: the products you are launching, with specifications, so the engine has something to quote when a buyer asks about them.</li>
@@ -2135,6 +2159,8 @@ ARTICLES = [
 
 <h2>What this is not</h2>
 <p>It is not a reason to delay the show plan. Everything above is a few hours of work spread over two weeks, and most of it is information the company already has. The difference is that it is written down where the engines read it, and that the stand conversation and the evening search say the same thing.</p>
+
+<h2>Keywords to build pages around</h2><p>Gulfood Manufacturing exhibitor UAE, Gulf Host exhibitor Dubai, ISM Middle East exhibitor Dubai, Private Label Middle East exhibitor UAE, food manufacturer UAE products and certifications, halal certified food manufacturer UAE, HACCP certified food supplier Dubai, food manufacturer Dubai production capacity, food exporter UAE markets served, hospitality equipment supplier Dubai Gulf Host, new food products launched at Gulfood Dubai, food and beverage supplier UAE for retailers.</p>
 """,
 "faq": [
 ("Do trade show buyers check suppliers in ChatGPT after meeting them?", "Routinely, the same day. The engines answer from the exhibitor profile, the supplier's website, Google profile, directories and press, so those need to agree with what the stand said."),
@@ -2145,12 +2171,12 @@ ARTICLES = [
 },
 {
 "slug": "how-parents-in-the-uae-use-chatgpt-to-choose-schools-nurseries-and-tutors",
-"title": "How do parents in the UAE use ChatGPT to choose schools, nurseries and tutoring centres?",
+"title": "How do parents in the UAE use ChatGPT to choose schools, nurseries and tutoring centers?",
 "category": "Education",
 "date": "2026-10-29",
 "read": 4,
-"description": "Parents in Dubai and Abu Dhabi ask AI assistants for schools by curriculum, fees, rating and area, and for tutors by subject and exam board. Here is what they type, the sources the engines trust, and what a school, nursery or tutoring centre should publish.",
-"answer": "Parents ask AI assistants for schools, nurseries and tutors with details that used to take a week of research: 'British curriculum school in Dubai Hills with fees under AED 60,000 and a Good KHDA rating', 'nursery near JLT with 7am drop-off', 'IGCSE maths tutor in Abu Dhabi, online'. The AI answers from school websites, KHDA and ADEK inspection data, parent review sites, education media and tutoring directories. A provider gets named when its website states curriculum, fees by year, rating, year groups, location, transport, admissions dates and, for tutors, subjects, exam boards and results, matching the regulator's record.",
+"description": "Parents in Dubai and Abu Dhabi ask AI assistants for schools by curriculum, fees, rating and area, and for tutors by subject and exam board. Here is what they type, the sources the engines trust, and what a school, nursery or tutoring center should publish.",
+"answer": "Parents ask AI assistants for schools, nurseries and tutors with details that used to take a week of research: 'British curriculum school in Dubai Hills with fees under AED 60,000 and a Good KHDA rating', 'nursery near JLT with 7am drop-off', 'IGCSE math tutor in Abu Dhabi, online'. The AI answers from school websites, KHDA and ADEK inspection data, parent review sites, education media and tutoring directories. A provider gets named when its website states curriculum, fees by year, rating, year groups, location, transport, admissions dates and, for tutors, subjects, exam boards and results, matching the regulator's record.",
 "body": """
 <h2>The questions parents type</h2>
 <p>Education decisions in the UAE are filtered by curriculum, regulator rating, fees and commute. Parents now put all four into one question to an AI assistant, and the answer shortlists three to five providers.</p>
@@ -2159,7 +2185,7 @@ ARTICLES = [
 <li>"IB school in Abu Dhabi with Arabic as a second language and bus from Khalifa City"</li>
 <li>"Nursery in Dubai Marina, EYFS, accepts 6 months, opens at 7am"</li>
 <li>"IGCSE and A-level physics tutor Dubai, Cambridge board, small group"</li>
-<li>"SAT prep centre Dubai with published score improvements"</li>
+<li>"SAT prep center Dubai with published score improvements"</li>
 <li>"Indian curriculum school Sharjah CBSE fees and admission dates"</li>
 </ul>
 
@@ -2167,7 +2193,7 @@ ARTICLES = [
 <p><strong>Regulator data.</strong> KHDA in Dubai and ADEK in Abu Dhabi publish inspection ratings and fees, and the engines read them. A school's website must agree with that record: the same rating, the same fee schedule, the same curriculum wording.</p>
 <p><strong>School and nursery websites</strong>, specifically: a fees page by year group, a curriculum page, an admissions page with dates and process, a transport page with routes, a page per campus with the area named, and staff pages for leadership.</p>
 <p><strong>Parent review platforms and education media</strong>, which the engines cite for "what parents say" questions.</p>
-<p><strong>For tutoring</strong>: tutor profiles with qualifications, subjects, exam boards, modes (in person, online, group), prices, and results with the method stated. Tutoring directories and reviews are cited heavily because few centres publish well.</p>
+<p><strong>For tutoring</strong>: tutor profiles with qualifications, subjects, exam boards, modes (in person, online, group), prices, and results with the method stated. Tutoring directories and reviews are cited heavily because few centers publish well.</p>
 
 <h2>What a provider should publish</h2>
 <ol>
@@ -2176,7 +2202,7 @@ ARTICLES = [
 <li>Inspection rating and year, matching the regulator's page, with a link.</li>
 <li>Admissions: open year groups, waiting lists, assessment process, key dates.</li>
 <li>Location and transport: area, nearest communities, bus routes, drop-off hours.</li>
-<li>For nurseries: age range, hours, ratios, curriculum framework, meals, and the regulator's licence.</li>
+<li>For nurseries: age range, hours, ratios, curriculum framework, meals, and the regulator's license.</li>
 <li>For tutors: profiles per tutor, subjects and boards, prices, timetable, results with method.</li>
 <li>FAQ on each of these, with schema.</li>
 </ol>
@@ -2190,7 +2216,7 @@ ARTICLES = [
 "faq": [
 ("What do UAE parents ask AI assistants when choosing a school?", "Curriculum, regulator rating, fees by year, area and transport in one question: 'British curriculum school in Dubai Hills, Very Good KHDA rating, fees under AED 70,000 for Year 4'."),
 ("Which sources do engines use for UAE school recommendations?", "KHDA and ADEK inspection data, school websites, parent review platforms and education media, with the school site expected to match the regulator's record."),
-("What should a tutoring centre publish for AI search?", "Tutor profiles with qualifications, subjects and exam boards, modes and prices, timetable, and results with the method stated, plus reviews that mention the subject."),
+("What should a tutoring center publish for AI search?", "Tutor profiles with qualifications, subjects and exam boards, modes and prices, timetable, and results with the method stated, plus reviews that mention the subject."),
 ("Does a school's website need to match KHDA data?", "Yes. Engines read the regulator's rating and fees, and a mismatch on the school site reduces the chance of being named."),
 ],
 },
@@ -2221,8 +2247,8 @@ ARTICLES = [
 <li><strong>A page per product or service, written for schools</strong>: what it does, which year groups or school types, which curricula it fits, and what problem it solves for the head of department.</li>
 <li><strong>UAE compliance</strong>: KHDA or ADEK requirements met, data protection and student data residency, municipality approvals for food and facilities, safety certifications for furniture and lab equipment.</li>
 <li><strong>Named schools supplied</strong>, with permission, by curriculum and emirate. "Used by 22 schools in the UAE including four British curriculum schools in Dubai" is quotable.</li>
-<li><strong>Commercials schools understand</strong>: per-student or per-school pricing, annual licence, implementation timeline, training included, support hours in UAE time.</li>
-<li><strong>Procurement readiness</strong>: vendor registration with school groups and government portals, trade licence, insurance, tender experience.</li>
+<li><strong>Commercials schools understand</strong>: per-student or per-school pricing, annual license, implementation timeline, training included, support hours in UAE time.</li>
+<li><strong>Procurement readiness</strong>: vendor registration with school groups and government portals, trade license, insurance, tender experience.</li>
 <li><strong>Academic year timing</strong>: delivery and implementation windows aligned to the UAE school calendar, with lead times stated.</li>
 </ul>
 
@@ -2266,7 +2292,7 @@ ARTICLES = [
 <ol>
 <li><strong>Installed prices for typical scenarios</strong>: villa 7 kW single phase, villa 22 kW three phase, apartment building shared charger, small business, fleet depot. A range with what moves it (cable run, distribution board upgrade, trenching).</li>
 <li><strong>The approval process</strong>, authority by authority: what the utility requires, what the building owner or owners' association requires, who files it, how long it takes. This is the most-asked question and almost nobody answers it in public.</li>
-<li><strong>Chargers and brands</strong>: models carried, authorised installer status with the brand, smart features (load management, app, RFID), warranties.</li>
+<li><strong>Chargers and brands</strong>: models carried, authorized installer status with the brand, smart features (load management, app, RFID), warranties.</li>
 <li><strong>Timelines</strong>: survey to installation, including the approval wait.</li>
 <li><strong>Service areas</strong>: emirates and communities covered, with a page per emirate because approvals differ.</li>
 <li><strong>Completed installations</strong>: location type, charger, scope, photos, and the number installed to date.</li>
@@ -2275,7 +2301,7 @@ ARTICLES = [
 </ol>
 
 <h2>Sources the engines cite</h2>
-<p>Installer websites, utility and government EV pages, manufacturer "find an installer" lists, EV owner groups and forums, automotive media and dealer pages that recommend installers. Two moves matter most: get listed on every charger brand's installer page you are authorised for, with your details matching your site, and publish the approval guides so EV communities link to them.</p>
+<p>Installer websites, utility and government EV pages, manufacturer "find an installer" lists, EV owner groups and forums, automotive media and dealer pages that recommend installers. Two moves matter most: get listed on every charger brand's installer page you are authorized for, with your details matching your site, and publish the approval guides so EV communities link to them.</p>
 
 <h2>Before the EV World Show</h2>
 <p>Publish the price and approval pages before the show. Visitors who ask an AI assistant about installers that week should find your answer, not a competitor's contact form.</p>
@@ -2285,7 +2311,7 @@ ARTICLES = [
 """,
 "faq": [
 ("What do UAE villa owners ask AI assistants about EV chargers?", "Installed cost for a home charger including approvals, which brands are approved, how long it takes, and whether a charger can be installed in apartment parking."),
-("What should an EV charging installer publish to be named?", "Installed price ranges for typical scenarios, the approval process per authority, chargers and brands with authorised status, timelines, service areas by emirate, completed installations and fleet solutions."),
+("What should an EV charging installer publish to be named?", "Installed price ranges for typical scenarios, the approval process per authority, chargers and brands with authorized status, timelines, service areas by emirate, completed installations and fleet solutions."),
 ("Which sources do engines use for EV installer questions in the UAE?", "Installer websites, utility and government EV guidance, charger brand installer lists, EV owner communities and forums, and automotive media."),
 ("Why are approval guides valuable for AI visibility?", "The approval process is the most-asked question and rarely answered publicly, so a clear guide gets cited by engines and linked by EV owner communities."),
 ],
@@ -2298,7 +2324,7 @@ ARTICLES = [
 "read": 4,
 "author": "madhura",
 "description": "Buyers ask AI assistants where to buy a used car in Dubai, which garage to trust for a German car, and who services a delivery fleet. Here is what they type, the sources the engines use, and what a dealer, workshop or fleet service company should publish.",
-"answer": "Car questions to AI assistants in Dubai are specific: 'trusted used car dealer for a 2022 Land Cruiser with warranty', 'independent BMW garage in Al Quoz, price for a major service', 'fleet maintenance company for 60 vans with pickup', 'pre-purchase inspection in Dubai'. The AI answers from dealer and garage websites, Google reviews, car marketplaces, owner forums and car media. A business gets named when it publishes the makes it specialises in, prices for common jobs, warranties, certificates and brand approvals, location and hours, and reviews that mention the car and the job.",
+"answer": "Car questions to AI assistants in Dubai are specific: 'trusted used car dealer for a 2022 Land Cruiser with warranty', 'independent BMW garage in Al Quoz, price for a major service', 'fleet maintenance company for 60 vans with pickup', 'pre-purchase inspection in Dubai'. The AI answers from dealer and garage websites, Google reviews, car marketplaces, owner forums and car media. A business gets named when it publishes the makes it specializes in, prices for common jobs, warranties, certificates and brand approvals, location and hours, and reviews that mention the car and the job.",
 "body": """
 <h2>How Dubai car buyers and owners ask</h2>
 <p>Dubai has a large, fast-moving car market: a mobile population buying and selling used cars, a high share of premium brands, and fleets of vans, taxis and rental cars that need servicing on schedule. The questions reflect that.</p>
@@ -2315,18 +2341,18 @@ ARTICLES = [
 <h2>For dealers</h2>
 <ul>
 <li>Inventory pages in HTML, one per car, with year, specs (GCC or import), mileage, service history, warranty, price and a plain condition statement. Marketplace listings alone are not read as reliably.</li>
-<li>A page per brand or segment you specialise in: SUVs, German premium, Japanese reliability, electric.</li>
+<li>A page per brand or segment you specialize in: SUVs, German premium, Japanese reliability, electric.</li>
 <li>Warranty, inspection and return policy, written out.</li>
-<li>Trade licence and RTA-related details, financing partners, export capability for buyers outside the UAE.</li>
+<li>Trade license and RTA-related details, financing partners, export capability for buyers outside the UAE.</li>
 <li>Google reviews that mention the car bought and the experience.</li>
 </ul>
 
 <h2>For garages and workshops</h2>
 <ul>
-<li>A page per make you specialise in, with the common jobs and price ranges: major service, brakes, gearbox, air conditioning, diagnostics.</li>
-<li>Equipment and certifications: diagnostic systems, brand training, any manufacturer authorisation.</li>
+<li>A page per make you specialize in, with the common jobs and price ranges: major service, brakes, gearbox, air conditioning, diagnostics.</li>
+<li>Equipment and certifications: diagnostic systems, brand training, any manufacturer authorization.</li>
 <li>Location with area and landmark (Al Quoz, Ras Al Khor, Mussafah), hours, pickup and drop, courtesy car.</li>
-<li>Warranty on parts and labour, genuine versus OEM parts policy.</li>
+<li>Warranty on parts and labor, genuine versus OEM parts policy.</li>
 <li>Reviews that name the car and the repair.</li>
 </ul>
 
@@ -2337,14 +2363,14 @@ ARTICLES = [
 </ul>
 
 <h2>Sources the engines cite</h2>
-<p>Business websites, Google reviews, car marketplaces, owner forums and community groups, automotive media, and brand dealer or specialist locators. For garages, reviews and forums weigh heavily because few workshops publish prices; the first to publish honest ranges in a specialism is named quickly.</p>
+<p>Business websites, Google reviews, car marketplaces, owner forums and community groups, automotive media, and brand dealer or specialist locators. For garages, reviews and forums weigh heavily because few workshops publish prices; the first to publish honest ranges in a specialty is named quickly.</p>
 
 <h2>Keywords to build pages around</h2>
 <p>Used car dealer Dubai, car dealer Dubai with warranty, German car specialist Dubai, BMW specialist Al Quoz, Mercedes service Dubai price, car service Dubai, pre-purchase inspection Dubai, fleet maintenance Dubai, fleet management services UAE, car detailing Dubai, ceramic coating Dubai price, tyre shop Dubai, sell my car Dubai, car export from Dubai.</p>
 """,
 "faq": [
 ("What do Dubai car buyers ask AI assistants?", "Specific car, specs, warranty and trust: 'trusted used car dealer Dubai 2022 Land Cruiser GCC specs with warranty', 'where to get a pre-purchase inspection in Dubai'."),
-("Should a garage publish service prices?", "Yes, as ranges per make and job. Few workshops do, so the first to publish honest ranges in a specialism gets named quickly for cost questions."),
+("Should a garage publish service prices?", "Yes, as ranges per make and job. Few workshops do, so the first to publish honest ranges in a specialty gets named quickly for cost questions."),
 ("What should a fleet service company publish?", "Vehicle types, contract models, scheduling and pickup, reporting to fleet managers, turnaround commitments, compliance details and named fleet clients with sizes."),
 ("Which sources do engines cite for automotive recommendations in Dubai?", "Business websites, Google reviews, car marketplaces, owner forums, automotive media and brand dealer or specialist locators."),
 ],
@@ -2359,7 +2385,7 @@ ARTICLES = [
 "answer": "To get your business recommended by ChatGPT in the UAE, do five things in order. Make your business easy to identify: the same name, address, description and people on your website, Google Business Profile, LinkedIn and directories. Publish pages that answer your customers' questions in the first paragraph, with prices, places and facts. Add structured data and an llms.txt file. Get listed and reviewed on the websites ChatGPT cites for your category. Then test the real questions every week and fix what the cited sources say you are missing. First mentions usually come in three to six weeks.",
 "body": """
 <h2>What ChatGPT actually does when someone asks</h2>
-<p>When a customer in Dubai types "best physiotherapist in JLT" or "which company builds e-commerce sites in the UAE", ChatGPT with search turned on runs a web search (through Bing), reads the top pages, and writes an answer naming three to five businesses. It is not consulting a secret list. It is summarising whatever it found, and it prefers pages that describe a business clearly and agree with each other.</p>
+<p>When a customer in Dubai types "best physiotherapist in JLT" or "which company builds e-commerce sites in the UAE", ChatGPT with search turned on runs a web search (through Bing), reads the top pages, and writes an answer naming three to five businesses. It is not consulting a secret list. It is summarizing whatever it found, and it prefers pages that describe a business clearly and agree with each other.</p>
 <p>So getting recommended by ChatGPT is not a trick. It is making sure the pages ChatGPT reads say clear, consistent, checkable things about you. Here is the order that works.</p>
 
 <h2>Step 1: make your business easy to identify</h2>
@@ -2411,7 +2437,7 @@ ARTICLES = [
 <p>In Google, ranking meant a position in a list. In AI search, there is no list. The engine writes one answer and names a few businesses. You are either in the answer or you are not, and the set changes with the wording, the user's location and the day. So the goal is not a position. It is to be in the set of businesses the engine considers credible for your kind of question, in as many engines as your customers use.</p>
 
 <h2>How each engine chooses</h2>
-<p><strong>ChatGPT.</strong> With search on, it queries Bing, reads the top results and summarises. Being indexed by Bing, and being on the pages Bing ranks for your question, is the route in. Submit your site to Bing Webmaster Tools; most UAE businesses never do.</p>
+<p><strong>ChatGPT.</strong> With search on, it queries Bing, reads the top results and summarizes. Being indexed by Bing, and being on the pages Bing ranks for your question, is the route in. Submit your site to Bing Webmaster Tools; most UAE businesses never do.</p>
 <p><strong>Gemini and Google AI Overviews.</strong> Built on Google's index and, for local questions, Google Business Profile and Maps data. A verified profile with the right category and recent reviews matters more here than anywhere else.</p>
 <p><strong>Perplexity.</strong> Reads recent web pages directly and cites them openly. It responds fastest to new, clearly written pages, which is why it is often the first engine to name a new business.</p>
 <p><strong>Claude.</strong> Uses its own web search and is the most careful about self-published rankings; it says when a source is an agency ranking itself. Clear facts on your own site and third-party confirmation are what it wants.</p>
@@ -2430,7 +2456,7 @@ ARTICLES = [
 <p>Perplexity and ChatGPT search typically first within three to six weeks of the work going live. Gemini follows the Google profile. Broad category questions take two to three months. Nobody honest promises faster.</p>
 
 <h2>What to track</h2>
-<p>Not rankings. Count how many of your tracked questions name you, in which engines, which sources were cited, and how many enquiries mention finding you through an AI assistant. Samura publishes its own log on the <a href="/insights/best-aeo-agencies-in-dubai">tested agency ranking page</a>.</p>
+<p>Not rankings. Count how many of your tracked questions name you, in which engines, which sources were cited, and how many inquiries mention finding you through an AI assistant. Samura publishes its own log on the <a href="/insights/best-aeo-agencies-in-dubai">tested agency ranking page</a>.</p>
 """,
 "faq": [
 ("Is there a ranking in ChatGPT like there is in Google?", "No. ChatGPT writes one answer and names a few businesses. The goal is to be in the set it considers credible for your kind of question, not to hold a position."),
@@ -2441,7 +2467,7 @@ ARTICLES = [
 },
 {
 "slug": "how-to-run-an-ai-visibility-audit-yourself",
-"title": "How to run an AI visibility audit yourself (and when to pay for one)",
+"title": "How to run an AI visibility audit yourself for a Dubai business (and when to pay for one)",
 "category": "How to",
 "date": "2026-10-30",
 "read": 4,
@@ -2475,7 +2501,7 @@ ARTICLES = [
 "faq": [
 ("What is an AI visibility audit?", "A test of whether AI assistants name your business for the questions your customers ask, who they name instead, and which sources they rely on, with a list of fixes."),
 ("Can I do an AI visibility audit myself?", "Yes, a basic one: ten customer questions, four engines, logged out, recorded with sources. It shows the gap but not the full source map or the order of fixes."),
-("How much does a professional AI visibility audit cost in Dubai?", "Samura's is AED 1,999 for 50 prompts across five engines, with a source map, competitor analysis and a prioritised fix list, credited against any program within 30 days."),
+("How much does a professional AI visibility audit cost in Dubai?", "Samura's is AED 1,999 for 50 prompts across five engines, with a source map, competitor analysis and a prioritized fix list, credited against any program within 30 days."),
 ("Why should the test be run logged out?", "Logged-in accounts remember your earlier questions and are more likely to mention businesses you have typed before, which is not what a new customer sees."),
 ],
 },
@@ -2520,7 +2546,7 @@ ARTICLES = [
 <p>An agency that answers all five specifically is a safe choice wherever it is based. One that answers vaguely is selling screenshots.</p>
 """,
 "faq": [
-("Does a Dubai AEO agency get better results than a remote one?", "For UAE customers, usually yes, because AI engines answering UAE questions cite local sources that remote agencies rarely know. Tooling and price can favour remote agencies."),
+("Does a Dubai AEO agency get better results than a remote one?", "For UAE customers, usually yes, because AI engines answering UAE questions cite local sources that remote agencies rarely know. Tooling and price can favor remote agencies."),
 ("Why are foreign agencies on 'best AEO agency in Dubai' lists?", "Because most of those lists are written by the agencies themselves or paid for. Being on a list is not evidence of UAE results."),
 ("Does Arabic matter when choosing an AEO agency in Dubai?", "Yes if your customers ask in Arabic. Engines answer Arabic questions from Arabic sources, and native Arabic writing outperforms machine translation."),
 ("What should I ask an AEO agency before hiring?", "Three UAE sources they have placed clients on, a UAE before-and-after with prompts and dates, who writes Arabic, who you speak to weekly, and the price and renewal terms."),
@@ -2533,7 +2559,7 @@ ARTICLES = [
 "date": "2026-10-30",
 "read": 4,
 "description": "Not every business is asked about in ChatGPT equally. Here are the Dubai industries where customers already ask AI assistants for recommendations, ranked, with the kind of question each gets and how prepared the sector is.",
-"answer": "The Dubai industries that benefit most from AEO are the ones customers already ask AI assistants about: healthcare and dental, real estate, hotels and restaurants, schools and tutoring, car dealers and EV services, food and hospitality suppliers, software and IT services, and retail including gold and jewellery. In each, customers ask specific questions with an area, a budget and a preference, and most businesses have not published the facts the engines need. Sectors where buying is by tender or personal relationship benefit less, for now.",
+"answer": "The Dubai industries that benefit most from AEO are the ones customers already ask AI assistants about: healthcare and dental, real estate, hotels and restaurants, schools and tutoring, car dealers and EV services, food and hospitality suppliers, software and IT services, and retail including gold and jewelry. In each, customers ask specific questions with an area, a budget and a preference, and most businesses have not published the facts the engines need. Sectors where buying is by tender or personal relationship benefit less, for now.",
 "body": """
 <h2>How we ranked them</h2>
 <p>Two measures. How often customers in Dubai ask AI assistants for a recommendation in the sector, judged from the question types we see in audits and in the engines' own suggested prompts. And how unprepared the sector is: the share of businesses whose websites state the facts the engines need. High demand plus low preparation is where AEO pays fastest.</p>
@@ -2541,17 +2567,17 @@ ARTICLES = [
 <h2>The ranking</h2>
 <p><strong>1. Healthcare and dental.</strong> Patients ask by problem, area, language, insurance and gender of doctor, daily. Most clinic websites have a team page with photos and no facts. Fastest results in the city. <a href="/insights/healthcare">Guide series.</a></p>
 <p><strong>2. Real estate.</strong> The largest AI search category in Dubai: buyers, tenants, landlords and investors, often from abroad, asking by area, budget, payment plan and language. Agencies hide fees and prices; the first to publish get named. <a href="/insights/real-estate">Guide series.</a></p>
-<p><strong>3. Hotels, restaurants and hospitality suppliers.</strong> Diners and travellers ask constantly; hotel buyers now shortlist suppliers through AI too. <a href="/insights/food-and-hospitality">Guide series.</a></p>
+<p><strong>3. Hotels, restaurants and hospitality suppliers.</strong> Diners and travelers ask constantly; hotel buyers now shortlist suppliers through AI too. <a href="/insights/food-and-hospitality">Guide series.</a></p>
 <p><strong>4. Education.</strong> Parents ask by curriculum, fees, rating and area; schools ask for suppliers. Regulator data makes answers checkable, which the engines like. <a href="/insights/education">Guide series.</a></p>
 <p><strong>5. Automotive and EV.</strong> Specific, price-led questions and almost no published answers, especially for EV charging. <a href="/insights/automotive">Guide series.</a></p>
 <p><strong>6. Food manufacturing and agriculture.</strong> B2B buyers ask by certification, capacity and logistics; exhibitor lists and certificate registers are cited heavily. <a href="/insights/agriculture">Agriculture series</a>, <a href="/insights/food-and-hospitality">food series</a>.</p>
 <p><strong>7. Software and IT services.</strong> Business buyers ask with UAE-specific needs (VAT, WPS, Arabic, data residency) that global vendors ignore. <a href="/insights/retail-and-software">Guide series.</a></p>
-<p><strong>8. Retail, gold and jewellery.</strong> Shoppers ask by design, price and area; most retailers have image-only sites. <a href="/insights/retail-and-software">Guide series.</a></p>
+<p><strong>8. Retail, gold and jewelry.</strong> Shoppers ask by design, price and area; most retailers have image-only sites. <a href="/insights/retail-and-software">Guide series.</a></p>
 <p><strong>9. Apparel and textiles.</strong> Global sourcing managers ask by capability, country and certification; strong for manufacturers with a Dubai presence. <a href="/insights/apparel-and-textiles">Guide series.</a></p>
 <p><strong>10. Professional services.</strong> Law, accounting, business setup, recruitment. High demand, but crowded with content, so results take longer.</p>
 
 <h2>Where AEO matters less, for now</h2>
-<p>Sectors bought through tenders, government procurement or long personal relationships: heavy industry, large construction contracts, defence. Buyers there use AI assistants for research but rarely for the shortlist. That is changing, but it is not where to start.</p>
+<p>Sectors bought through tenders, government procurement or long personal relationships: heavy industry, large construction contracts, defense. Buyers there use AI assistants for research but rarely for the shortlist. That is changing, but it is not where to start.</p>
 
 <h2>The common pattern</h2>
 <p>In every sector that benefits, the questions already exist and the answers do not. The business that publishes the facts first, in the customer's words, on its own site and on the sources the engines cite, becomes the answer. See all sectors on the <a href="/industries">Industries page</a>.</p>
@@ -2561,6 +2587,341 @@ ARTICLES = [
 ("Is real estate a good sector for AEO in Dubai?", "It is the largest AI search category in the city. Buyers and landlords ask by area, budget and situation, and agencies that publish fees, prices and agent details get named first."),
 ("Which sectors benefit least from AEO?", "Sectors bought through tenders or long relationships, such as heavy industry and large construction contracts, where AI assistants are used for research but not for the shortlist."),
 ("How do I know if my industry is asked about in ChatGPT?", "Type the questions your customers would ask into ChatGPT, Gemini and Perplexity, logged out. If competitors are named, the demand exists and the question is who gets named."),
+],
+},
+{
+"slug": "how-organic-and-natural-product-brands-in-the-uae-get-recommended-by-chatgpt",
+"title": "How do organic and natural product brands in the UAE get recommended by ChatGPT?",
+"category": "Food and hospitality",
+"date": "2026-10-31",
+"read": 4,
+"description": "Buyers and shoppers ask ChatGPT, Gemini and Perplexity for organic brands in the UAE. What they type, what the engines cite, and the pages to publish.",
+"answer": "An organic or natural product brand in the UAE gets recommended by ChatGPT when its website states which certifications it holds (USDA Organic, EU organic, halal, Emirates Quality Mark) with certificate numbers and scope, which retailers stock it in each emirate, and the ingredients and origin of each product. Buyers ask things like 'organic baby food brand available in Dubai' or 'organic certified supplier for a cafe in Abu Dhabi'. The engines answer from brand websites, supermarket listings, certification registers, Dubai Municipality product registration, exhibitor lists and reviews. Ahead of the Middle East Organic and Natural Products Expo at DWTC, 16 to 18 November 2026, buyers are searching now.",
+"body": """
+<h2>Why buyers are searching now</h2>
+<p>The Middle East Organic and Natural Products Expo runs from 16 to 18 November 2026 at DWTC. In the weeks before it, supermarket and specialty-store category managers, hotel procurement teams, importers and distributors prepare their shortlists. Many of them now ask ChatGPT, Gemini or Perplexity before they open the exhibitor list. Consumers do the same when they want a product for their family. If your brand is not in the answer, the buyer walks past your stand already holding three other names.</p>
+
+<h2>What buyers type</h2>
+<p>The questions are specific. They name the product type, the certification, the city and often the channel.</p>
+<ul>
+<li>"Organic baby food brand available in Dubai"</li>
+<li>"Halal organic skincare UAE, no parabens"</li>
+<li>"Where to buy organic dates in Dubai"</li>
+<li>"Organic certified supplier for a cafe in Abu Dhabi"</li>
+<li>"Natural household cleaning products distributor UAE"</li>
+<li>"EU organic certified olive oil importer Dubai, wholesale"</li>
+<li>"Organic cold-pressed juice brand stocked in supermarkets in Dubai"</li>
+<li>"Vegan natural deodorant brand GCC distributor"</li>
+</ul>
+<p>Each of these can be answered only if a page somewhere on the web states those facts together: product, certification, where it is sold, and who to contact for wholesale.</p>
+
+<h2>What the engines cite</h2>
+<p>AI assistants do not know your brand. They read pages and quote the ones that answer the question directly. For organic and natural products in the UAE the sources are usually these.</p>
+<ul>
+<li><strong>Brand websites</strong>, when the certification and stockist details are in HTML text, not only in a PDF or an image of a certificate.</li>
+<li><strong>Retailer listings</strong>: product pages on supermarket and specialty-store websites, including the online grocery platforms, because they show the brand is actually on sale in the UAE.</li>
+<li><strong>Certification registers</strong>: the USDA Organic Integrity Database, EU organic certificate databases, the Emirates Quality Mark register (originally issued by ESMA, now under the Ministry of Industry and Advanced Technology), and halal certificates from bodies recognized in the UAE.</li>
+<li><strong>Dubai Municipality product registration</strong>: the Montaji system for cosmetics, personal care and household products, and food product registration for imported food.</li>
+<li><strong>Exhibitor lists</strong> for the Middle East Organic and Natural Products Expo and other DWTC trade shows, which engines treat as a signal that the brand is active in the market.</li>
+<li><strong>Reviews</strong> on Google, retailer sites and parenting or wellness communities, especially ones that mention the product name and the city.</li>
+</ul>
+
+<h2>The pages a brand should publish</h2>
+<p>Most organic brand websites have a story page, a gallery and a contact form. The engines cannot quote any of that. Publish these pages instead, in this order of priority.</p>
+<ol>
+<li><strong>Certification page.</strong> One page listing every certificate: the standard (USDA Organic, EU organic, halal, Emirates Quality Mark, UAE organic standard), the certifying body, the certificate number, the scope (which products and which facility) and the expiry date. Link to the register entry. This is the page that answers "is this brand really certified".</li>
+<li><strong>Where-to-buy page.</strong> List retailers by emirate: Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, Umm Al Quwain. Name the supermarket chains, specialty stores, pharmacies and online platforms that stock you, with branch names where it matters. Update it every quarter.</li>
+<li><strong>Product pages.</strong> One page per product with the full ingredient list, country of origin, farm or producer where you can disclose it, pack sizes, shelf life, storage, allergens and the certification that applies to that product. A single catalog PDF is not enough.</li>
+<li><strong>Wholesale page.</strong> Minimum order quantity, lead times from order to delivery in the UAE, case sizes, price list on request or published ranges, whether you hold stock in a UAE warehouse, import status (products already registered and cleared, or registration in progress), and a named contact channel for buyers.</li>
+<li><strong>Arabic versions.</strong> Many category managers, procurement officers and consumers ask in Arabic. Publish Arabic versions of the certification, where-to-buy and wholesale pages with the same facts, not a machine translation of the home page only.</li>
+</ol>
+<p>Add an FAQ with schema markup to each of these pages, written in the words buyers use. You can check how your brand currently appears with the method in <a href="/insights/how-to-check-if-chatgpt-recommends-your-business">how to check if ChatGPT recommends your business</a>.</p>
+
+<h2>Before the expo: a short checklist</h2>
+<ul>
+<li>Every certificate on the website is in text form with number, scope and expiry, and the register entry links back.</li>
+<li>Your brand name is spelled the same way on your website, retailer listings, the exhibitor list, Google Business Profile and social media.</li>
+<li>The where-to-buy page names at least one retailer in Dubai and one in Abu Dhabi, or says clearly that you are seeking a distributor.</li>
+<li>The wholesale page states MOQ, lead time and warehouse location.</li>
+<li>Your stand number and expo dates are on a news page, so buyers who ask "which organic brands are exhibiting at DWTC in November" can find you.</li>
+<li>Retailer product pages carry your correct product name, ingredients and certification, because buyers cross-check what the engine says against the shelf.</li>
+<li>Arabic pages are live and linked from the main navigation.</li>
+</ul>
+
+<h2>Keywords to build pages around</h2>
+<p>Organic baby food Dubai, organic skincare UAE, halal organic cosmetics Dubai, organic dates Dubai, organic grocery supplier Abu Dhabi, natural household products UAE, organic food distributor Dubai, organic products wholesale UAE, EU organic certified importer Dubai, organic supplier for cafes Abu Dhabi, natural beauty brand distributor GCC, organic honey UAE, organic supplements Dubai, organic products expo DWTC Dubai.</p>
+""",
+"faq": [
+("What do buyers in the UAE ask ChatGPT about organic brands?", "They name the product type, the certification and the city. Typical prompts are 'organic baby food brand available in Dubai', 'halal organic skincare UAE', 'where to buy organic dates in Dubai' and 'organic certified supplier for a cafe in Abu Dhabi'. Distributors add words like wholesale, importer, MOQ and GCC."),
+("Which certifications should an organic brand show on its website?", "Every certificate it holds, in text form: USDA Organic, EU organic, the Emirates Quality Mark, a halal certificate from a body recognized in the UAE, and Dubai Municipality product registration where it applies. State the certifying body, certificate number, scope and expiry date, and link to the public register entry so the engine can verify it."),
+("Does exhibiting at the Middle East Organic and Natural Products Expo help AI visibility?", "It helps when the exhibitor listing uses the same brand name as your website and the listing is public. Engines read exhibitor lists as evidence that a brand is active in the UAE market. Add a news page on your own site with the expo name, DWTC, the dates and your stand number so the two sources confirm each other."),
+("What should a wholesale page for the UAE include?", "Minimum order quantity, lead time from order to delivery in the UAE, case sizes, whether stock is held in a UAE warehouse, import and registration status of each product line, price ranges or a clear price-list request process, and a contact channel for trade buyers. Distributors and hotel procurement teams ask for these facts in one question."),
+],
+},
+{
+"slug": "how-art-galleries-and-artists-in-dubai-get-named-when-collectors-ask-ai",
+"title": "How do art galleries and artists in Dubai get named when collectors ask AI where to buy?",
+"category": "Retail",
+"date": "2026-10-31",
+"read": 4,
+"author": "madhura",
+"description": "Collectors and interior designers ask AI where to buy art in Dubai before World Art Dubai. What they type, what the engines cite, and the pages to publish.",
+"answer": "An art gallery or artist in Dubai gets named by ChatGPT, Gemini and Perplexity when its own website states what the engines need: artist name, nationality, medium, price range, sizes and whether a work is available, plus a page for each exhibition and a commissions page with lead time and cost. Buyers ask things like 'affordable original art in Dubai under AED 5,000' or 'Emirati artists to collect'. The engines answer from gallery websites, artist pages, World Art Dubai exhibitor listings, online art marketplaces, press coverage and Google reviews. Instagram alone is not enough, because the engines cannot read it well.",
+"body": """
+<h2>Why buyers are searching now</h2>
+<p>World Art Dubai runs from 19 to 22 November 2026 at DWTC. It is an affordable art fair where galleries and independent artists sell directly to the public, and it brings three kinds of buyer into the market at the same time: collectors looking for new names, interior designers furnishing villas, hotels and corporate offices, and first-time buyers and tourists who want one original piece to take home. Many of them now ask ChatGPT, Gemini or Perplexity before they ask a friend. The gallery or artist that the engine names gets the visit. The one it cannot find does not.</p>
+
+<h2>What buyers type</h2>
+<p>These are the kinds of questions buyers put to AI assistants in the weeks around the fair.</p>
+<ul>
+<li>"Affordable original art in Dubai under AED 5,000"</li>
+<li>"Emirati artists to collect, where to buy their work"</li>
+<li>"Gallery in Alserkal Avenue that sells abstract art"</li>
+<li>"Art consultant for a hotel project in Abu Dhabi"</li>
+<li>"Where to buy Arabic calligraphy art in Dubai"</li>
+<li>"Large canvas for a villa living room in Dubai, can it be delivered and framed"</li>
+<li>"Commission a portrait from an artist in Dubai, how long and how much"</li>
+<li>"Galleries in DIFC open on a Saturday with works under AED 10,000"</li>
+</ul>
+<p>Notice the pattern. Almost every question contains a place, a style or medium, a budget and a use. A website that answers all four on one page is quotable. A website with a logo, a mood video and a contact form is not.</p>
+
+<h2>What the engines cite</h2>
+<p>When an AI assistant answers an art question about Dubai, it pulls from a short list of source types.</p>
+<ul>
+<li><strong>Gallery websites</strong> with artist lists, exhibition pages and prices or price ranges in plain HTML text.</li>
+<li><strong>Artist pages</strong>, on the artist's own site or on a gallery site, with biography, medium and availability.</li>
+<li><strong>Fair exhibitor lists</strong>, including the World Art Dubai exhibitor directory, because the engine trusts a list the fair itself publishes.</li>
+<li><strong>Online art marketplaces</strong> that list works with artist, size, medium and price in structured form.</li>
+<li><strong>Press coverage</strong> in UAE and GCC publications that names the gallery, the artist and the show.</li>
+<li><strong>Google Business Profile and reviews</strong> for the gallery address, opening hours and what visitors say.</li>
+</ul>
+<p><strong>Instagram is weak as a source.</strong> Most galleries and artists in Dubai put their best work there and nowhere else. The engines cannot read Instagram reliably: captions are not indexed well, images are not read as text, and nothing on the profile states a price or a size. An artist with 20,000 followers and no website is close to invisible to an AI assistant. A single plain web page with the same information is not.</p>
+
+<h2>The pages a gallery or artist should publish</h2>
+<ol>
+<li><strong>One page per artist.</strong> Full name, nationality, where they live and work, a short biography in plain text, medium (oil, acrylic, mixed media, photography, sculpture, calligraphy, digital), typical sizes, price range in AED, and which works are available now. State "available", "sold" or "on commission" next to each piece.</li>
+<li><strong>One page per exhibition.</strong> Title, artists, dates, venue and address, opening hours, whether works are for sale and the price range. Keep the page live after the show ends. Engines cite past exhibitions when they describe a gallery.</li>
+<li><strong>A commissions page.</strong> The process step by step, the lead time in weeks, the price range by size, the deposit, and how approvals and revisions work. Buyers asking "commission a portrait in Dubai" want these four facts and nothing else.</li>
+<li><strong>A page for interior designers and hotels.</strong> Say that you work on villa, hotel, office and restaurant projects, what you supply (originals, limited editions, large format, site-specific), trade terms, framing, installation, and whether you cover Abu Dhabi, Sharjah and the wider GCC.</li>
+<li><strong>Delivery and framing details.</strong> Delivery within Dubai and to other emirates, international shipping and crating, framing options and lead time, returns. These are in the buyer's question, so they must be on the page.</li>
+<li><strong>An Arabic version.</strong> Many collectors, corporate buyers and government clients search in Arabic. A proper Arabic page, not machine-translated text, is cited for Arabic prompts and very few galleries in the category have one.</li>
+</ol>
+<p>Art consultants and framers follow the same rule. A consultant page should state project types, budgets handled, and the stages of a project. A framer page should list framing styles, glass options, sizes, prices and turnaround.</p>
+
+<h2>Before-the-fair checklist</h2>
+<ul>
+<li>Confirm the gallery or artist name is spelled the same on the website, the World Art Dubai exhibitor listing, Google Business Profile and any marketplace.</li>
+<li>Publish a page for the fair: stand number, which artists and works are coming, price range, and how to reserve a piece before or during the fair.</li>
+<li>Put prices or price ranges in text, not in a PDF catalog or an image.</li>
+<li>Add FAQ schema to the commissions and delivery pages.</li>
+<li>Ask recent buyers for a Google review that mentions the artist or the style they bought.</li>
+<li>Test the questions above in ChatGPT, Gemini and Perplexity and note who is named. Our guide on <a href="/insights/how-to-check-if-chatgpt-recommends-your-business">how to check if ChatGPT recommends your business</a> shows the method.</li>
+</ul>
+
+<h2>Keywords to build pages around</h2>
+<p>Art gallery Dubai, affordable original art Dubai, Emirati artists to collect UAE, abstract art gallery Alserkal Avenue Dubai, Arabic calligraphy art Dubai, art consultant Abu Dhabi hotel project, commission a painting Dubai, art for villa interiors Dubai, corporate art consultancy UAE, limited edition prints Dubai, art framing Al Quoz Dubai, buy art in DIFC galleries, art delivery and installation UAE, art advisory GCC.</p>
+""",
+"faq": [
+("What do collectors in Dubai ask AI before buying art?", "They ask by place, style, budget and use. Typical prompts are 'affordable original art in Dubai under AED 5,000', 'Emirati artists to collect', 'gallery in Alserkal Avenue that sells abstract art' and 'art consultant for a hotel project in Abu Dhabi'. The pages that answer all four parts of the question in plain text are the ones the engines quote."),
+("Is Instagram enough for an artist to be found by ChatGPT?", "No. AI engines cannot read Instagram reliably. Captions are poorly indexed, images are not read as text and nothing states a price or a size. An artist with a large following and no website is close to invisible to an AI assistant. One plain web page with biography, medium, price range and availability does far more."),
+("Should a gallery in Dubai publish prices?", "Yes, at least as ranges in AED, in HTML text rather than a PDF catalog or an image. Budget appears in most buyer questions, and the engines cannot quote a page that says 'price on request'. A range per artist or per size is enough and does not stop you from negotiating with a serious collector."),
+("What should a gallery do before World Art Dubai in November 2026?", "Publish a page for the fair with the stand number, the artists and works being shown and the price range. Make sure the name matches on the website, the exhibitor listing and Google Business Profile. Put prices in text, add FAQ schema to the commissions and delivery pages, and ask recent buyers for Google reviews."),
+],
+},
+{
+"slug": "how-contractors-and-fit-out-companies-in-dubai-get-recommended-by-ai",
+"title": "How do contractors and fit-out companies in Dubai get recommended by AI before Big 5 Global?",
+"category": "Construction and facilities",
+"date": "2026-10-31",
+"read": 4,
+"description": "Office tenants, restaurant owners, developers and consultants ask AI for Dubai contractors before Big 5 Global. What they type and how to be named.",
+"answer": "A contractor or fit-out company in Dubai gets recommended by ChatGPT, Gemini and Perplexity when its website states, in plain text, the project types it builds, the approvals it handles (Dubai Municipality, DDA, DHA, Trakhees, free zone authorities), price ranges with what is included, and completed projects with location, size, duration and scope. Buyers ask things like 'office fit-out contractor in Dubai with DDA approval' or 'restaurant fit-out cost per square foot Dubai'. The engines answer from contractor websites, approval information, trade license category, project pages, Google reviews, LinkedIn and Big 5 Global exhibitor lists. Big 5 Global runs 23 to 26 November 2026 at DWTC.",
+"body": """
+<h2>Why buyers are searching now</h2>
+<p>Big 5 Global takes place at DWTC from 23 to 26 November 2026. It is the largest construction event in the region, and in the weeks before it developers, consultants, facility managers and business owners shortlist the contractors they want to meet. More and more of that shortlisting happens inside ChatGPT, Gemini and Perplexity rather than on a search results page. A buyer types one long question, gets three or four company names back, and books meetings with those. If your company is not in that answer, the show visitor walks past your stand without knowing who you are.</p>
+
+<h2>What buyers type</h2>
+<p>Construction questions are detailed because the buyer already knows the project. They know the location, the size, the authority that must approve the work and roughly the budget. The AI assistant lets them put all of it in one sentence.</p>
+<ul>
+<li>"Office fit-out contractor in Dubai with Dubai Municipality and DDA approvals"</li>
+<li>"Restaurant fit-out cost per square foot Dubai, including kitchen and MEP"</li>
+<li>"Villa renovation contractor in Jumeirah with fixed price contract"</li>
+<li>"MEP contractor for a warehouse in Jebel Ali, JAFZA approved"</li>
+<li>"Clinic fit-out company in Dubai that handles DHA approvals"</li>
+<li>"Joinery and custom furniture company for a hotel project in Abu Dhabi"</li>
+<li>"General contractor for a G+4 residential building in Dubai South, turnkey"</li>
+<li>"Fit-out contractor for a retail unit in Dubai Mall, mall authority approved"</li>
+</ul>
+<p>Notice that every prompt contains an authority, a project type, a place and a commercial term such as cost, fixed price or turnkey. The engine looks for pages that contain the same words.</p>
+
+<h2>What the engines cite</h2>
+<p>When an AI assistant answers one of these questions it draws on a small set of sources. Contractor websites come first, but only the pages that state facts in text, not in a brochure PDF or an image. Then come Dubai Municipality, DDA, Trakhees, DHA and free zone pages that explain which permits a fit-out needs, because the engine uses them to check that a contractor's claims make sense. Trade license category matters: a company licensed for interior decoration contracting is matched to fit-out questions, and one licensed for building contracting to construction questions. Project pages with photos, a named location and a stated size are read closely. Supplier and brand partner pages, where a manufacturer lists its authorized installers, are cited often. Big 5 Global exhibitor lists, Google reviews that mention the project type, and LinkedIn company pages with the team and recent projects complete the picture.</p>
+
+<h2>The pages a contractor should publish</h2>
+<p>Most contractor websites in the UAE have a home page, an about page, a gallery and a contact form. The engine cannot quote a gallery. Build these pages instead, each in plain HTML text.</p>
+<ol>
+<li><strong>Services by project type.</strong> One page each for office fit-out, restaurant and cafe fit-out, clinic and medical fit-out, retail fit-out, villa renovation, warehouse and industrial MEP, hotel and hospitality, and new build. State the typical size range, the trades you self-perform and the ones you subcontract.</li>
+<li><strong>Price ranges.</strong> Publish your range as a cost-per-square-foot band for each project type, and list what the band includes: design, authority drawings, MEP, joinery, finishes, furniture, permits, VAT. Price is in almost every buyer question, and a contractor with no figure is rarely named.</li>
+<li><strong>Approvals and permits handled.</strong> A page listing the authorities you deal with: Dubai Municipality, DDA, Trakhees, JAFZA, DMCC, DIFC, DHA, Dubai Civil Defense, DEWA, and the building or mall management approvals you obtain for the client. Say who prepares the drawings and who submits.</li>
+<li><strong>Project case pages.</strong> One page per completed project with location by community name, area in square feet, duration in weeks, scope of work, the authority approvals obtained, and photos with captions. Do not publish client names without written permission.</li>
+<li><strong>Team and license details.</strong> Trade license number and activity, the year the company was established, number of engineers and site staff, the classification held with Dubai Municipality or other authorities, and insurance in place.</li>
+<li><strong>A page for consultants and developers.</strong> Consultants ask different questions: prequalification documents, capacity, parallel projects, health and safety record, and whether you work on a design-and-build or a tendered basis. Answer them on one page they can forward.</li>
+<li><strong>An Arabic version.</strong> Many developers, government buyers and villa owners search in Arabic. A translated set of the pages above, with the same facts, lets the engine answer them with your name.</li>
+<li><strong>FAQ with schema</strong> on each service page, using the buyer's own wording.</li>
+</ol>
+
+<h2>Before the show: a short checklist</h2>
+<ul>
+<li>Check your Big 5 Global exhibitor listing: company name, categories, description and website address must match your website exactly.</li>
+<li>Make sure your Google Business Profile category, address and trade name match the website and the license.</li>
+<li>Update your LinkedIn company page with the stand number, the project types you want to discuss and three recent project posts.</li>
+<li>Ask five recent clients for a Google review that mentions the project type and area.</li>
+<li>Test six of the prompts above in ChatGPT, Gemini and Perplexity and record who is named. You can follow the method in <a href="/insights/how-to-check-if-chatgpt-recommends-your-business">how to check if ChatGPT recommends your business</a>.</li>
+<li>Fix the gaps in the order above, starting with price ranges and approvals, because those pages change the answers fastest.</li>
+</ul>
+
+<h2>Keywords to build pages around</h2>
+<p>Office fit-out contractor Dubai, fit-out company Dubai, restaurant fit-out cost per square foot Dubai, clinic fit-out company Dubai DHA approved, villa renovation contractor Dubai, MEP contractor Dubai, MEP contractor Jebel Ali warehouse, interior fit-out company Abu Dhabi, general contractor Dubai turnkey, joinery company Dubai, retail fit-out contractor UAE, building materials supplier UAE, fit-out contractor DDA approved, construction company GCC.</p>
+""",
+"faq": [
+("What do buyers in Dubai ask AI about contractors and fit-out companies?", "They state the project type, the location, the authority and a commercial term in one sentence: 'office fit-out contractor Dubai with DDA approval', 'restaurant fit-out cost per square foot Dubai', 'villa renovation contractor Jumeirah fixed price', 'MEP contractor warehouse Jebel Ali' and 'clinic fit-out company that handles DHA approvals'. Pages that use the same words get named."),
+("Should a fit-out contractor publish prices?", "Yes. Publish your range as a cost-per-square-foot band for each project type and list exactly what the band includes, such as design, authority drawings, MEP, joinery, finishes and permits. Price appears in most buyer questions, and AI assistants rarely name a contractor whose website has no figure at all."),
+("Which sources do AI engines use to recommend contractors in the UAE?", "Contractor websites with facts in plain text, Dubai Municipality, DDA, Trakhees, DHA and free zone approval pages, trade license category, project pages with location, size and photos, supplier and brand partner pages that list authorized installers, Big 5 Global exhibitor lists, Google reviews that mention the project type, and LinkedIn company pages."),
+("Does exhibiting at Big 5 Global help AI visibility?", "It helps when the exhibitor listing matches your website. Engines read exhibitor lists to confirm a company is active in a category, so the name, categories, description and website address in the listing should match your site, your Google Business Profile and your trade license word for word."),
+],
+},
+{
+"slug": "how-facilities-management-companies-in-the-uae-get-found-when-building-owners-ask-ai",
+"title": "How do facilities management companies in the UAE get found when building owners ask AI?",
+"category": "Construction and facilities",
+"date": "2026-10-31",
+"read": 4,
+"author": "madhura",
+"description": "Building owners and developers in the UAE ask AI for FM companies by building type, scope and approvals. Here is how an FM company gets named.",
+"answer": "A facilities management company in the UAE gets named by ChatGPT, Gemini and Perplexity when its website states in plain text which services it delivers (hard services such as MEP maintenance, HVAC servicing and fire and life safety; soft services such as cleaning, security, pest control and landscaping), which building types it serves, its approvals (Dubai Civil Defense, RERA registration where relevant), its certifications (ISO 41001, ISO 9001) and its response-time commitments. Buyers ask things like 'integrated FM company in Dubai for a 300-unit residential tower'. The engines answer from FM company websites, approval lists, certificates, Google reviews, LinkedIn, GeoWorld and Future FM exhibitor pages and tender portals.",
+"body": """
+<h2>Why owners are searching now</h2>
+<p>GeoWorld and Future FM runs from 23 to 26 November 2026 at DWTC, held alongside Big 5 Global. In the weeks before the show, owners' associations, developers and property managers shortlist the FM companies they want to meet there. Many of them now start that shortlist in ChatGPT, Gemini or Perplexity instead of a search engine. If the AI assistant does not name your company, you are not on the list when they walk into the hall.</p>
+
+<h2>What buyers type</h2>
+<p>FM questions are precise. The buyer knows the building, the scope and often the contract term before they ask.</p>
+<ul>
+<li>"Integrated FM company in Dubai for a 300-unit residential tower"</li>
+<li>"Annual maintenance contract for a villa compound in Abu Dhabi, MEP and landscaping"</li>
+<li>"FM company with Dubai Civil Defense approved fire maintenance in Dubai"</li>
+<li>"Cleaning and security contractor for a school in Sharjah"</li>
+<li>"Owners association management company Dubai RERA registered"</li>
+<li>"HVAC servicing contractor for a mall in Dubai, 24-hour response"</li>
+<li>"Hard services FM for a clinic in Abu Dhabi with ISO 41001"</li>
+<li>"Pest control and landscaping contractor for an office park in JLT"</li>
+</ul>
+
+<h2>What the engines cite</h2>
+<p>The assistants build their answer from sources they can read as text. For FM in the UAE that means FM company websites, information about RERA registration and Dubai Civil Defense approvals, ISO 41001 and ISO 9001 certificates where they are published, client portfolio pages organized by building type, Google reviews, LinkedIn company pages, GeoWorld and Future FM exhibitor lists, and public tender portals. A brochure PDF, a logo wall and a "request a proposal" form give the engine nothing to quote. A page that says "we maintain 12 residential towers in Dubai Marina and JLT under annual contracts, with a two-hour emergency response" gives it a sentence it can use.</p>
+
+<h2>Why most FM websites are not named</h2>
+<p>Most FM websites in the UAE list "integrated facilities management" as one block of text and keep the detail in a capability statement that is only sent on request. The engine cannot tell whether you serve towers or warehouses, whether you hold a Civil Defense approval, or whether you take a 20-villa compound. When the question is specific and your website is general, the engine names a competitor whose website is specific.</p>
+
+<h2>The pages an FM company should publish</h2>
+<ol>
+<li><strong>Services split into hard and soft.</strong> One page for hard services (MEP maintenance, HVAC servicing, fire and life safety, electrical, plumbing, lifts and escalators coordination, BMS) and one for soft services (cleaning, security, pest control, landscaping, waste, reception, pool and water features). State what is in scope and what is subcontracted.</li>
+<li><strong>A page per building type.</strong> Residential towers, villa compounds, malls, office buildings, schools, clinics and hospitals, warehouses and industrial. Each page states the typical scope, the staffing model, the usual contract structure (annual, three-year, fixed fee or cost plus) and the areas served.</li>
+<li><strong>Approvals and certifications with scope.</strong> Dubai Civil Defense approval and the activities it covers, RERA registration for owners' association management, ISO 41001, ISO 9001, ISO 14001 and ISO 45001 where held, with the certificate scope and expiry written out, not only a badge image.</li>
+<li><strong>Response-time commitments and KPIs.</strong> Emergency, urgent and routine response times, planned preventive maintenance frequency, reporting cadence, CAFM or helpdesk system used. Buyers ask for these numbers, so publish them.</li>
+<li><strong>A client portfolio page.</strong> Name building types, unit counts or built-up area ranges, and areas such as Dubai Marina, Business Bay, Al Reem Island or Aljada, with client names only where you have permission.</li>
+<li><strong>A procurement page for consultants and developers.</strong> Pre-qualification documents available, trade license activities, insurance cover, manpower numbers, tender response process and a named contact role.</li>
+<li><strong>An Arabic version</strong> of every page above. Owners' association boards and government-linked landlords ask in Arabic, and the engines answer in the language of the question.</li>
+<li><strong>FAQ</strong> with schema on each page.</li>
+</ol>
+
+<h2>Before-the-show checklist</h2>
+<ul>
+<li>Your exhibitor profile on the GeoWorld and Future FM website uses the same company name, services and building types as your website.</li>
+<li>Your LinkedIn company page lists hard and soft services and the emirates you cover.</li>
+<li>Your Google Business Profile category is facilities management, with recent reviews that mention a building type.</li>
+<li>Certificates and approvals on your site are current and show scope.</li>
+<li>Each building-type page answers one of the buyer questions above in its first paragraph.</li>
+</ul>
+<p>To see which FM companies the engines name today for your building types, start with our <a href="/ai-visibility-audit">AI visibility audit</a>.</p>
+
+<h2>Keywords to build pages around</h2>
+<p>Facilities management company Dubai, integrated FM company UAE, hard services FM contractor Dubai, soft services FM company Abu Dhabi, annual maintenance contract Dubai, MEP maintenance company UAE, HVAC servicing contractor Dubai, Civil Defense approved fire maintenance Dubai, owners association management company Dubai, RERA registered OA management Dubai, cleaning and security contractor Sharjah, school facilities management UAE, mall facilities management Dubai, FM company GCC.</p>
+""",
+"faq": [
+("What do building owners in the UAE ask AI about facilities management companies?", "They ask by building type, scope and approval: 'integrated FM company in Dubai for a 300-unit residential tower', 'annual maintenance contract for a villa compound in Abu Dhabi', 'FM company with Civil Defense approved fire maintenance', 'owners association management company Dubai RERA registered'. The question usually includes the emirate, the building type and one compliance requirement."),
+("Which sources do AI engines use when recommending FM companies in Dubai?", "FM company websites, published information on RERA registration and Dubai Civil Defense approvals, ISO 41001 and ISO 9001 certificates, client portfolio pages organized by building type, Google reviews, LinkedIn company pages, exhibitor lists for GeoWorld and Future FM, and public tender portals. Text the engine can read and quote matters more than a brochure PDF."),
+("Should an FM company publish response times and KPIs on its website?", "Yes. Buyers ask for emergency, urgent and routine response times, planned preventive maintenance frequency and reporting cadence. An FM company that publishes these figures, together with the helpdesk or CAFM system it uses, gives the engine a specific sentence to quote. A company that keeps them in a capability statement sent on request is rarely named."),
+("Does exhibiting at GeoWorld and Future FM help AI visibility?", "It helps when the exhibitor profile matches the website. Engines read exhibitor lists on the show website, so a profile that states services, building types and emirates served, using the same company name as the website and LinkedIn page, adds one more source confirming what you do. A profile with only a logo and a stand number adds very little."),
+],
+},
+{
+"slug": "how-hvac-contractors-and-suppliers-in-the-uae-get-named-by-ai",
+"title": "How do HVAC contractors and suppliers in the UAE get named by AI for cooling and maintenance?",
+"category": "Construction and facilities",
+"date": "2026-10-31",
+"read": 4,
+"description": "Villa owners, building managers and MEP consultants ask AI for HVAC contractors and suppliers before HVACR World 2026. Here is how to be named.",
+"answer": "An HVAC contractor or supplier in the UAE gets named by ChatGPT, Gemini and Perplexity when its website states, in plain text, which services it offers by building type, which brands it is authorized to install or stock, the tiers of its maintenance contracts with response times, its Dubai Municipality and other approvals, and its projects with location and capacity in tons. Buyers ask things like 'annual AC maintenance contract for a villa in Arabian Ranches'. The engines answer from contractor websites, brand authorized-installer lists, approval information, Google reviews, LinkedIn and HVACR World exhibitor pages. The show runs 23 to 26 November 2026 at DWTC.",
+"body": """
+<h2>Why the searches are happening now</h2>
+<p>HVACR World runs from 23 to 26 November 2026 at DWTC, alongside Big 5 Global. In the weeks before the show, contractors shortlist suppliers to meet, consultants check which brands have an authorized installer in the UAE, and building owners look for a maintenance contractor before the next summer. Many of those questions now go to ChatGPT, Gemini and Perplexity instead of a search box, and the answer is a short list of named companies. If your company is not on that list, the buyer walks the show floor with someone else's name in mind.</p>
+
+<h2>What buyers type</h2>
+<ul>
+<li>"AC maintenance contract for a villa in Arabian Ranches, annual price"</li>
+<li>"VRF system installer in Dubai authorized by the brand"</li>
+<li>"Duct cleaning company Dubai Municipality approved"</li>
+<li>"Chiller maintenance contractor for a tower in Business Bay"</li>
+<li>"HVAC supplier in Sharjah with stock of split units"</li>
+<li>"Energy-saving AC retrofit for a warehouse in Dubai Industrial City"</li>
+<li>"District cooling service provider Abu Dhabi for a residential community"</li>
+<li>"AC spare parts supplier UAE, compressors and PCB boards for commercial units"</li>
+</ul>
+<p>Each question carries a building type, a location and a service. The engine looks for a page that contains all three. A home page that says "complete HVAC solutions" contains none of them.</p>
+
+<h2>What the engines cite</h2>
+<p>For HVAC questions in the UAE the engines draw from a short set of sources: contractor and supplier websites, brand authorized-dealer and authorized-installer lists, Dubai Municipality approval information, ESMA registration information for AC equipment, Google Business Profile reviews, LinkedIn company pages and project posts, HVACR World and Big 5 Global exhibitor lists, and supplier catalogs that list model numbers. A buyer asking for an authorized VRF installer gets the names on the brand's own list first. A buyer asking for a specific compressor gets the supplier whose catalog page contains that model number.</p>
+
+<h2>Pages a contractor should publish</h2>
+<ol>
+<li><strong>Services by building type.</strong> One page each for villas, apartment towers, offices, restaurants, clinics, warehouses, schools and hotels. State the systems you handle in each: split, ducted split, package units, VRF, chilled water, FAHU, exhaust and kitchen extract.</li>
+<li><strong>Maintenance contract tiers.</strong> Name each tier, list the visits per year, what each visit includes (filter cleaning, coil cleaning, gas pressure check, drain flushing, thermostat check), what is excluded, and the response time for a breakdown call. Publish your range for each tier rather than "contact us".</li>
+<li><strong>Brands and models serviced.</strong> List every brand you are authorized for and every brand you service, with the model series. The engines match on the names and numbers the buyer typed.</li>
+<li><strong>Approvals and certifications.</strong> Dubai Municipality approval for duct cleaning, trade license activity, Civil Defense approval where it applies, staff certifications, and ISO certificates if held. Show the certificate number and expiry date.</li>
+<li><strong>Project pages.</strong> One page per project with the location, the building type, the capacity installed in tons or TR, the system type and the year. "Chiller replacement, 2 x 400 TR, residential tower, Business Bay, 2025" is a sentence an engine can quote.</li>
+<li><strong>Emergency and summer availability.</strong> A page stating your hours, whether you take calls on Fridays and public holidays, your coverage area by emirate and community, and your typical response time in July and August.</li>
+<li><strong>A page for MEP consultants.</strong> Consultants ask different questions: prequalification documents, method statements, testing and commissioning reports, warranties, and approved-vendor status with developers and facilities companies. Give them one page with all of it.</li>
+</ol>
+
+<h2>Pages a supplier should publish</h2>
+<ul>
+<li><strong>Stock pages by product family</strong>: split units, VRF outdoor units, chillers, AHUs, FCUs, ducting, insulation, refrigerants and controls. Each page lists model numbers, capacities and whether the item is in stock in the UAE or on order.</li>
+<li><strong>Brand pages</strong> that state your distributor or authorized-dealer status, the territories covered (Dubai, Abu Dhabi, Sharjah, Northern Emirates, GCC export) and warranty terms.</li>
+<li><strong>Spare parts catalog</strong> in HTML, not only PDF. Compressors, PCBs, fan motors, expansion valves and sensors, with part numbers and compatible models.</li>
+<li><strong>Delivery and trade terms</strong>: lead times, delivery areas, credit terms for contractors and minimum order.</li>
+</ul>
+
+<h2>Arabic version</h2>
+<p>Building owners, facility managers and government buyers search in Arabic as well as English. Publish the services, contract tier and approvals pages in Arabic with the same facts, the same brand names and the same model numbers. The engines treat the Arabic page as separate evidence.</p>
+
+<h2>Before-the-show checklist</h2>
+<ul>
+<li>Confirm your company name, trade license activity and phone number are identical on the website, Google Business Profile, LinkedIn and the HVACR World exhibitor listing.</li>
+<li>Publish at least three project pages with location and capacity in TR.</li>
+<li>Publish your maintenance tiers with inclusions and response times.</li>
+<li>Check that every brand you are authorized for lists you on its own website, and ask the brand to fix it if not.</li>
+<li>Add a page stating your stand number and the products or services you will show at DWTC.</li>
+<li>Ask ChatGPT, Gemini and Perplexity the eight questions above and note which companies they name. Our <a href="/ai-visibility-audit">AI visibility audit</a> runs this check across a wider set of questions.</li>
+</ul>
+
+<h2>Keywords to build pages around</h2>
+<p>HVAC contractor Dubai, AC maintenance contract Dubai, annual AC maintenance villa Dubai, VRF installer Dubai, duct cleaning company Dubai, chiller maintenance contractor Dubai, district cooling service provider Abu Dhabi, HVAC supplier Sharjah, AC spare parts supplier UAE, energy-saving AC retrofit Dubai, HVAC maintenance company Abu Dhabi, FAHU installation contractor UAE, HVAC supplier GCC, split AC distributor UAE.</p>
+""",
+"faq": [
+("What do building owners in the UAE ask AI about HVAC contractors?", "They put the building, the place and the service in one question: 'AC maintenance contract for a villa in Arabian Ranches, annual price', 'chiller maintenance contractor for a tower in Business Bay', 'duct cleaning company Dubai Municipality approved'. The engine looks for a page that contains all three, so a contractor needs a page per building type and per service, not one general services page."),
+("Should an HVAC contractor publish maintenance contract prices?", "Yes, as a range per tier. List the visits per year, what each visit includes, what is excluded and the response time for breakdown calls, then publish your range. Price is in most villa and small-building questions, and contractors with no figure on the page are rarely named. A range with clear inclusions also filters out callers you do not want."),
+("Which sources do AI engines use for HVAC recommendations in the UAE?", "Contractor and supplier websites, brand authorized-dealer and authorized-installer lists, Dubai Municipality and ESMA information, Google Business Profile reviews, LinkedIn company pages and project posts, HVACR World and Big 5 Global exhibitor lists, and supplier catalogs that list model numbers. Being on the brand's own authorized list is the strongest single source for installer questions."),
+("Does exhibiting at HVACR World help AI visibility?", "The exhibitor listing is one more page that states your name, category and products, and the engines read it. It helps most when the listing matches your website, Google profile and LinkedIn exactly, and when your website has the project, contract and approval pages that let the engine say more than the fact that you exhibited. HVACR World runs 23 to 26 November 2026 at DWTC."),
 ],
 },
 ]

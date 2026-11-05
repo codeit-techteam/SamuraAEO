@@ -4,6 +4,12 @@ import re, json, html, os, sys, datetime
 sys.path.insert(0, os.path.dirname(__file__))
 from articles import ARTICLES
 
+# American spelling guard (CLAUDE.md rule). Skips words inside slugs and URLs. cheque/tyre are UAE buyer terms, allowed.
+BRITISH = re.compile(r"(?<![-/\w])(licences?|enquir\w*|jewell\w*|travell\w*|authoris\w*|centres?|catalogues?|favour\w*|summaris\w*|fibres?|paediatric\w*|recognis\w*|optimis(e|ed|es|ing|ation|ations)|neighbour\w*|organis(e|ed|es|ing|ation|ations|er|ers)|prioritis\w*|colours?|coloured|specialis(e|ed|es|ing|ation|ations|m|ms)|labour|judgements?|sceptic\w*|emphasis(e|es|ed|ing)|apologis\w*|metres?|kilometres?|litres?|customis\w*|rumours?|defence|maths|practises?|practised|programmes?|cancelled|cancelling|analys(e|ed|ing)|behaviours?|gynaecolog\w*|orthopaedic\w*|anaesthe\w*|aluminium|honours?|focuss\w*|whilst|amongst|realis(e|ed|es|ing)|utilis(e|ed|es|ing|ation)|minimis(e|ed|es|ing)|maximis(e|ed|es|ing)|standardis(e|ed|es|ing|ation)|localis(e|ed|es|ing|ation)|personalis(e|ed|es|ing|ation)|finalis(e|ed|es|ing)|categoris(e|ed|es|ing)|modelling|labelling|labelled|counsell\w*|fulfils?|tonnes?|ageing|artefacts?)(?![-\w])", re.I)
+def check_american(text, name):
+    m = BRITISH.search(text)
+    assert not m, f"British spelling '{m.group(0)}' in {name} (CLAUDE.md: American spelling)"
+
 # Repo root is the deploy root. tools/ sits inside it. Override with SAMURA_DIST if needed.
 DIST = os.environ.get('SAMURA_DIST', os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')))
 SITE = 'https://www.samuraconsulting.com'
@@ -12,7 +18,7 @@ index_html = open(f'{DIST}/index.html', encoding='utf-8').read()
 # Reuse the site's stylesheet, nav and footer so the pages match exactly.
 _i = index_html.index('<style>\n/* Layout')
 css = index_html[_i:index_html.index('</style>', _i) + 8]
-nav = index_html[index_html.index('<div class="topbar">'):index_html.index('<header class="hero"')]
+nav = index_html[index_html.index('<nav class="main">'):index_html.index('<header class="hero"')]
 footer = index_html[index_html.index('<footer>'):index_html.index('</footer>') + 9]
 # Rewrite in-page anchors so they work from /insights/
 def rel(s):
@@ -83,10 +89,9 @@ def fmt(d):
 def short(desc, n=155):
     if len(desc) <= n: return desc
     cut = desc[:n]
-    for sep in ('. ', '; ', ', '):
-        i = cut.rfind(sep)
-        if i > 80: return cut[:i + (1 if sep == '. ' else 0)].rstrip(',; ')
-    return cut.rsplit(' ', 1)[0].rstrip(',;') + '.'
+    i = cut.rfind('. ')
+    if i > 80: return cut[:i + 1]
+    return cut.rsplit(' ', 1)[0].rstrip(',;:') + '.'
 
 def head(title, desc, url, ld):
     return f"""<!doctype html>
@@ -147,23 +152,26 @@ HUBS = {
    "cats": ["Food and hospitality", "Hospitality"], "desc": "How retail buyers, hotel procurement teams, event clients and diners in the UAE use AI assistants to find food manufacturers, private label partners, HORECA suppliers, caterers, restaurants, hotels and cloud kitchens, and how each gets recommended.",
    "answer": "From Gulfood Manufacturing to Gulf Host, the UAE food and hospitality sector is being searched through AI assistants by buyers who type the whole specification at once: category, certification, capacity, area and price. The engines answer from manufacturer and supplier websites, exhibitor lists, certification registers, venue supplier lists and reviews. These guides cover what each type of business should publish."},
  "real-estate": {"title": "AEO for real estate agencies, developers and property managers in Dubai", "h1": "AI search for real estate in Dubai",
-   "cats": ["Real estate"], "desc": "How Dubai property buyers, investors, landlords and travellers use ChatGPT and Perplexity to choose brokers, off-plan projects, property managers and holiday homes, and what each business should publish to be named.",
-   "answer": "Real estate is the largest AI-search category in Dubai. Buyers ask by area, budget, language and situation; landlords ask about fees and scope; travellers ask about serviced apartments. The engines answer from agency websites, portal profiles, DLD and RERA data, Google reviews and property news. These guides explain what brokerages, developers, property managers and holiday home operators should publish, including the fee and price data most agencies keep offline."},
+   "cats": ["Real estate"], "desc": "How Dubai property buyers, investors, landlords and travelers use ChatGPT and Perplexity to choose brokers, off-plan projects, property managers and holiday homes, and what each business should publish to be named.",
+   "answer": "Real estate is the largest AI-search category in Dubai. Buyers ask by area, budget, language and situation; landlords ask about fees and scope; travelers ask about serviced apartments. The engines answer from agency websites, portal profiles, DLD and RERA data, Google reviews and property news. These guides explain what brokerages, developers, property managers and holiday home operators should publish, including the fee and price data most agencies keep offline."},
  "aeo-basics": {"title": "AEO explained: what it is, what it costs, how long it takes, how to choose an agency", "h1": "Answer engine optimization, explained",
    "cats": ["AEO basics", "Explainers", "How to", "Pricing", "Hiring an agency", "From our calls", "Research"], "desc": "Plain answers to the questions UAE business owners ask about AEO and GEO: what it is, how ChatGPT chooses who to recommend, what it costs in Dubai, how long it takes, how to test your own visibility, and how to read agency rankings.",
    "answer": "Answer engine optimization is the work of getting a business named when customers ask AI assistants for a recommendation. These guides explain how the engines choose, what the work involves, what it costs in Dubai, how long results take, how to run a five-minute visibility test yourself, and how to judge an agency, including a tested ranking of Dubai AEO agencies updated monthly."},
  "apparel-and-textiles": {"title": "AEO for apparel manufacturers, textile exporters and fashion brands", "h1": "AI search for apparel and textiles",
    "cats": ["Apparel and textiles"], "desc": "How global sourcing managers, fabric buyers and Dubai shoppers use AI assistants to find garment manufacturers, textile suppliers, fashion brands and uniform companies, and what each should publish to be named.",
-   "answer": "Sourcing managers ask AI assistants for manufacturers by category, country, MOQ and certification; fabric buyers ask by fibre and standard; shoppers ask for brands by occasion and price. The engines answer from websites, B2B platforms, exhibitor lists, certification registers and media. These guides cover manufacturers, textile exporters, fashion brands and uniform suppliers, with a real UAE and India case study."},
+   "answer": "Sourcing managers ask AI assistants for manufacturers by category, country, MOQ and certification; fabric buyers ask by fiber and standard; shoppers ask for brands by occasion and price. The engines answer from websites, B2B platforms, exhibitor lists, certification registers and media. These guides cover manufacturers, textile exporters, fashion brands and uniform suppliers, with a real UAE and India case study."},
  "education": {"title": "AEO for schools, nurseries, tutors and education suppliers in the UAE", "h1": "AI search for education in the UAE",
-   "cats": ["Education"], "desc": "How UAE parents use ChatGPT to choose schools, nurseries and tutoring centres, how school procurement teams find edtech and suppliers, and what each provider should publish, consistent with KHDA and ADEK records.",
-   "answer": "Parents ask AI assistants for schools by curriculum, regulator rating, fees and area, and for tutors by subject and exam board. Schools ask for suppliers by compliance and reference schools. The engines answer from regulator data, provider websites, parent review platforms and GESS exhibitor lists. These guides cover schools, nurseries, tutoring centres and education suppliers."},
+   "cats": ["Education"], "desc": "How UAE parents use ChatGPT to choose schools, nurseries and tutoring centers, how school procurement teams find edtech and suppliers, and what each provider should publish, consistent with KHDA and ADEK records.",
+   "answer": "Parents ask AI assistants for schools by curriculum, regulator rating, fees and area, and for tutors by subject and exam board. Schools ask for suppliers by compliance and reference schools. The engines answer from regulator data, provider websites, parent review platforms and GESS exhibitor lists. These guides cover schools, nurseries, tutoring centers and education suppliers."},
  "automotive": {"title": "AEO for EV charging installers, car dealers, garages and fleet services in the UAE", "h1": "AI search for automotive and mobility in the UAE",
    "cats": ["Automotive"], "desc": "How UAE villa owners, car buyers, workshop customers and fleet managers use AI assistants to find EV charging installers, dealers, specialist garages and fleet services, and what each should publish to be the one named.",
    "answer": "Automotive questions to AI assistants in the UAE are specific: installed cost of a home EV charger with approvals, a trusted used car dealer for a particular model, a specialist garage with a service price, a fleet maintenance contract. The engines answer from business websites, utility guidance, brand installer and dealer lists, reviews and forums. These guides cover EV charging installers and the wider dealer, workshop and fleet market."},
- "retail-and-software": {"title": "AEO for retailers, jewellers and software companies in the UAE", "h1": "AI search for retail, jewellery and software in the UAE",
-   "cats": ["Jewellery", "Software"], "desc": "How shoppers and B2B buyers in the UAE use AI assistants to find gold and jewellery retailers and software vendors, and what each should publish to be recommended.",
-   "answer": "Shoppers ask AI assistants where to buy gold and jewellery in Dubai; business buyers ask which UAE software vendor to shortlist. Both get answered from websites, directories, reviews and comparison pages. These guides cover what retailers and software companies should publish to be named."},
+ "construction-and-facilities": {"title": "AEO for contractors, fit-out, facilities management and HVAC companies in the UAE", "h1": "AI search for construction and facilities in the UAE",
+   "cats": ["Construction and facilities"], "desc": "How developers, office tenants, building owners and consultants in Dubai and the UAE use ChatGPT, Gemini and Perplexity to find fit-out contractors, facilities management companies and HVAC contractors, and what each should publish to be named.",
+   "answer": "Building owners, tenants, developers and consultants in the UAE now ask AI assistants for contractors and service companies by project type, approval, area and price band. The engines answer from company websites, authority approval information, project pages, certification scopes, exhibitor lists from Big 5 Global and reviews. These guides cover fit-out and MEP contractors, facilities management companies and HVAC contractors and suppliers."},
+ "retail-and-software": {"title": "AEO for retailers, jewelers, art galleries and software companies in the UAE", "h1": "AI search for retail, jewelry, art and software in the UAE",
+   "cats": ["Jewelry", "Software", "Retail"], "desc": "How shoppers, collectors and B2B buyers in the UAE use AI assistants to find gold and jewelry retailers, art galleries and software vendors, and what each should publish to be recommended.",
+   "answer": "Shoppers ask AI assistants where to buy gold and jewelry in Dubai, collectors ask which gallery to visit, and business buyers ask which UAE software vendor to shortlist. Both get answered from websites, directories, reviews and comparison pages. These guides cover what retailers and software companies should publish to be named."},
 }
 def hub_of(a):
     for k, h in HUBS.items():
@@ -181,7 +189,7 @@ for i, a in enumerate(ARTICLES):
     others = related_for(a, 5)
     ld = [{
         "@context": "https://schema.org", "@type": "Article",
-        "headline": a["title"], "description": a["description"], "url": url,
+        "headline": a["title"], "description": a["description"], "url": url, "image": [f"{SITE}/assets/og-image.png"],
         "datePublished": a["date"], "dateModified": a["date"], "inLanguage": "en",
         "author": person_ld(a.get("author", "sufia")),
         "publisher": {"@type": "Organization", "name": "Samura Consulting Group", "url": SITE,
@@ -195,7 +203,8 @@ for i, a in enumerate(ARTICLES):
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
             {"@type": "ListItem", "position": 2, "name": "Insights", "item": f"{SITE}/insights"},
-            {"@type": "ListItem", "position": 3, "name": a["title"], "item": url}]
+            {"@type": "ListItem", "position": 3, "name": HUBS[hub_of(a)]["h1"], "item": f"{SITE}/insights/{hub_of(a)}"},
+            {"@type": "ListItem", "position": 4, "name": a["title"], "item": url}]
     }]
     faq_html = ''.join(f'<details{" open" if j == 0 else ""}><summary>{html.escape(q)}</summary><p>{html.escape(ans)}</p></details>' for j, (q, ans) in enumerate(a["faq"]))
     page = head(a["title"], a["description"], url, ld) + nav + f"""
@@ -213,6 +222,7 @@ for i, a in enumerate(ARTICLES):
 </div></main>
 """ + footer + tail
     assert '—' not in page and '–' not in page, a["slug"]
+    check_american(page, a["slug"])
     open(f'{DIST}/insights/{a["slug"]}.html', 'w', encoding='utf-8', newline='\n').write(page)
 
 # --- Index page ---
@@ -221,7 +231,7 @@ ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Insi
       "url": url, "description": "Plain answers to the questions UAE business owners ask about AEO, GEO, SEO and AI search visibility.",
       "publisher": {"@type": "Organization", "name": "Samura Consulting Group", "url": SITE},
       "hasPart": [{"@type": "Article", "headline": a["title"], "url": f'{SITE}/insights/{a["slug"]}', "datePublished": a["date"]} for a in ARTICLES]}
-idx = head("Insights", "Plain answers to the questions UAE business owners ask about AEO, GEO, SEO and AI search visibility, from the team that ranked itself first.", url, ld) + nav + f"""
+idx = head("Insights", "Plain answers to the questions UAE business owners ask about AEO, GEO, SEO and AI search visibility, from the team that tests its own AI visibility every month and publishes the results.", url, ld).replace('content="article"', 'content="website"') + nav + f"""
 <header class="art-head"><div class="wrap">
   <div class="kicker" data-text="Insights"></div><div class="kicker-bar"></div>
   <h1 style="max-width:18ch">Questions UAE business owners ask AI tools, answered.</h1>
@@ -263,16 +273,16 @@ LEGAL = {
 <h2>Who we are</h2>
 <p>Samura Consulting Group ("Samura", "we") is a UAE-licensed company registered at RAKEZ Business Zone, Ras Al Khaimah, with an office in Business Bay, Dubai. This policy explains what we collect on samuraconsulting.com and how we use it. Questions go to mail@samuraconsulting.com.</p>
 <h2>What we collect</h2>
-<p><strong>Contact form.</strong> Name, company, phone or WhatsApp number, email, website, the package you are interested in and your message. We use it to reply to your enquiry and, if you become a client, to deliver the work.</p>
+<p><strong>Contact form.</strong> Name, company, phone or WhatsApp number, email, website, the package you are interested in and your message. We use it to reply to your inquiry and, if you become a client, to deliver the work.</p>
 <p><strong>Newsletter sign-up.</strong> Your email address, used to send occasional insights and offers. Every email includes an unsubscribe link.</p>
 <p><strong>Booking.</strong> Calls booked through Calendly are handled under Calendly's own privacy policy.</p>
 <p><strong>Website usage.</strong> Standard server logs and privacy-respecting analytics (page views, approximate location, device type). We do not sell this data and do not use it to build advertising profiles.</p>
 <h2>How we use it</h2>
-<p>To answer your enquiry, to deliver services you have asked for, to send the insights you signed up for, and to keep the website working. We do not share your details with third parties except the service providers we use to run email, bookings and hosting, each bound by their own data protection terms.</p>
+<p>To answer your inquiry, to deliver services you have asked for, to send the insights you signed up for, and to keep the website working. We do not share your details with third parties except the service providers we use to run email, bookings and hosting, each bound by their own data protection terms.</p>
 <h2>Your rights</h2>
 <p>You can ask us at any time to see, correct or delete the information we hold about you, or to stop sending you email. Write to mail@samuraconsulting.com and we will act within 14 days.</p>
 <h2>Retention and security</h2>
-<p>Enquiry records are kept for as long as needed to serve you and for up to three years afterwards for business records, then deleted. Data is stored with reputable providers that use encryption in transit and at rest.</p>
+<p>Inquiry records are kept for as long as needed to serve you and for up to three years afterwards for business records, then deleted. Data is stored with reputable providers that use encryption in transit and at rest.</p>
 <h2>Changes</h2>
 <p>We may update this policy. The date below shows the latest version.</p>
 <p><em>Last updated 21 October 2026.</em></p>
@@ -283,9 +293,9 @@ LEGAL = {
 <h2>Our services</h2>
 <p>Programs (AI Visibility Audit, Launch, Establish, Dominate, Enterprise) are described on the Pricing section. The scope, price and term of any engagement are confirmed in a written proposal or order before work starts. Prices on the website are starting points in UAE dirhams, exclusive of VAT where applicable.</p>
 <h2>What we do not promise</h2>
-<p>AI assistants and search engines decide their own answers. We do not guarantee a specific position, mention or volume of enquiries. We commit to the work described in your order, to weekly tracking across the engines named in it, and to reporting results plainly.</p>
+<p>AI assistants and search engines decide their own answers. We do not guarantee a specific position, mention or volume of inquiries. We commit to the work described in your order, to weekly tracking across the engines named in it, and to reporting results plainly.</p>
 <h2>Payment and term</h2>
-<p>Programs are paid in advance for the term chosen. Nothing renews automatically. If a program is cancelled after work has started, fees for work completed are not refundable.</p>
+<p>Programs are paid in advance for the term chosen. Nothing renews automatically. If a program is canceled after work has started, fees for work completed are not refundable.</p>
 <h2>Your content and ours</h2>
 <p>You keep ownership of your brand, website and materials. Pages, articles and structured data we create for you become yours on payment. Our methods, templates and tools remain ours. We may describe anonymised results in our own case studies unless you ask us not to.</p>
 <h2>Liability</h2>
@@ -329,10 +339,10 @@ open(f'{DIST}/404.html', 'w', encoding='utf-8', newline='\n').write(nf)
 
 
 # --- Industries page ---
-INDUSTRY_ORDER = ["healthcare","real-estate","food-and-hospitality","agriculture","apparel-and-textiles","education","automotive","retail-and-software","aeo-basics"]
+INDUSTRY_ORDER = ["healthcare","real-estate","food-and-hospitality","agriculture","apparel-and-textiles","education","automotive","construction-and-facilities","retail-and-software","aeo-basics"]
 ind_url = f'{SITE}/industries'
 ind_title = "Industries we write for and rank in the UAE: AEO by sector"
-ind_desc = "Samura Consulting Group publishes sector guides on how UAE businesses get recommended by ChatGPT, Gemini, Perplexity and Google AI: healthcare, real estate, food and hospitality, agriculture, apparel, education, automotive, retail and software."
+ind_desc = "Samura Consulting Group publishes sector guides on how UAE businesses get recommended by ChatGPT, Gemini, Perplexity and Google AI: healthcare, real estate, food and hospitality, agriculture, apparel, education, automotive, construction and facilities, retail and software."
 ind_ld = [{"@context":"https://schema.org","@type":"CollectionPage","name":ind_title,"url":ind_url,"description":ind_desc,"publisher":{"@type":"Organization","name":"Samura Consulting Group","url":SITE},
            "hasPart":[{"@type":"WebPage","name":HUBS[k]["h1"],"url":f"{SITE}/insights/{k}"} for k in INDUSTRY_ORDER]}]
 cards_html = ''.join(f'<a class="card" href="/insights/{k}" style="text-decoration:none"><div class="meta">{len([a for a in ARTICLES if hub_of(a)==k])} guides</div><h3>{html.escape(HUBS[k]["h1"])}</h3><p>{html.escape(HUBS[k]["desc"][:150]).rsplit(" ",1)[0]}...</p></a>' for k in INDUSTRY_ORDER)
@@ -358,15 +368,19 @@ COMMON_FAQ = [
  ("Which AI engines do you cover?", "ChatGPT (including ChatGPT search), Claude, Gemini, Perplexity and Google AI Overviews. Each trusts a slightly different set of sources, so we track all five separately every week."),
  ("Do you work in Arabic and English?", "Yes. The Establish and Dominate programs include an Arabic FAQ layer and bilingual business descriptions, because many UAE buyers ask AI assistants in Arabic and the engines answer Arabic questions from Arabic sources."),
  ("Can you guarantee my brand will appear in ChatGPT answers?", "No, and no honest agency can. AI answers change with wording, location and the day. We guarantee the work, a weekly log of real AI answers you can reproduce, and a plain account of what moved and what did not."),
- ("How do you measure success?", "By AI citations and brand mentions: how many of your tracked buyer questions name you, in which engines, which sources the engines cite, plus AI referral visits in your analytics and enquiries that mention finding you through an AI assistant."),
+ ("How do you measure success?", "By AI citations and brand mentions: how many of your tracked buyer questions name you, in which engines, which sources the engines cite, plus AI referral visits in your analytics and inquiries that mention finding you through an AI assistant."),
  ("Should I hire a Dubai-based agency or a remote one?", "A Dubai-based agency knows the local sources AI engines cite, such as UAE directories, regulators and Arabic media. Samura is in Business Bay, Dubai, with an engineering bench of 50+ in India, so you get local presence and delivery capacity."),
  ("Which industries in Dubai benefit most?", "Any category where customers ask AI assistants for a recommendation: healthcare and dental, real estate, hotels and restaurants, food suppliers, schools and tutors, automotive and EV, software, retail. We publish a guide series for each on the Industries page."),
+ ("What is answer engine optimization (AEO)?", "Answer engine optimization is the work of getting a business named inside the answer that ChatGPT, Gemini, Perplexity or Google AI Overviews gives when a customer asks for a recommendation. It covers your website, your business identity across the web, structured data, and presence on the sources AI engines cite. Generative engine optimization (GEO) and AI SEO are other names for the same work."),
+ ("Who is the best AEO agency in Dubai?", "There is no independent ranking yet; most 'best AEO agency in Dubai' lists are written by an agency that puts itself first. Samura publishes a tested ranking based on what the AI engines actually say, re-run monthly, at samuraconsulting.com/insights/best-aeo-agencies-in-dubai. Judge any agency by a client's before and after, the exact prompts, published pricing and whether it covers Arabic and English."),
+ ("How do I choose an AEO agency in Dubai?", "Ask for a client's dated before-and-after prompt log, the exact prompts and engines the agency tracks, its published pricing, whether it covers Arabic and English, and who does the work. Samura's guide to the five questions to ask is at samuraconsulting.com/insights/five-questions-to-ask-an-aeo-agency-before-you-hire."),
 ]
 SERVICES = {
  "answer-engine-optimization-dubai": {
    "title": "Answer Engine Optimization (AEO) Services in Dubai | Samura Consulting Group",
    "h1": "Answer engine optimization services in Dubai",
    "kicker": "AEO agency in Dubai",
+   "meta": "Answer engine optimization services in Dubai. Samura gets UAE businesses cited and recommended by ChatGPT, Gemini and Perplexity. Pricing from AED 2,999.",
    "desc": "Answer engine optimization (AEO) services in Dubai from Samura Consulting Group: get your business cited and recommended by ChatGPT, Gemini, Perplexity and Google AI Overviews. Published pricing from AED 2,999, Arabic and English, weekly AI visibility tracking.",
    "answer": "Answer engine optimization (AEO) is the work of getting your business named in the answer an AI assistant gives when a customer in Dubai asks for a recommendation. Samura is an AEO agency in Dubai. We fix how AI engines identify your business, rebuild your pages so they can be quoted, build citations on the sources ChatGPT, Gemini and Perplexity trust, and track real AI answers every week. Programs from AED 2,999 a month, published in full.",
    "sections": [
@@ -374,17 +388,28 @@ SERVICES = {
     ("Why Dubai businesses need AEO now", "<p>Dubai buyers moved to AI search faster than most markets: a mobile, multilingual population that asks assistants in English and Arabic for clinics, brokers, suppliers and schools. The businesses named in those answers today will hold the position for years, the way the first page of Google was held a decade ago. Most Dubai companies have not published the facts the engines need, which is why the same few names keep appearing.</p>"),
     ("What our AEO service includes", "<ul><li><strong>AI visibility audit</strong>: 50 real buyer prompts across ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews; who is named, which sources are cited, your AI share of voice.</li><li><strong>Entity optimization</strong>: one identical name, address, description and leadership across your site, Google, LinkedIn, Crunchbase and directories, with organization and person structured data.</li><li><strong>Answer-first pages</strong>: service and FAQ pages rebuilt so the answer is in the first paragraph, with JSON-LD schema and llms.txt.</li><li><strong>AI citations and brand mentions</strong>: listings, reviews, press and comparison pages on the sources each engine cites for your category.</li><li><strong>Arabic and English</strong> coverage for UAE buyers.</li><li><strong>Weekly prompt tracking</strong>: a log of real AI answers you can reproduce yourself.</li></ul>"),
     ("AEO vs traditional SEO", '<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:.95rem"><thead><tr style="text-align:left;border-bottom:2px solid #DCE4F0"><th style="padding:.5rem .4rem"></th><th style="padding:.5rem .4rem">Traditional SEO</th><th style="padding:.5rem .4rem">Answer engine optimization</th></tr></thead><tbody><tr style="border-bottom:1px solid #E7ECF4"><td style="padding:.5rem .4rem">Goal</td><td style="padding:.5rem .4rem">Rank a page in a list of links</td><td style="padding:.5rem .4rem">Be named inside the AI answer</td></tr><tr style="border-bottom:1px solid #E7ECF4"><td style="padding:.5rem .4rem">Measured by</td><td style="padding:.5rem .4rem">Rankings and clicks</td><td style="padding:.5rem .4rem">AI citations, brand mentions, share of voice</td></tr><tr style="border-bottom:1px solid #E7ECF4"><td style="padding:.5rem .4rem">Main work</td><td style="padding:.5rem .4rem">Keywords, links, technical fixes</td><td style="padding:.5rem .4rem">Entity consistency, answer-first pages, structured data, third-party citations</td></tr><tr><td style="padding:.5rem .4rem">Where it shows</td><td style="padding:.5rem .4rem">Google and Bing results</td><td style="padding:.5rem .4rem">ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews, zero-click answers</td></tr></tbody></table></div><p>You need both. AI engines read Google and Bing, so a site that cannot rank is rarely cited. Every Samura program includes the SEO foundation.</p>'),
-    ("How we measure it", "<p>Four numbers every week: how many of your tracked prompts name you, how many cite your site as a source, AI referral visits in your analytics, and enquiries that mention finding you through an AI assistant. We publish the same log for Samura itself.</p>"),
+    ("How we measure it", "<p>Four numbers every week: how many of your tracked prompts name you, how many cite your site as a source, AI referral visits in your analytics, and inquiries that mention finding you through an AI assistant. We publish the same log for Samura itself.</p>"),
    ],
  },
  "generative-engine-optimization-dubai": {
    "title": "Generative Engine Optimization (GEO) Agency in Dubai | Samura Consulting Group",
    "h1": "Generative engine optimization agency in Dubai",
    "kicker": "GEO agency in Dubai",
+   "meta": "Generative engine optimization agency in Dubai. Samura gets UAE brands cited in AI answers from ChatGPT, Gemini, Perplexity and Claude. Published pricing.",
    "desc": "Generative engine optimization (GEO) in Dubai: Samura gets UAE brands cited in AI-generated answers from ChatGPT, Gemini, Perplexity and Claude. Entity work, structured data, AI citations, Arabic and English. Published pricing.",
    "answer": "Generative engine optimization (GEO) is the practice of getting your brand cited by the AI engines that generate text answers: ChatGPT, Gemini, Perplexity and Claude. Samura is a GEO agency in Dubai. We make your business one of the sources those engines draw on, through consistent entity data, answer-first content, structured data and brand mentions on the sites the engines read. The work overlaps almost entirely with AEO; we do both and track results weekly.",
+   "faq": [
+    ("What is generative engine optimization (GEO)?", "Generative engine optimization is the work of getting a business cited and recommended by the AI engines that write answers: ChatGPT, Gemini, Perplexity and Claude. It covers how the engines identify your business, whether your pages can be quoted, structured data, and your presence on the third-party sources each engine reads. Answer engine optimization (AEO) and AI SEO are other names for the same work."),
+    ("Is GEO different from AEO?", "In practice no. GEO puts the emphasis on the engines that generate text; AEO on being the answer wherever answers appear, including Google AI Overviews and voice assistants. The work is the same: entity consistency, answer-first pages, structured data, citations and weekly tracking. Samura does both under one program."),
+    ("How much does a GEO agency in Dubai cost?", "Samura publishes its prices: a one-time AI visibility audit at AED 1,999, a one-month Launch program from AED 2,999, Establish for two months from AED 7,999, Dominate for three months from AED 10,999, and Enterprise from AED 10,000 a month. Nothing renews automatically. Many Dubai agencies do not publish GEO prices; ask for a written quote and what it includes."),
+    ("Who is the best GEO agency in Dubai?", "There is no independent ranking. Most 'best GEO agency in Dubai' lists are written by an agency that puts itself first. Samura publishes a tested comparison, re-run monthly with the same prompts, at samuraconsulting.com/insights/best-aeo-agencies-in-dubai, and is scored in it by the same method as every other agency. Judge any agency by a client's dated before-and-after prompt log, its published pricing and whether it covers Arabic and English."),
+    ("Which engines does a GEO program cover?", "ChatGPT including ChatGPT search, Claude, Gemini, Perplexity and Google AI Overviews. Each trusts a different mix of sources, so Samura tracks all five separately every week and tunes the work to whichever is behind."),
+    ("How long does GEO take to show results in Dubai?", "First citations for specific questions typically appear in three to six weeks, usually in Perplexity or ChatGPT search first. Broad questions such as 'best clinic in Dubai' take two to three months of consistent work, because they depend on other websites naming you."),
+    ("Do you work in Arabic and English?", "Yes. The Establish and Dominate programs include an Arabic FAQ layer and bilingual business descriptions, because many UAE buyers ask AI assistants in Arabic and the engines answer Arabic questions from Arabic sources."),
+    ("How do you measure GEO results?", "By AI citations and brand mentions: how many tracked buyer questions name you, in which engines, which sources the engines cite, plus AI referral visits in your analytics and inquiries that mention finding you through an AI assistant. You get the weekly log and can reproduce every prompt yourself."),
+   ],
    "sections": [
-    ("What is generative engine optimization?", "<p>Generative engines write their answers by reading a set of web pages and summarising them. GEO is the work of being one of those pages, and of being described accurately when the engine summarises you. It started as a 2023 research idea and is now the main way a Dubai business gets recommended in AI search.</p><p>The levers are the same as AEO: a clear entity, pages that answer questions with facts, structured data, and presence on the third-party sources each engine trusts. GEO puts extra weight on earned coverage, because generative engines lean heavily on articles, lists and directories when they choose who to name.</p>"),
+    ("What is generative engine optimization?", "<p>Generative engines write their answers by reading a set of web pages and summarizing them. GEO is the work of being one of those pages, and of being described accurately when the engine summarizes you. It started as a 2023 research idea and is now the main way a Dubai business gets recommended in AI search.</p><p>The levers are the same as AEO: a clear entity, pages that answer questions with facts, structured data, and presence on the third-party sources each engine trusts. GEO puts extra weight on earned coverage, because generative engines lean heavily on articles, lists and directories when they choose who to name.</p>"),
     ("GEO for the Dubai and GCC market", "<p>Dubai buyers ask AI assistants in English and Arabic, and the engines answer each language from different sources. A GEO program for the UAE covers both, and covers the local sources the engines cite: UAE directories, regulator registers, Gulf business media, exhibitor lists from Dubai trade shows. Most global GEO agencies do not know these sources exist.</p>"),
     ("What our GEO service includes", "<ul><li>AI visibility audit across five generative engines, with AI share of voice</li><li>Entity optimization with organization, person and service structured data</li><li>Answer-first content: pages and guides written to be quoted, with FAQ schema</li><li>Brand mentions and citations: directories, reviews, press, comparison pages, llms.txt</li><li>Arabic and English coverage</li><li>Weekly prompt tracking with AI citation counts</li></ul>"),
     ("GEO vs AEO vs SEO", "<p>GEO and AEO describe the same work with a different emphasis: GEO on the engines that generate text, AEO on being the answer wherever answers appear, including Google AI Overviews and voice. SEO is the foundation both sit on. When an agency uses one term or another, ask which engines it tracks and how. <a href=\"/insights/what-is-geo-and-is-it-different-from-aeo\">Our plain-language explainer is here.</a></p>"),
@@ -394,10 +419,11 @@ SERVICES = {
    "title": "AI SEO Agency in Dubai: ChatGPT SEO, AI Search Optimization | Samura Consulting Group",
    "h1": "AI SEO agency in Dubai",
    "kicker": "ChatGPT SEO · AI search optimization",
+   "meta": "AI SEO agency in Dubai: traditional SEO plus AI search optimization, so UAE businesses rank on Google and get recommended by ChatGPT. From AED 2,999.",
    "desc": "AI SEO agency in Dubai. Samura combines traditional SEO with AI search optimization so UAE businesses rank on Google and get recommended by ChatGPT, Gemini and Perplexity. Published pricing from AED 2,999.",
    "answer": "AI SEO, sometimes called ChatGPT SEO or AI search optimization, means doing search work with AI answers as the target instead of a list of links. Samura is an AI SEO agency in Dubai: we run the technical SEO, content and link building that Google and Bing still require, and on top of it the entity, structured data and citation work that gets a business named in ChatGPT, Gemini, Perplexity and Google AI Overviews. One program, both results, measured weekly.",
    "sections": [
-    ("What an AI SEO agency does differently", "<p>A traditional SEO agency optimises pages for keywords and builds links to rank them. An AI SEO agency does that and then asks a second question: when an AI engine reads this page, can it identify the business, quote the answer, and verify it elsewhere? That second question changes how pages are written, what structured data is added, and where the business needs to be listed.</p>"),
+    ("What an AI SEO agency does differently", "<p>A traditional SEO agency optimizes pages for keywords and builds links to rank them. An AI SEO agency does that and then asks a second question: when an AI engine reads this page, can it identify the business, quote the answer, and verify it elsewhere? That second question changes how pages are written, what structured data is added, and where the business needs to be listed.</p>"),
     ("How to rank on ChatGPT and AI search", "<ol><li>Make the business easy to identify: the same name, address, description and leadership on the website, Google Business Profile, LinkedIn and directories.</li><li>Publish pages that answer buyer questions in the first paragraph, with facts, prices and places.</li><li>Add structured data (JSON-LD) and an llms.txt file.</li><li>Get listed and reviewed on the sources each engine cites for your category.</li><li>Track real AI answers weekly and fix what the sources say is missing.</li></ol><p><a href=\"/insights/how-to-check-if-chatgpt-recommends-your-business\">Run the five-minute test yourself first.</a></p>"),
     ("What our AI SEO service includes", "<ul><li>Technical SEO and site speed fixes delivered by our engineering bench</li><li>Keyword and question research in the vocabulary your buyers use</li><li>Answer-first content and FAQ pages with schema</li><li>Link building and citations on UAE and sector sources</li><li>AI visibility audit and weekly prompt tracking across five engines</li><li>Arabic and English coverage</li></ul>"),
     ("Pricing", "<p>Published on the <a href=\"/pricing\">pricing page</a>: a one-time AI visibility audit at AED 1,999, programs from AED 2,999 for one month. Nothing renews automatically.</p>"),
@@ -407,8 +433,9 @@ SERVICES = {
    "title": "AI Visibility Audit: See If ChatGPT Recommends Your Business | Samura Consulting Group",
    "h1": "AI visibility audit",
    "kicker": "AED 1,999 · credited against any program",
+   "meta": "AI visibility audit, AED 1,999: 50 real buyer questions tested across five AI engines, who is named instead of you, and what to fix first. Dubai.",
    "desc": "An AI visibility audit tests 50 real buyer questions across ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews and shows whether your business is named, who is named instead, which sources the engines cite, and what to fix first. AED 1,999, Dubai.",
-   "answer": "An AI visibility audit answers one question: when your customers ask AI assistants for a business like yours, are you named? Samura runs 50 real buyer prompts for your category across ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews, logged out, and records who is named, which sources each engine cites, and your AI share of voice. You get a prioritised fix list and a 30-minute walkthrough. AED 1,999, credited in full against any program within 30 days.",
+   "answer": "An AI visibility audit answers one question: when your customers ask AI assistants for a business like yours, are you named? Samura runs 50 real buyer prompts for your category across ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews, logged out, and records who is named, which sources each engine cites, and your AI share of voice. You get a prioritized fix list and a 30-minute walkthrough. AED 1,999, credited in full against any program within 30 days.",
    "sections": [
     ("What the audit checks", "<ol><li><strong>Current visibility</strong>: 50 prompts, five engines, dated screenshots; named or not, who instead, which sources.</li><li><strong>Entity</strong>: can the engines identify your business, and do all sources agree on name, address, description and people.</li><li><strong>Pages</strong>: can your service pages be quoted; titles, first paragraphs, structured data, llms.txt.</li><li><strong>Sources</strong>: are you on the directories, review sites, lists and media the engines cite for your category.</li><li><strong>Competitors</strong>: which businesses are named instead of you, and why.</li></ol>"),
     ("What you receive", "<ul><li>A report with the prompt log, competitor citation map and AI share of voice</li><li>A fix list in order of effect, each item small enough to do in a week</li><li>A 30-minute walkthrough with the Managing Partner</li><li>The audit fee credited against Launch, Establish or Dominate within 30 days</li></ul>"),
@@ -419,7 +446,7 @@ SERVICES = {
 }
 for slug, sv in SERVICES.items():
     url = f'{SITE}/{slug}'
-    faqs = COMMON_FAQ
+    faqs = sv.get("faq", COMMON_FAQ)
     ld = [{"@context":"https://schema.org","@type":"Service","name":sv["h1"],"serviceType":sv["h1"],"areaServed":[{"@type":"City","name":"Dubai"},{"@type":"Country","name":"United Arab Emirates"}],
            "provider":{"@type":"Organization","name":"Samura Consulting Group","url":SITE},"url":url,"description":sv["desc"],
            "offers":{"@type":"Offer","priceCurrency":"AED","price":("1999" if slug == "ai-visibility-audit" else "2999"),"url":f"{SITE}/pricing"}},
@@ -428,7 +455,7 @@ for slug, sv in SERVICES.items():
     body = ''.join(f'<h2>{html.escape(h)}</h2>{b}' for h,b in sv["sections"])
     body += '<h2>Frequently asked</h2>' + ''.join(f'<details{" open" if j==0 else ""}><summary>{html.escape(q)}</summary><p>{html.escape(a)}</p></details>' for j,(q,a) in enumerate(faqs))
     body += '<p style="margin-top:2rem"><a class="btn btn-primary" href="/#contact">Get a written quote</a> &nbsp; <a class="btn btn-outline" href="/pricing">See all prices</a></p>'
-    page = head(sv["title"].split(" | ")[0], sv["desc"], url, ld).replace('content="article"', 'content="website"') + nav_plain + f"""
+    page = head(sv["title"].split(" | ")[0], sv.get("meta", sv["desc"]), url, ld).replace('content="article"', 'content="website"') + nav_plain + f"""
 <header class="art-head"><div class="wrap art">
   <div class="crumbs"><a href="/">Home</a><span>/</span><span>{html.escape(sv["kicker"])}</span></div>
   <h1>{html.escape(sv["h1"])}</h1>
@@ -445,7 +472,7 @@ for slug, sv in SERVICES.items():
 # --- Standalone pricing page and individual case studies ---
 PLANS = [
  ("AI Visibility Audit", "AED 1,999", "one-time", "Businesses that want to see the gap before spending on it",
-  ["50 prompts tested on ChatGPT, Gemini, Perplexity, Claude and Google AI Overviews", "Competitor citation map: who is named instead of you, and which sources each engine cites", "Priority action plan in order of effect", "30-minute walkthrough", "Credited in full against Launch within 30 days"]),
+  ["50 prompts tested on ChatGPT, Gemini, Perplexity, Claude and Google AI Overviews", "Competitor citation map: who is named instead of you, and which sources each engine cites", "Priority action plan in order of effect", "30-minute walkthrough", "Credited in full against any program within 30 days"]),
  ("Launch", "from AED 2,999", "1 month", "A focused push on one service in Dubai",
   ["Audit included", "Entity setup: identical name, address, description and founders across Google, LinkedIn, directories and the site", "6 pages rebuilt with answer-first copy and schema", "6 answer-first articles with FAQ blocks", "Weekly prompt tracking, shared as a live log"]),
  ("Establish", "from AED 7,999", "2 months (AED 3,999 a month)", "Businesses in a competitive category",
@@ -459,7 +486,7 @@ PRICING_FAQ = [
  ("How much does AEO cost in Dubai?", "Published AEO packages in Dubai run from roughly AED 3,000 to AED 10,000 a month for small and mid-sized businesses. Samura's programs start at AED 2,999 for one month, AED 7,999 for two months and AED 10,999 for three months, with a one-time AED 1,999 audit. Enterprise programs are quoted from AED 10,000 a month."),
  ("Are these the final prices?", "They are starting points, exclusive of VAT. The final price is confirmed in a written proposal after a short call, and it moves only if the scope does, for example more locations, Arabic content or a second brand."),
  ("Is there a minimum contract?", "No. Programs are one, two or three months, paid in advance, and nothing renews automatically. Longer programs have a lower monthly rate because the work compounds."),
- ("Why is the audit credited against Launch?", "Because the audit is the first step of Launch anyway. If you buy the audit first and start Launch within 30 days, you pay the difference, not both."),
+ ("Why is the audit credited against a program?", "Because the audit is the first step of every program anyway. If you buy the audit first and start Launch, Establish or Dominate within 30 days, you pay the difference, not both."),
  ("What do I get every week?", "A log of real AI answers for your tracked prompts across the engines in your program, showing whether you were named, who was named instead, and which sources each engine cited. You can run any prompt yourself to check it."),
  ("Do you guarantee a position on ChatGPT?", "No, and no agency honestly can. AI answers change with the wording of the question, the user's location and the day. We commit to the work, the weekly log and a plain account of what moved and what did not."),
 ]
@@ -472,7 +499,7 @@ def plan_card(name, price, term, for_, items):
             f'<p style="margin:.7rem 0 .4rem;font-weight:600">For: {html.escape(for_)}</p>'
             f'<ul style="margin:0;padding-left:1.1rem">{lis}</ul></div>')
 def td(x): return f'<td style="padding:.6rem .4rem">{x}</td>'
-ROWS = [("AI Visibility Audit","AED 1,999","One-time","Credited against Launch"),("Launch","from AED 2,999","1 month","AED 2,999"),("Establish","from AED 7,999","2 months","AED 3,999"),("Dominate","from AED 10,999","3 months","AED 3,666"),("Enterprise","from AED 10,000 a month","Quoted","From AED 10,000")]
+ROWS = [("AI Visibility Audit","AED 1,999","One-time","Credited against any program"),("Launch","from AED 2,999","1 month","AED 2,999"),("Establish","from AED 7,999","2 months","AED 3,999"),("Dominate","from AED 10,999","3 months","AED 3,666"),("Enterprise","from AED 10,000 a month","Quoted","From AED 10,000")]
 table = ('<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:.95rem"><thead><tr style="text-align:left;border-bottom:2px solid #DCE4F0">'
          + ''.join(f'<th style="padding:.6rem .4rem">{h}</th>' for h in ("Program","Price","Term","Monthly equivalent")) + '</tr></thead><tbody>'
          + ''.join('<tr style="border-bottom:1px solid #E7ECF4">' + ''.join(td(c) for c in r) + '</tr>' for r in ROWS) + '</tbody></table></div>')
@@ -512,25 +539,25 @@ page = head(pr_title, pr_desc, pr_url, pr_ld).replace('content="article"', 'cont
 open(f'{DIST}/pricing.html', 'w', encoding='utf-8', newline='\n').write(page)
 
 CASES = [
- ("konception-designs", "Konception Designs: 120% more inbound sourcing enquiries from three countries", "2025-09-01",
-  "How an apparel sourcing company with offices in India, Dubai, London and Los Angeles became visible to international buyers searching for manufacturing partners, and grew inbound enquiries 120%.",
+ ("konception-designs", "Konception Designs: 120% more inbound sourcing inquiries from three countries", "2025-09-01",
+  "How an apparel sourcing company with offices in India, Dubai, London and Los Angeles became visible to international buyers searching for manufacturing partners, and grew inbound inquiries 120%.",
   "Apparel sourcing and product development · India, Dubai, London, Los Angeles",
-  [("+120%","Inbound sourcing enquiries"),("3 countries","Where the site now ranks"),("5 offices","Across 4 countries"),("B2B export","Program type")],
+  [("+120%","Inbound sourcing inquiries"),("3 countries","Where the site now ranks"),("5 offices","Across 4 countries"),("B2B export","Program type")],
   """
 <h2>The client</h2>
 <p>Konception Designs is an apparel sourcing and product development company with three factories, 980 machines and offices in Gurugram, Mumbai, Dubai, London and Los Angeles. It supplies finished garments and home goods to global retailers and high-end designers.</p>
 <h2>The problem</h2>
-<p>Buyers at international brands search for manufacturing partners by capability and country. Konception was invisible for those searches outside India, so sourcing enquiries came almost entirely through trade shows and personal networks.</p>
+<p>Buyers at international brands search for manufacturing partners by capability and country. Konception was invisible for those searches outside India, so sourcing inquiries came almost entirely through trade shows and personal networks.</p>
 <h2>What we did</h2>
 <ul>
 <li>Rebuilt the site structure around capabilities: product development, vendor selection, quality assurance, shipping</li>
 <li>Country-specific landing pages for the UAE, UK and US markets with local contact details and schema</li>
 <li>Content answering the questions sourcing managers actually ask: minimums, lead times, compliance, categories</li>
 <li>Listings on international sourcing directories and trade platforms, with a consistent entity description</li>
-<li>Tracking of enquiry source so the client could see which market each lead came from</li>
+<li>Tracking of inquiry source so the client could see which market each lead came from</li>
 </ul>
 <h2>Outcome</h2>
-<p>Inbound sourcing enquiries rose 120% and the site now ranks for manufacturing-partner searches in three countries, giving the sales team a pipeline that no longer depends on the trade-show calendar.</p>
+<p>Inbound sourcing inquiries rose 120% and the site now ranks for manufacturing-partner searches in three countries, giving the sales team a pipeline that no longer depends on the trade-show calendar.</p>
 <h2>What it means for AI search</h2>
 <p>Sourcing managers now ask ChatGPT and Perplexity for manufacturers by country and capability. The capability pages, the plain answers on minimums and lead times, and the directory listings built for this program are exactly what those engines quote. A B2B exporter in the UAE that wants to be named in AI answers starts from the same list.</p>
 """),
@@ -627,7 +654,7 @@ open(f'{DIST}/sitemap.xml', 'w', encoding='utf-8', newline='\n').write(sm)
 # --- llms.txt ---
 l = open(f'{DIST}/llms.txt', encoding='utf-8').read()
 l = re.sub(r'## Pages\n.*?\n\n', '', l, flags=re.S)
-pages = '## Pages\n- Home: ' + SITE + '/\n- Pricing (all packages): ' + SITE + '/pricing\n' + ''.join(f'- {v["h1"]}: {SITE}/{k}\n' for k, v in SERVICES.items()) + '- Industries we cover: ' + SITE + '/industries\n- Free AI visibility check for event contacts: ' + SITE + '/check\n- Case studies: ' + SITE + '/case-studies\n- Case study, Konception Designs (+120% enquiries): ' + SITE + '/case-studies/konception-designs\n- Insights: ' + SITE + '/insights\n' + ''.join(f'- Guide series, {h["h1"]}: {SITE}/insights/{k}\n' for k, h in HUBS.items()) + \
+pages = '## Pages\n- Home: ' + SITE + '/\n- Pricing (all packages): ' + SITE + '/pricing\n' + ''.join(f'- {v["h1"]}: {SITE}/{k}\n' for k, v in SERVICES.items()) + '- Industries we cover: ' + SITE + '/industries\n- Free AI visibility check for event contacts: ' + SITE + '/check\n- Case studies: ' + SITE + '/case-studies\n- Case study, Konception Designs (+120% inquiries): ' + SITE + '/case-studies/konception-designs\n- Insights: ' + SITE + '/insights\n' + ''.join(f'- Guide series, {h["h1"]}: {SITE}/insights/{k}\n' for k, h in HUBS.items()) + \
         ''.join(f'- {a["title"]}: {SITE}/insights/{a["slug"]}\n' for a in ARTICLES) + '\n'
 l = l.replace('## Contact', pages + '## Contact')
 open(f'{DIST}/llms.txt', 'w', encoding='utf-8', newline='\n').write(l)
@@ -646,3 +673,11 @@ if 'href="/insights">See all insights' not in h:
 h = h.replace('<li><a href="#insights">Insights</a></li>', '<li><a href="/insights">Insights</a></li>')
 open(f'{DIST}/index.html', 'w', encoding='utf-8', newline='\n').write(h)
 print('built', len(ARTICLES), 'articles')
+
+# Final guard over every generated page and the hand-edited sources
+import glob as _glob
+for _f in sorted(set([f'{DIST}/index.html', f'{DIST}/case-studies.html', f'{DIST}/llms.txt'] + _glob.glob(f'{DIST}/*.html') + _glob.glob(f'{DIST}/insights/*.html') + _glob.glob(f'{DIST}/case-studies/*.html'))):
+    _t = open(_f, encoding='utf-8').read()
+    assert '—' not in _t and '–' not in _t, f"dash in {_f}"
+    check_american(_t, os.path.relpath(_f, DIST))
+print('spelling and dash checks passed')

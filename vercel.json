@@ -76,6 +76,41 @@
       "source": "/privacy-policy",
       "destination": "/privacy",
       "permanent": true
+    },
+    {
+      "source": "/OPERATIONS.md",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/CLAUDE.md",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/README-UPDATE.md",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/README.md",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/.vercelignore",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/.gitignore",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/tools/:path*",
+      "destination": "/",
+      "permanent": false
     }
   ],
   "headers": [
@@ -109,36 +144,6 @@
           "value": "public, max-age=31536000, immutable"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/OPERATIONS.md",
-      "destination": "/not-served"
-    },
-    {
-      "source": "/CLAUDE.md",
-      "destination": "/not-served"
-    },
-    {
-      "source": "/README-UPDATE.md",
-      "destination": "/not-served"
-    },
-    {
-      "source": "/README.md",
-      "destination": "/not-served"
-    },
-    {
-      "source": "/.vercelignore",
-      "destination": "/not-served"
-    },
-    {
-      "source": "/.gitignore",
-      "destination": "/not-served"
-    },
-    {
-      "source": "/tools/:path*",
-      "destination": "/not-served"
     }
   ]
 }
