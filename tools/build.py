@@ -3,10 +3,13 @@
 import re, json, html, os, sys, datetime
 sys.path.insert(0, os.path.dirname(__file__))
 from articles import ARTICLES
+BY_DATE = sorted(ARTICLES, key=lambda a: a["date"], reverse=True)  # newest first everywhere
 
 # American spelling guard (CLAUDE.md rule). Skips words inside slugs and URLs. cheque/tyre are UAE buyer terms, allowed.
 BRITISH = re.compile(r"(?<![-/\w])(licences?|enquir\w*|jewell\w*|travell\w*|authoris\w*|centres?|catalogues?|favour\w*|summaris\w*|fibres?|paediatric\w*|recognis\w*|optimis(e|ed|es|ing|ation|ations)|neighbour\w*|organis(e|ed|es|ing|ation|ations|er|ers)|prioritis\w*|colours?|coloured|specialis(e|ed|es|ing|ation|ations|m|ms)|labour|judgements?|sceptic\w*|emphasis(e|es|ed|ing)|apologis\w*|metres?|kilometres?|litres?|customis\w*|rumours?|defence|maths|practises?|practised|programmes?|cancelled|cancelling|analys(e|ed|ing)|behaviours?|gynaecolog\w*|orthopaedic\w*|anaesthe\w*|aluminium|honours?|focuss\w*|whilst|amongst|realis(e|ed|es|ing)|utilis(e|ed|es|ing|ation)|minimis(e|ed|es|ing)|maximis(e|ed|es|ing)|standardis(e|ed|es|ing|ation)|localis(e|ed|es|ing|ation)|personalis(e|ed|es|ing|ation)|finalis(e|ed|es|ing)|categoris(e|ed|es|ing)|modelling|labelling|labelled|counsell\w*|fulfils?|tonnes?|ageing|artefacts?)(?![-\w])", re.I)
 def check_american(text, name):
+    for pn in ("Dubai Exhibition Centre", "Dubai World Trade Centre"):
+        text = text.replace(pn, "")  # proper nouns
     m = BRITISH.search(text)
     assert not m, f"British spelling '{m.group(0)}' in {name} (CLAUDE.md: American spelling)"
 
@@ -163,12 +166,15 @@ HUBS = {
  "education": {"title": "AEO for schools, nurseries, tutors and education suppliers in the UAE", "h1": "AI search for education in the UAE",
    "cats": ["Education"], "desc": "How UAE parents use ChatGPT to choose schools, nurseries and tutoring centers, how school procurement teams find edtech and suppliers, and what each provider should publish, consistent with KHDA and ADEK records.",
    "answer": "Parents ask AI assistants for schools by curriculum, regulator rating, fees and area, and for tutors by subject and exam board. Schools ask for suppliers by compliance and reference schools. The engines answer from regulator data, provider websites, parent review platforms and GESS exhibitor lists. These guides cover schools, nurseries, tutoring centers and education suppliers."},
- "automotive": {"title": "AEO for EV charging installers, car dealers, garages and fleet services in the UAE", "h1": "AI search for automotive and mobility in the UAE",
-   "cats": ["Automotive"], "desc": "How UAE villa owners, car buyers, workshop customers and fleet managers use AI assistants to find EV charging installers, dealers, specialist garages and fleet services, and what each should publish to be the one named.",
-   "answer": "Automotive questions to AI assistants in the UAE are specific: installed cost of a home EV charger with approvals, a trusted used car dealer for a particular model, a specialist garage with a service price, a fleet maintenance contract. The engines answer from business websites, utility guidance, brand installer and dealer lists, reviews and forums. These guides cover EV charging installers and the wider dealer, workshop and fleet market."},
+ "automotive": {"title": "AEO for auto parts distributors, accessories dealers, EV charging installers, car dealers, garages and fleet services in the UAE", "h1": "AI search for the automotive aftermarket and mobility in the UAE",
+   "cats": ["Automotive"], "desc": "How garages, fleet operators, car owners and parts buyers in the UAE use AI assistants to find auto parts distributors, accessories dealers, tire and battery suppliers, workshop equipment, EV charging installers, dealers and fleet services, and what each should publish to be the one named.",
+   "answer": "Automotive questions to AI assistants in the UAE are specific: a genuine parts distributor for a particular make, a tire importer with stock in Sharjah, a workshop equipment supplier, the installed cost of a home EV charger, a trusted dealer, a fleet maintenance contract. The engines answer from business websites, brand distributor and installer lists, exhibitor lists such as Automechanika Dubai, trade license information, reviews and forums. These guides cover the aftermarket from parts distributors and accessories dealers to garages, EV installers, dealers and fleets."},
  "construction-and-facilities": {"title": "AEO for contractors, fit-out, facilities management and HVAC companies in the UAE", "h1": "AI search for construction and facilities in the UAE",
    "cats": ["Construction and facilities"], "desc": "How developers, office tenants, building owners and consultants in Dubai and the UAE use ChatGPT, Gemini and Perplexity to find fit-out contractors, facilities management companies and HVAC contractors, and what each should publish to be named.",
    "answer": "Building owners, tenants, developers and consultants in the UAE now ask AI assistants for contractors and service companies by project type, approval, area and price band. The engines answer from company websites, authority approval information, project pages, certification scopes, exhibitor lists from Big 5 Global and reviews. These guides cover fit-out and MEP contractors, facilities management companies and HVAC contractors and suppliers."},
+ "professional-services": {"title": "AEO for consultancies, business setup firms and advisory companies in the UAE", "h1": "AI search for consultancies and advisory firms in the UAE",
+   "cats": ["Professional services"], "desc": "How founders, business owners and corporate buyers in Dubai and the UAE use ChatGPT, Gemini and Perplexity to choose business setup consultants, logistics and retail consultancies, strategy advisors, fundraising advisors and event agencies, and what each should publish to be named.",
+   "answer": "Founders and business owners in the UAE now ask AI assistants which consultancy or advisor to call, and they ask with the whole brief in one sentence: service, sector, emirate and budget. The engines answer from firm websites with specifics, partner profiles, LinkedIn, government and free zone information, directories and reviews. These guides cover business setup consultants, logistics and supply chain consultancies, retail and procurement advisors, management consultancies, fundraising advisors and event agencies."},
  "retail-and-software": {"title": "AEO for retailers, jewelers, art galleries and software companies in the UAE", "h1": "AI search for retail, jewelry, art and software in the UAE",
    "cats": ["Jewelry", "Software", "Retail"], "desc": "How shoppers, collectors and B2B buyers in the UAE use AI assistants to find gold and jewelry retailers, art galleries and software vendors, and what each should publish to be recommended.",
    "answer": "Shoppers ask AI assistants where to buy gold and jewelry in Dubai, collectors ask which gallery to visit, and business buyers ask which UAE software vendor to shortlist. Both get answered from websites, directories, reviews and comparison pages. These guides cover what retailers and software companies should publish to be named."},
@@ -179,8 +185,8 @@ def hub_of(a):
     return "aeo-basics"
 hub_chips = '<div style="display:flex;gap:.6rem;flex-wrap:wrap;margin:1.2rem 0 0">' + ''.join(f'<a href="/insights/{k}" style="display:inline-block;padding:.45rem .9rem;border:1px solid #DCE4F0;border-radius:999px;font-weight:700;font-size:.9rem;text-decoration:none;color:var(--navy);background:#fff">{html.escape(h["h1"])}</a>' for k, h in HUBS.items()) + '</div>'
 def related_for(a, n=5):
-    same = [x for x in ARTICLES[::-1] if x is not a and hub_of(x) == hub_of(a)]
-    rest = [x for x in ARTICLES[::-1] if x is not a and hub_of(x) != hub_of(a)]
+    same = [x for x in BY_DATE if x is not a and hub_of(x) == hub_of(a)]
+    rest = [x for x in BY_DATE if x is not a and hub_of(x) != hub_of(a)]
     return (same + rest)[:n]
 
 # --- Article pages ---
@@ -216,7 +222,7 @@ for i, a in enumerate(ARTICLES):
 <main><div class="wrap art">
   <div class="answer"><span class="lbl">The short answer</span>{html.escape(a["answer"])}</div>
   <div class="body">{a["body"]}</div>
-  <div class="cta-box"><h3>Want to see where your business stands?</h3><p>The AI Visibility Audit tests 50 real buyer questions across ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews and shows who is being recommended instead of you. AED 1,999, credited against any program within 30 days.</p><a class="btn" href="/#contact">Order the audit</a></div>
+  <div class="cta-box"><h3>Want to see where your business stands?</h3><p>The AI Visibility Audit tests 50 real buyer questions across ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews and shows who is being recommended instead of you. AED 1,999, credited against any program within 30 days.</p><div style="display:flex;gap:.6rem;flex-wrap:wrap"><a class="btn" href="/#contact">Order the audit</a><a class="btn" href="https://wa.me/971555848267?text=Hi%20Samura%2C%20I%20read%20your%20guide%20and%20want%20to%20know%20if%20AI%20tools%20recommend%20my%20business." target="_blank" rel="noopener" style="background:rgba(255,255,255,.14);color:#fff;border-color:rgba(255,255,255,.5)">WhatsApp us</a></div></div>
   <section class="faqs"><h2>Frequently asked</h2>{faq_html}</section>
   <section class="related"><h2>Related insights</h2><div class="grid3">{''.join(card(o) for o in others)}</div><p style="margin-top:1rem"><a href="/insights/{hub_of(a)}" style="font-weight:700">All guides in this series</a> · <a href="/insights" style="font-weight:700">All insights</a></p></section>
 </div></main>
@@ -239,14 +245,14 @@ idx = head("Insights", "Plain answers to the questions UAE business owners ask a
   {hub_chips}
 </div></header>
 <main><section><div class="wrap">
-  <div class="art-list">{''.join(card(a, "h2") for a in ARTICLES[::-1])}</div>
+  <div class="art-list">{''.join(card(a, "h2") for a in BY_DATE)}</div>
 </div></section></main>
 """ + footer + tail
 open(f'{DIST}/insights/index.html', 'w', encoding='utf-8', newline='\n').write(idx)
 
 # --- Hub pages ---
 for k, h in HUBS.items():
-    arts = [a for a in ARTICLES[::-1] if hub_of(a) == k]
+    arts = [a for a in BY_DATE if hub_of(a) == k]
     url = f'{SITE}/insights/{k}'
     ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": h["title"], "url": url, "description": h["desc"],
            "publisher": {"@type": "Organization", "name": "Samura Consulting Group", "url": SITE},
@@ -339,10 +345,10 @@ open(f'{DIST}/404.html', 'w', encoding='utf-8', newline='\n').write(nf)
 
 
 # --- Industries page ---
-INDUSTRY_ORDER = ["healthcare","real-estate","food-and-hospitality","agriculture","apparel-and-textiles","education","automotive","construction-and-facilities","retail-and-software","aeo-basics"]
+INDUSTRY_ORDER = ["healthcare","real-estate","food-and-hospitality","agriculture","apparel-and-textiles","education","automotive","construction-and-facilities","professional-services","retail-and-software","aeo-basics"]
 ind_url = f'{SITE}/industries'
 ind_title = "Industries we write for and rank in the UAE: AEO by sector"
-ind_desc = "Samura Consulting Group publishes sector guides on how UAE businesses get recommended by ChatGPT, Gemini, Perplexity and Google AI: healthcare, real estate, food and hospitality, agriculture, apparel, education, automotive, construction and facilities, retail and software."
+ind_desc = "Samura Consulting Group publishes sector guides on how UAE businesses get recommended by ChatGPT, Gemini, Perplexity and Google AI: healthcare, real estate, food and hospitality, agriculture, apparel, education, automotive, construction and facilities, consultancies and advisory firms, retail and software."
 ind_ld = [{"@context":"https://schema.org","@type":"CollectionPage","name":ind_title,"url":ind_url,"description":ind_desc,"publisher":{"@type":"Organization","name":"Samura Consulting Group","url":SITE},
            "hasPart":[{"@type":"WebPage","name":HUBS[k]["h1"],"url":f"{SITE}/insights/{k}"} for k in INDUSTRY_ORDER]}]
 cards_html = ''.join(f'<a class="card" href="/insights/{k}" style="text-decoration:none"><div class="meta">{len([a for a in ARTICLES if hub_of(a)==k])} guides</div><h3>{html.escape(HUBS[k]["h1"])}</h3><p>{html.escape(HUBS[k]["desc"][:150]).rsplit(" ",1)[0]}...</p></a>' for k in INDUSTRY_ORDER)
@@ -427,6 +433,30 @@ SERVICES = {
     ("How to rank on ChatGPT and AI search", "<ol><li>Make the business easy to identify: the same name, address, description and leadership on the website, Google Business Profile, LinkedIn and directories.</li><li>Publish pages that answer buyer questions in the first paragraph, with facts, prices and places.</li><li>Add structured data (JSON-LD) and an llms.txt file.</li><li>Get listed and reviewed on the sources each engine cites for your category.</li><li>Track real AI answers weekly and fix what the sources say is missing.</li></ol><p><a href=\"/insights/how-to-check-if-chatgpt-recommends-your-business\">Run the five-minute test yourself first.</a></p>"),
     ("What our AI SEO service includes", "<ul><li>Technical SEO and site speed fixes delivered by our engineering bench</li><li>Keyword and question research in the vocabulary your buyers use</li><li>Answer-first content and FAQ pages with schema</li><li>Link building and citations on UAE and sector sources</li><li>AI visibility audit and weekly prompt tracking across five engines</li><li>Arabic and English coverage</li></ul>"),
     ("Pricing", "<p>Published on the <a href=\"/pricing\">pricing page</a>: a one-time AI visibility audit at AED 1,999, programs from AED 2,999 for one month. Nothing renews automatically.</p>"),
+   ],
+ },
+ "chatgpt-seo-services-dubai": {
+   "title": "ChatGPT SEO Services in Dubai and the UAE | Samura Consulting Group",
+   "h1": "ChatGPT SEO services in Dubai",
+   "kicker": "ChatGPT SEO · get recommended by ChatGPT",
+   "meta": "ChatGPT SEO services in Dubai and the UAE: Samura gets your business named when customers ask ChatGPT for a recommendation. Published pricing from AED 2,999.",
+   "desc": "ChatGPT SEO services in Dubai and the UAE from Samura Consulting Group: entity setup, answer-first pages, structured data, citations and weekly tracking so your business is named when customers ask ChatGPT, ChatGPT search, Gemini and Perplexity. Published pricing from AED 2,999.",
+   "answer": "ChatGPT SEO is the work of getting your business named when a customer asks ChatGPT, including ChatGPT search, for a recommendation. ChatGPT reads the Bing index and a short list of sources it trusts, so the work is specific: make your business easy to identify everywhere, publish pages that answer buyer questions with facts in the first paragraph, add structured data and an llms.txt file, and get listed on the directories and review sites ChatGPT cites for your category. Samura does this for Dubai and UAE businesses and shows you a weekly log of real ChatGPT answers. Programs from AED 2,999 a month, published in full.",
+   "sections": [
+    ("How ChatGPT decides which Dubai businesses to recommend", "<p>When a customer in Dubai asks ChatGPT for a dentist, a broker, a supplier or an agency, ChatGPT search runs web searches through Bing, reads the top results and a set of sources it already trusts, and writes one answer naming three to five businesses. It names the businesses it can identify clearly and quote confidently. A business that is described the same way on its website, Google Business Profile, LinkedIn and two or three directories, with prices, places and specialties in plain text, is easy to name. A business with a brochure site and no listings is not.</p><p><a href=\"/insights/how-chatgpt-decides-which-dubai-businesses-to-recommend\">How ChatGPT chooses, in detail.</a></p>"),
+    ("What ChatGPT SEO services include", "<ul><li><strong>Bing and Google indexing</strong>: ChatGPT search reads the Bing index, so every page is submitted to Bing Webmaster Tools and IndexNow as well as Google, and checked weekly.</li><li><strong>Entity setup</strong>: one identical name, address, description and leadership across your website, Google Business Profile, LinkedIn, Crunchbase and the directories ChatGPT cites, with Organization and Person structured data.</li><li><strong>Answer-first pages</strong>: service and FAQ pages rewritten so the answer is in the first paragraph with facts, prices and places, plus FAQ schema and llms.txt.</li><li><strong>Citations</strong>: listings, reviews and mentions on the sources ChatGPT uses for your category in the UAE.</li><li><strong>Arabic and English</strong> coverage, because many UAE customers ask ChatGPT in Arabic.</li><li><strong>Weekly ChatGPT tracking</strong>: your buyer questions run every week, logged out, with screenshots, so you see exactly when your name appears.</li></ul>"),
+    ("ChatGPT SEO versus traditional SEO", "<p>Traditional SEO gets a page into a list of ten links. ChatGPT SEO gets a business into the one answer ChatGPT writes. The two overlap, because ChatGPT reads the same web, but ChatGPT puts more weight on whether it can identify the business and verify it on other sites, and less on backlinks alone. Every Samura program includes the SEO foundation, because a page that cannot rank on Bing is rarely read by ChatGPT.</p>"),
+    ("How long it takes and what it costs", "<p>First ChatGPT mentions for specific questions typically take three to six weeks; broad questions such as 'best clinic in Dubai' take two to three months of consistent work. Prices are published on the <a href=\"/pricing\">pricing page</a>: a one-time AI visibility audit at AED 1,999, Launch from AED 2,999 for one month, Establish from AED 7,999, Dominate from AED 10,999, Enterprise from AED 10,000 a month. Nothing renews automatically.</p><p><a href=\"/insights/how-to-check-if-chatgpt-recommends-your-business\">Check in five minutes whether ChatGPT recommends you today.</a></p>"),
+   ],
+   "faq": [
+    ("What is ChatGPT SEO?", "ChatGPT SEO is the work of getting a business named when a customer asks ChatGPT for a recommendation. It covers how ChatGPT identifies the business, whether its pages can be quoted, structured data, and presence on the sources ChatGPT cites. It is the same work as answer engine optimization (AEO) and generative engine optimization (GEO), aimed at one engine."),
+    ("How does ChatGPT find businesses in Dubai?", "ChatGPT search runs web searches through Bing and reads the top results plus sources it trusts: business websites, Google Business Profile, LinkedIn, directories, review sites and comparison articles. It names the businesses it can identify clearly and verify on more than one source. Being indexed by Bing is the first requirement."),
+    ("How much do ChatGPT SEO services cost in Dubai?", "Samura publishes its prices: an AI visibility audit at AED 1,999, a one-month Launch program from AED 2,999, Establish for two months from AED 7,999, Dominate for three months from AED 10,999, and Enterprise from AED 10,000 a month. Nothing renews automatically. Many Dubai agencies do not publish ChatGPT SEO prices; ask for a written scope."),
+    ("How long until ChatGPT recommends my business?", "For specific questions, such as a service plus an area, three to six weeks. For broad questions in a competitive UAE category, two to three months of consistent work, because those answers depend on other websites naming you. Samura shows a weekly log of real ChatGPT answers so you can see the change as it happens."),
+    ("Can you guarantee my business will appear in ChatGPT?", "No, and no honest agency can. ChatGPT answers change with wording, location and the day. Samura commits to the work, a weekly log of real answers you can reproduce yourself, and a plain account of what moved and what did not."),
+    ("Do you also cover Gemini, Perplexity and Google AI Overviews?", "Yes. The same program tracks ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews separately every week, because each engine trusts a slightly different set of sources. ChatGPT is usually the first to change for specific questions."),
+    ("Do you work in Arabic and English?", "Yes. The Establish and Dominate programs include an Arabic FAQ layer and bilingual business descriptions, because many UAE customers ask ChatGPT in Arabic and it answers Arabic questions from Arabic sources."),
+    ("Which industries in Dubai benefit most from ChatGPT SEO?", "Any category where customers ask ChatGPT for a recommendation: clinics and dental, real estate, hotels and restaurants, food suppliers, schools and tutors, car dealers, software, retail, consultancies and business setup firms. Samura publishes a guide series for each on the Industries page."),
    ],
  },
  "ai-visibility-audit": {
@@ -665,7 +695,7 @@ start = h.index('<div class="grid3">', h.index('id="insights"'))
 end = h.index('</div>\n</div></section>', start)
 cards = '<div class="grid3">\n' + '\n'.join(
     f'    <a class="card" href="/insights/{a["slug"]}" style="text-decoration:none"><div class="meta" style="font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;font-family:var(--display);font-weight:700;color:var(--royal)">{a["category"]}</div><h3>{html.escape(a["title"])}</h3><p>{html.escape(a["description"][:110]).rsplit(" ",1)[0]}...</p></a>'
-    for a in ARTICLES[::-1][:3]) + '\n  '
+    for a in BY_DATE[:3]) + '\n  '
 h = h[:start] + cards + h[end:]
 if 'href="/insights">See all insights' not in h:
     h = h.replace('</div>\n</div></section>\n\n<section><div class="wrap">\n  <div class="sec-head">\n    <div class="kicker" data-text="FAQ">',

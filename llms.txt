@@ -23,6 +23,7 @@
 - Answer engine optimization services in Dubai: https://www.samuraconsulting.com/answer-engine-optimization-dubai
 - Generative engine optimization agency in Dubai: https://www.samuraconsulting.com/generative-engine-optimization-dubai
 - AI SEO agency in Dubai: https://www.samuraconsulting.com/ai-seo-agency-dubai
+- ChatGPT SEO services in Dubai: https://www.samuraconsulting.com/chatgpt-seo-services-dubai
 - AI visibility audit: https://www.samuraconsulting.com/ai-visibility-audit
 - Industries we cover: https://www.samuraconsulting.com/industries
 - Free AI visibility check for event contacts: https://www.samuraconsulting.com/check
@@ -36,8 +37,9 @@
 - Guide series, Answer engine optimization, explained: https://www.samuraconsulting.com/insights/aeo-basics
 - Guide series, AI search for apparel and textiles: https://www.samuraconsulting.com/insights/apparel-and-textiles
 - Guide series, AI search for education in the UAE: https://www.samuraconsulting.com/insights/education
-- Guide series, AI search for automotive and mobility in the UAE: https://www.samuraconsulting.com/insights/automotive
+- Guide series, AI search for the automotive aftermarket and mobility in the UAE: https://www.samuraconsulting.com/insights/automotive
 - Guide series, AI search for construction and facilities in the UAE: https://www.samuraconsulting.com/insights/construction-and-facilities
+- Guide series, AI search for consultancies and advisory firms in the UAE: https://www.samuraconsulting.com/insights/professional-services
 - Guide series, AI search for retail, jewelry, art and software in the UAE: https://www.samuraconsulting.com/insights/retail-and-software
 - AEO vs SEO: what is the difference, and do you need both? A Dubai guide: https://www.samuraconsulting.com/insights/what-is-aeo-and-how-is-it-different-from-seo
 - How does ChatGPT decide which Dubai businesses to recommend?: https://www.samuraconsulting.com/insights/how-chatgpt-decides-which-dubai-businesses-to-recommend
@@ -100,6 +102,40 @@
 - How do contractors and fit-out companies in Dubai get recommended by AI before Big 5 Global?: https://www.samuraconsulting.com/insights/how-contractors-and-fit-out-companies-in-dubai-get-recommended-by-ai
 - How do facilities management companies in the UAE get found when building owners ask AI?: https://www.samuraconsulting.com/insights/how-facilities-management-companies-in-the-uae-get-found-when-building-owners-ask-ai
 - How do HVAC contractors and suppliers in the UAE get named by AI for cooling and maintenance?: https://www.samuraconsulting.com/insights/how-hvac-contractors-and-suppliers-in-the-uae-get-named-by-ai
+- How can a B2B company in the UAE audit its presence in ChatGPT and AI-generated answers?: https://www.samuraconsulting.com/insights/how-can-a-b2b-company-in-the-uae-audit-its-presence-in-ai-generated-answers
+- How do business setup consultants in Dubai get recommended when founders ask ChatGPT?: https://www.samuraconsulting.com/insights/how-business-setup-consultants-in-dubai-get-recommended-when-founders-ask-chatgpt
+- How do logistics and supply chain consultancies in the UAE get named when companies ask AI?: https://www.samuraconsulting.com/insights/how-logistics-and-supply-chain-consultancies-in-the-uae-get-named-when-companies-ask-ai
+- How do fractional CTOs and IT consultancies in Dubai get found by AI when startups ask?: https://www.samuraconsulting.com/insights/how-fractional-ctos-and-it-consultancies-in-dubai-get-found-by-ai
+- How do property management companies in Oman and the GCC get recommended by AI?: https://www.samuraconsulting.com/insights/how-property-management-companies-in-oman-and-the-gcc-get-recommended-by-ai
+- How do pitch deck designers and investor-readiness advisors in Dubai get named when founders ask AI?: https://www.samuraconsulting.com/insights/how-pitch-deck-and-investor-readiness-advisors-in-dubai-get-named-by-ai
+- How do healthcare software vendors in the UAE get recommended when clinics and hospitals ask AI?: https://www.samuraconsulting.com/insights/how-healthcare-software-vendors-in-the-uae-get-recommended-when-clinics-ask-ai
+- How do retail and procurement consultancies in the UAE get found when retailers ask AI?: https://www.samuraconsulting.com/insights/how-retail-and-procurement-consultancies-in-the-uae-get-found-when-retailers-ask-ai
+- How do management and strategy consultancies in the UAE get recommended when business owners ask AI?: https://www.samuraconsulting.com/insights/how-management-consultancies-in-the-uae-get-recommended-when-business-owners-ask-ai
+- How do event management and entertainment companies in Dubai get named when clients ask AI?: https://www.samuraconsulting.com/insights/how-event-management-and-entertainment-companies-in-dubai-get-named-by-ai
+- How do auto spare parts distributors in Dubai get recommended when garages ask AI?: https://www.samuraconsulting.com/insights/how-auto-spare-parts-distributors-in-dubai-get-recommended-when-garages-ask-ai
+- How do car accessories dealers in Dubai get found when drivers ask ChatGPT?: https://www.samuraconsulting.com/insights/how-car-accessories-dealers-in-dubai-get-found-when-drivers-ask-chatgpt
+- How do tire importers and dealers in the UAE get named when drivers and fleets ask AI?: https://www.samuraconsulting.com/insights/how-tire-importers-and-dealers-in-the-uae-get-named-by-ai
+- How do car battery distributors and dealers in the UAE get recommended when drivers ask AI?: https://www.samuraconsulting.com/insights/how-car-battery-distributors-in-the-uae-get-recommended-by-ai
+- How do lubricant and engine oil distributors in the UAE and GCC get named when workshops ask AI?: https://www.samuraconsulting.com/insights/how-lubricant-and-engine-oil-distributors-in-the-gcc-get-named-by-ai
+- How do car care, detailing, ceramic coating and PPF brands in Dubai get recommended by AI?: https://www.samuraconsulting.com/insights/how-car-care-detailing-and-ppf-brands-in-dubai-get-recommended-by-ai
+- How do diagnostic tool and auto electrical parts suppliers in the UAE get named when workshops ask AI?: https://www.samuraconsulting.com/insights/how-diagnostic-tool-and-auto-electrical-parts-suppliers-in-the-uae-get-named-by-ai
+- How do garage equipment and workshop tool suppliers in Dubai get recommended when new workshops ask AI?: https://www.samuraconsulting.com/insights/how-garage-equipment-and-workshop-tool-suppliers-in-dubai-get-recommended-by-ai
+- How do body shop, paint and refinish suppliers in the UAE get named when workshops ask AI?: https://www.samuraconsulting.com/insights/how-body-shop-paint-and-refinish-suppliers-in-the-uae-get-named-by-ai
+- How do truck and commercial vehicle parts distributors in the UAE get recommended when fleets ask AI?: https://www.samuraconsulting.com/insights/how-truck-and-commercial-vehicle-parts-distributors-in-the-uae-get-recommended-by-ai
+- How do heavy equipment and construction machinery parts suppliers in the UAE get named when contractors ask AI?: https://www.samuraconsulting.com/insights/how-heavy-equipment-and-machinery-parts-suppliers-in-the-uae-get-named-by-ai
+- How do motorcycle parts and accessories dealers in Dubai get found when riders and delivery fleets ask AI?: https://www.samuraconsulting.com/insights/how-motorcycle-parts-and-accessories-dealers-in-dubai-get-found-by-ai
+- How do EV parts, battery service and charger suppliers in the UAE get recommended when owners ask AI?: https://www.samuraconsulting.com/insights/how-ev-parts-and-battery-service-suppliers-in-the-uae-get-recommended-by-ai
+- How do Dubai auto parts re-exporters get found when buyers in Africa, the CIS and South Asia ask AI?: https://www.samuraconsulting.com/insights/how-dubai-auto-parts-re-exporters-get-found-when-african-and-cis-buyers-ask-ai
+- How do used and reconditioned auto parts dealers in Sharjah and Dubai get named when buyers ask AI?: https://www.samuraconsulting.com/insights/how-used-and-reconditioned-auto-parts-dealers-in-sharjah-and-dubai-get-named-by-ai
+- How do performance parts suppliers and tuning shops in Dubai get recommended when enthusiasts ask AI?: https://www.samuraconsulting.com/insights/how-performance-parts-and-tuning-shops-in-dubai-get-recommended-by-ai
+- How do fleet parts and maintenance suppliers in the UAE win contracts when fleet managers ask AI?: https://www.samuraconsulting.com/insights/how-fleet-parts-and-maintenance-suppliers-in-the-uae-win-contracts-when-fleet-managers-ask-ai
+- How do car air conditioning parts and compressor suppliers in the UAE get named when the summer hits?: https://www.samuraconsulting.com/insights/how-car-ac-parts-and-compressor-suppliers-in-the-uae-get-named-by-ai
+- How do auto parts manufacturers from India, China, Turkey and Europe get found by UAE distributors who ask AI?: https://www.samuraconsulting.com/insights/how-auto-parts-manufacturers-find-uae-distributors-when-both-sides-ask-ai
+- How do automotive glass and windshield suppliers in the UAE get recommended when drivers and insurers ask AI?: https://www.samuraconsulting.com/insights/how-automotive-glass-and-windshield-suppliers-in-the-uae-get-recommended-by-ai
+- How do car audio, infotainment and dashcam retailers in Dubai get found when drivers ask ChatGPT?: https://www.samuraconsulting.com/insights/how-car-audio-infotainment-and-dashcam-retailers-in-dubai-get-found-by-ai
+- How do online auto parts stores in the UAE get recommended when car owners ask ChatGPT?: https://www.samuraconsulting.com/insights/how-online-auto-parts-stores-in-the-uae-get-recommended-by-chatgpt
+- Exhibiting at Automechanika Dubai 2026? How do you turn stand visitors into AI-visible leads in the UAE?: https://www.samuraconsulting.com/insights/exhibiting-at-automechanika-dubai-2026-how-to-turn-stand-visitors-into-ai-visible-leads
+- What do garages and workshops in the UAE ask AI when choosing a parts supplier, and who gets named?: https://www.samuraconsulting.com/insights/what-garages-and-workshops-in-the-uae-ask-ai-when-choosing-a-parts-supplier
 
 ## Contact
 - Phone and WhatsApp: +971 55 584 8267
