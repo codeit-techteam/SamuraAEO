@@ -5,3 +5,4 @@
 *.log
 node_modules/
 .vercel
+tools/__pycache__/
